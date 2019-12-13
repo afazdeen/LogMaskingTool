@@ -1,0 +1,337 @@
+Time spent parsing = 8 ms
+Time spent interpreting = 2 ms
+
+BLOCK	:	PERSON_BLOCK
+{
+	Value = ""
+
+	LINE	:	FIRST_NAME_LINE
+	{
+		Value = "My first name is Jack"
+	
+		VARIABLE SEQUENCE	:	FIRST_NAME_LINE
+		{
+			Value = "My first name is Jack"
+		
+			VARIABLE	:	CONSTANT STRING
+			{
+				Value = "My first name is "
+			}
+			VARIABLE	:	FIRST_NAME
+			{
+				Value = "Jack"
+			}
+		}
+	}
+	LINE	:	LAST_NAME_LINE
+	{
+		Value = "My last name is Ryan"
+	
+		VARIABLE SEQUENCE	:	LAST_NAME_LINE
+		{
+			Value = "My last name is Ryan"
+		
+			VARIABLE	:	CONSTANT STRING
+			{
+				Value = "My last name is "
+			}
+			VARIABLE	:	LAST_NAME
+			{
+				Value = "Ryan"
+			}
+		}
+	}
+	LINE	:	FULL_NAME_LINE
+	{
+		Value = "My full name is Jack Ryan"
+	
+		VARIABLE SEQUENCE	:	FULL_NAME_LINE
+		{
+			Value = "My full name is Jack Ryan"
+		
+			VARIABLE	:	CONSTANT STRING
+			{
+				Value = "My full name is "
+			}
+			VARIABLE	:	FULL_NAME
+			{
+				Value = "Jack Ryan"
+			}
+		}
+	}
+	LINE	:	TEL_NUM_LINE
+	{
+		Value = "My telephone number is 25349685"
+	
+		VARIABLE SEQUENCE	:	TEL_NUM_LINE
+		{
+			Value = "My telephone number is 25349685"
+		
+			VARIABLE	:	CONSTANT STRING
+			{
+				Value = "My telephone number is "
+			}
+			VARIABLE	:	TELEPHONE_NUMBER
+			{
+				Value = "25349685"
+			}
+		}
+	}
+	LINE	:	POSTAL_ADDRESS_LINE
+	{
+		Value = "My postal address is Lille Strandgate 3 Postboks 533 2304 Hamar"
+	
+		VARIABLE SEQUENCE	:	POSTAL_ADDRESS_LINE
+		{
+			Value = "My postal address is Lille Strandgate 3 Postboks 533 2304 Hamar"
+		
+			VARIABLE	:	CONSTANT STRING
+			{
+				Value = "My postal address is "
+			}
+			VARIABLE	:	ADDRESS
+			{
+				Value = "Lille Strandgate 3 Postboks 533 2304 Hamar"
+			}
+		}
+	}
+	LINE	:	POSTAL_CODE_LINE
+	{
+		Value = "My postal code is 2420"
+	
+		VARIABLE SEQUENCE	:	POSTAL_CODE_LINE
+		{
+			Value = "My postal code is 2420"
+		
+			VARIABLE	:	CONSTANT STRING
+			{
+				Value = "My postal code is "
+			}
+			VARIABLE	:	POSTAL_CODE
+			{
+				Value = "2420"
+			}
+		}
+	}
+	LINE	:	INDEX_NUMBER_LINE
+	{
+		Value = "My index number is 12347"
+	
+		VARIABLE SEQUENCE	:	INDEX_NUMBER_LINE
+		{
+			Value = "My index number is 12347"
+		
+			VARIABLE	:	CONSTANT STRING
+			{
+				Value = "My index number is "
+			}
+			VARIABLE	:	INTEGER
+			{
+				Value = "12347"
+			}
+		}
+	}
+	LINE	:	PRICE_LINE
+	{
+		Value = "My salary is 10,383.435"
+	
+		VARIABLE SEQUENCE	:	PRICE_LINE
+		{
+			Value = "My salary is 10,383.435"
+		
+			VARIABLE	:	CONSTANT STRING
+			{
+				Value = "My salary is "
+			}
+			VARIABLE	:	PRICE
+			{
+				Value = "10,383.435"
+			}
+		}
+	}
+	LINE	:	NATIONAL_ID_LINE
+	{
+		Value = "My national id number is 21089645843"
+	
+		VARIABLE SEQUENCE	:	NATIONAL_ID_LINE
+		{
+			Value = "My national id number is 21089645843"
+		
+			VARIABLE	:	CONSTANT STRING
+			{
+				Value = "My national id number is "
+			}
+			VARIABLE	:	NIC
+			{
+				Value = "21089645843"
+			}
+		}
+	}
+}
+BLOCK	:	PERSON_BLOCK
+{
+	Value = ""
+
+	LINE	:	FIRST_NAME_LINE
+	{
+		Value = "My first name is John"
+	
+		VARIABLE SEQUENCE	:	FIRST_NAME_LINE
+		{
+			Value = "My first name is John"
+		
+			VARIABLE	:	CONSTANT STRING
+			{
+				Value = "My first name is "
+			}
+			VARIABLE	:	FIRST_NAME
+			{
+				Value = "John"
+			}
+		}
+	}
+	LINE	:	LAST_NAME_LINE
+	{
+		Value = "My last name is Carter"
+	
+		VARIABLE SEQUENCE	:	LAST_NAME_LINE
+		{
+			Value = "My last name is Carter"
+		
+			VARIABLE	:	CONSTANT STRING
+			{
+				Value = "My last name is "
+			}
+			VARIABLE	:	LAST_NAME
+			{
+				Value = "Carter"
+			}
+		}
+	}
+	LINE	:	FULL_NAME_LINE
+	{
+		Value = "My full name is John Carter"
+	
+		VARIABLE SEQUENCE	:	FULL_NAME_LINE
+		{
+			Value = "My full name is John Carter"
+		
+			VARIABLE	:	CONSTANT STRING
+			{
+				Value = "My full name is "
+			}
+			VARIABLE	:	FULL_NAME
+			{
+				Value = "John Carter"
+			}
+		}
+	}
+	LINE	:	TEL_NUM_LINE
+	{
+		Value = "My telephone number is 33673589"
+	
+		VARIABLE SEQUENCE	:	TEL_NUM_LINE
+		{
+			Value = "My telephone number is 33673589"
+		
+			VARIABLE	:	CONSTANT STRING
+			{
+				Value = "My telephone number is "
+			}
+			VARIABLE	:	TELEPHONE_NUMBER
+			{
+				Value = "33673589"
+			}
+		}
+	}
+	LINE	:	POSTAL_ADDRESS_LINE
+	{
+		Value = "My postal address is Frogsvei 44 3611 Kongsberg"
+	
+		VARIABLE SEQUENCE	:	POSTAL_ADDRESS_LINE
+		{
+			Value = "My postal address is Frogsvei 44 3611 Kongsberg"
+		
+			VARIABLE	:	CONSTANT STRING
+			{
+				Value = "My postal address is "
+			}
+			VARIABLE	:	ADDRESS
+			{
+				Value = "Frogsvei 44 3611 Kongsberg"
+			}
+		}
+	}
+	LINE	:	POSTAL_CODE_LINE
+	{
+		Value = "My postal code is 2322"
+	
+		VARIABLE SEQUENCE	:	POSTAL_CODE_LINE
+		{
+			Value = "My postal code is 2322"
+		
+			VARIABLE	:	CONSTANT STRING
+			{
+				Value = "My postal code is "
+			}
+			VARIABLE	:	POSTAL_CODE
+			{
+				Value = "2322"
+			}
+		}
+	}
+	LINE	:	INDEX_NUMBER_LINE
+	{
+		Value = "My index number is 17654"
+	
+		VARIABLE SEQUENCE	:	INDEX_NUMBER_LINE
+		{
+			Value = "My index number is 17654"
+		
+			VARIABLE	:	CONSTANT STRING
+			{
+				Value = "My index number is "
+			}
+			VARIABLE	:	INTEGER
+			{
+				Value = "17654"
+			}
+		}
+	}
+	LINE	:	PRICE_LINE
+	{
+		Value = "My salary is 15,932.765"
+	
+		VARIABLE SEQUENCE	:	PRICE_LINE
+		{
+			Value = "My salary is 15,932.765"
+		
+			VARIABLE	:	CONSTANT STRING
+			{
+				Value = "My salary is "
+			}
+			VARIABLE	:	PRICE
+			{
+				Value = "15,932.765"
+			}
+		}
+	}
+	LINE	:	NATIONAL_ID_LINE
+	{
+		Value = "My national id number is 11048954281"
+	
+		VARIABLE SEQUENCE	:	NATIONAL_ID_LINE
+		{
+			Value = "My national id number is 11048954281"
+		
+			VARIABLE	:	CONSTANT STRING
+			{
+				Value = "My national id number is "
+			}
+			VARIABLE	:	NIC
+			{
+				Value = "11048954281"
+			}
+		}
+	}
+}
