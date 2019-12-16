@@ -42,7 +42,6 @@ using json = nlohmann::json;
 
 INITIALIZE_EASYLOGGINGPP
 
-
 int main(int argc, const char * argv[])
 {
     std::cout<<"Log analyzer masking started\n";

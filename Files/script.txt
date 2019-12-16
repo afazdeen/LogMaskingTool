@@ -1,20 +1,23 @@
-
 // Variable definitions
 $FIRST_NAME = $(STRING)
-$MESSAGE = $(TEXT)
+$LAST_NAME = $(STRING)
+$FULL_NAME = $(TEXT)
+$TELEPHONE_NUMBER = $(NUMBER)
+$ADDRESS = $(TEXT)
+$POSTAL_CODE = $(NUMBER)
+$INTEGER = $(NUMBER)
+$PRICE = $(TEXT)
+$NIC = $(NUMBER)
 
-
-$YEAR = $(NUMBER)
-$MONTH = $(NUMBER)
-$DATE = $(NUMBER)
-$HOUR = $(NUMBER)
-$MINUTE = $(NUMBER)
-$SECONDS = $(NUMBER)
-$ZONE = $(NUMBER)
-$TIMESTAMP=[$YEAR,'-',$MONTH,'-',$DATE,'T',$HOUR,':',$MINUTE,':',$SECONDS,'.',$ZONE,'Z']
-
-// Line template definitions
-$$ACCOUNT1_CREATED = ['\{"level":"debug"\,"message":"0e53cee0-6a0e-11e8-b2db-55a3ec1167c6:New FeildOfficer account has been created:',$FIRST_NAME,'"\,"timestamp":"',$TIMESTAMP,'"\}']
-$$ACCOUNT2_CREATED = ['\{"level":"debug"\,"message":"842ac930-ebb3-11e8-9e5e-8beed51eb843:New FeildOfficer account has been created:',$FIRST_NAME,'"\,"timestamp":"',$TIMESTAMP,'"\}']
-$$ACCOUNT3_CREATED = ['\{"level":"debug"\,"message":"114133b0-1d6c-11e9-8df7-5375a8de996d:New FeildOfficer account has been created:',$FIRST_NAME,'"\,"timestamp":"',$TIMESTAMP,'"\}']
+$$FIRST_NAME_LINE = ['My first name is ',$FIRST_NAME]
+$$LAST_NAME_LINE = ['My last name is ',$LAST_NAME]
+$$FULL_NAME_LINE = ['My full name is ',$FULL_NAME]
+$$TEL_NUM_LINE = ['My telephone number is ',$TELEPHONE_NUMBER]
+$$POSTAL_ADDRESS_LINE = ['My postal address is ',$ADDRESS]
+$$POSTAL_CODE_LINE = ['My postal code is ',$POSTAL_CODE]
+$$INDEX_NUMBER_LINE = ['My index number is ',$INTEGER]
+$$PRICE_LINE = ['My salary is ',$PRICE]
+$$NATIONAL_ID_LINE = ['My national id number is ',$NIC]
 $$NONEMPTY_LINE = [$(TEXT)]
+
+$$$PERSON_BLOCK = [$$FIRST_NAME_LINE,$$LAST_NAME_LINE,$$FULL_NAME_LINE,$$TEL_NUM_LINE,$$POSTAL_ADDRESS_LINE,$$POSTAL_CODE_LINE,$$INDEX_NUMBER_LINE,$$PRICE_LINE,$$NATIONAL_ID_LINE]

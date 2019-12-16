@@ -705,6 +705,7 @@
 #define     COMMAND_TYPE_MASK_INTEGER                                   79
 #define     COMMAND_TYPE_MASK_PRICE                                     80
 #define     COMMAND_TYPE_MASK_NIC                                       81
+#define     COMMAND_TYPE_MASK_EMAIL                                     82
 
 
 // String commands

@@ -110,6 +110,7 @@ DEF MASK_POSTAL_CODE			MaskPostalCode
 DEF MASK_INTEGER				MaskInteger
 DEF MASK_PRICE					MaskPrice
 DEF MASK_NIC					MaskNIC
+DEF MASK_EMAIL					MaskEmail
 
 DEF	LDEL_SCRIPT_FILE				script.ldel
 DEF	LDEL_LOG_FILE					log.txt

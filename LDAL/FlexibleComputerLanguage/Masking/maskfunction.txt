@@ -1,4 +1,4 @@
-Function:=MaskFunction
+Function:=MaskInnerFunction
 	$ARG.SeekToBegin
 	$ARG.GetCurrentElement:=ROOTNODE
 	$ARG.Seek(#1)
@@ -623,5 +623,129 @@ Function:=MaskFunction
 		Do
 		
 	EndIf	
+	
+	If($ATTRIBUTE.GetValue.IsStringEqualTo(EMAIL))
+		$ROOTNODE.FilterSubtree($Item.GetValue.IsStringEqualTo(EMAIL)):=LIST
+		$ROOTNODE.FilterSubtree($Item.GetValue.IsStringEqualTo(EMAIL)):=LIST1TEMP
+		$LIST1TEMP.SeekToBegin()
+		$LIST1TEMP.GetCurrentElement:=TEMPELEM
+		$LIST.SeekToBegin()
+		$LIST.GetCurrentElement:=ELEM
+		$ROOTNODE.GetIntegerVar:=COUNT
+		
+		While($ELEM.CheckNotNull)
+			$ELEM.FirstChild.FirstChild.GetValue:=eMail
+			$COUNT.Add(#1)
+			If($COUNT.ToString.IsStringEqualTo(1))
+				$ROOTNODE.FilterSubtree($Item.GetValue.IsHavingSubstring($eMail)):=LIST2
+				$LIST2.SeekToBegin()
+				$LIST2.GetCurrentElement:=ELEM2
+				While($ELEM2.CheckNotNull)
+					$ELEM2.MaskEmail($eMail)			
+					$LIST2.GetNextElement:=ELEM2
+				Do
+			EndIf
+			
+			IfNot($TEMPELEM.FirstChild.FirstChild.GetValue.IsStringEqualTo($eMail))
+				$ROOTNODE.FilterSubtree($Item.GetValue.IsHavingSubstring($eMail)):=LIST2
+				$LIST2.SeekToBegin()
+				$LIST2.GetCurrentElement:=ELEM2
+				While($ELEM2.CheckNotNull)
+					$ELEM2.MaskEmail($eMail)					
+					$LIST2.GetNextElement:=ELEM2
+				Do
+			EndIf		
+			$LIST.GetNextElement:=ELEM
+		Do		
+	EndIf
+		
+EndFunction
+
+Function:=MaskFunction
+	$ARG.SeekToBegin
+	$ARG.GetCurrentElement:=THEROOTNODE
+	$ARG.Seek(#1)
+	$ARG.GetCurrentElement:=LISTNEW
+	$LISTNEW.SeekToBegin()
+	$LISTNEW.GetCurrentElement:=ELEM
+	If($ELEM.CheckNotNull)
+		{$THEROOTNODE,$ELEM}:=FUNCARG
+		MaskInnerFunction($FUNCARG)
+	EndIf	
+	$LISTNEW.GetNextElement:=ELEM
+	If($ELEM.CheckNotNull)
+		{$THEROOTNODE,$ELEM}:=FUNCARG
+		MaskInnerFunction($FUNCARG)
+	EndIf
+	$LISTNEW.GetNextElement:=ELEM
+	If($ELEM.CheckNotNull)
+		{$THEROOTNODE,$ELEM}:=FUNCARG
+		MaskInnerFunction($FUNCARG)
+	EndIf
+	$LISTNEW.GetNextElement:=ELEM
+	If($ELEM.CheckNotNull)
+		{$THEROOTNODE,$ELEM}:=FUNCARG
+		MaskInnerFunction($FUNCARG)
+	EndIf
+	$LISTNEW.GetNextElement:=ELEM
+	If($ELEM.CheckNotNull)
+		{$THEROOTNODE,$ELEM}:=FUNCARG
+		MaskInnerFunction($FUNCARG)
+	EndIf
+	$LISTNEW.GetNextElement:=ELEM
+	If($ELEM.CheckNotNull)
+		{$THEROOTNODE,$ELEM}:=FUNCARG
+		MaskInnerFunction($FUNCARG)
+	EndIf
+	$LISTNEW.GetNextElement:=ELEM
+	If($ELEM.CheckNotNull)
+		{$THEROOTNODE,$ELEM}:=FUNCARG
+		MaskInnerFunction($FUNCARG)
+	EndIf
+	$LISTNEW.GetNextElement:=ELEM
+	If($ELEM.CheckNotNull)
+		{$THEROOTNODE,$ELEM}:=FUNCARG
+		MaskInnerFunction($FUNCARG)
+	EndIf
+	$LISTNEW.GetNextElement:=ELEM
+	If($ELEM.CheckNotNull)
+		{$THEROOTNODE,$ELEM}:=FUNCARG
+		MaskInnerFunction($FUNCARG)
+	EndIf
+	$LISTNEW.GetNextElement:=ELEM
+	If($ELEM.CheckNotNull)
+		{$THEROOTNODE,$ELEM}:=FUNCARG
+		MaskInnerFunction($FUNCARG)
+	EndIf
+	$LISTNEW.GetNextElement:=ELEM
+	If($ELEM.CheckNotNull)
+		{$THEROOTNODE,$ELEM}:=FUNCARG
+		MaskInnerFunction($FUNCARG)
+	EndIf
+	$LISTNEW.GetNextElement:=ELEM
+	If($ELEM.CheckNotNull)
+		{$THEROOTNODE,$ELEM}:=FUNCARG
+		MaskInnerFunction($FUNCARG)
+	EndIf
+	$LISTNEW.GetNextElement:=ELEM
+	If($ELEM.CheckNotNull)
+		{$THEROOTNODE,$ELEM}:=FUNCARG
+		MaskInnerFunction($FUNCARG)
+	EndIf
+	$LISTNEW.GetNextElement:=ELEM
+	If($ELEM.CheckNotNull)
+		{$THEROOTNODE,$ELEM}:=FUNCARG
+		MaskInnerFunction($FUNCARG)
+	EndIf
+	$LISTNEW.GetNextElement:=ELEM
+	If($ELEM.CheckNotNull)
+		{$THEROOTNODE,$ELEM}:=FUNCARG
+		MaskInnerFunction($FUNCARG)
+	EndIf
+	$LISTNEW.GetNextElement:=ELEM
+	If($ELEM.CheckNotNull)
+		{$THEROOTNODE,$ELEM}:=FUNCARG
+		MaskInnerFunction($FUNCARG)
+	EndIf		
 		
 EndFunction

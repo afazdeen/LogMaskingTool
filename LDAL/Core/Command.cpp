@@ -38,6 +38,7 @@ int countprice=0;
 int countinteger=0;
 int countaddress = 0;
 int countpostalcode = 0;
+int countemail = 0;
 
 Command::Command()
         :ul_CommandType(COMMAND_TYPE_INVALID), p_Arg(0), p_EntityArg(0), s_AdditionalFuncName(EMPTY_STRING)
@@ -2199,6 +2200,71 @@ PENTITY Command::ExecuteNodeCommand(MULONG ulCommand, PENTITY pEntity, Execution
                 }
                 break;
             }
+            case COMMAND_TYPE_MASK_EMAIL:
+            {
+                std::cout<<"--------------------------------------------Mask Email-----------------------------------------------\n";
+                MemoryManager::Inst.CreateObject(&pNullRes);
+                if(ENTITY_TYPE_STRING == pArg->ul_Type)
+                {
+                    String* pStrArg = (String*)pArg;
+                    argument=pStrArg->GetValue();
+                    nodeString=pNode->GetValue();
+
+                    static std::set<std::string> setbeforemaskemail;
+                    std::set<std::string>::iterator it;
+                    int temp =countemail;
+                    setbeforemaskemail.insert (argument);
+                    countemail=setbeforemaskemail.size();
+                    MSTRING tempStr=std::to_string(countemail);
+                    MSTRING tempReplace;
+                    std::cout << "setbeforemaskemail contains : ";
+                    for (it=setbeforemaskemail.begin(); it!=setbeforemaskemail.end(); ++it)
+                    {
+                        std::cout << *it<<" , ";
+                    }
+                    std::cout << '\n';
+                    srand(time(NULL)*countemail); //generates random seed val
+
+                    std::size_t posAt=argument.find("@");
+                    MSTRING sub = argument.substr(0,posAt);
+                    MSTRING remainder = argument.substr(posAt,argument.length()-sub.length());
+                    if(conn)
+                    {
+                        MysqlConnector mysqlobj;
+                        int resultmale = mysqlobj.existsFirstNameMale(conn,sub);
+                        int resultfemale = mysqlobj.existsFirstNameFemale(conn,sub);
+                        MSTRING username = "";
+
+                        if(resultmale==1)
+                        {
+                            int randid = rand()%((7732 - 1) + 1) + 1;
+                            username = mysqlobj.selectFirstNameMale(conn,randid);
+                        }
+                        else if(resultfemale == 1)
+                        {
+                            int randid = rand()%((7144 - 1) + 1) + 1;
+                            username = mysqlobj.selectFirstNameFemale(conn,randid);
+                        }
+                        else
+                        {
+                            int randid = rand()%((744 - 1) + 1) + 1;
+                            username = mysqlobj.selectFirstNameUnisex(conn,randid);
+                        }
+                        replacement =username+remainder;
+                    }
+                    else
+                    {
+                        perror ("The Database could not be connected!");
+                    }
+                    std::size_t pos=nodeString.find(argument);
+                    nodeString.replace(pos,argument.length(),replacement);
+                    std::cout<<argument<<"\n";
+                    std::cout<<nodeString<<"\n";
+                    pNode->SetValue((PMCHAR) nodeString.c_str());
+                }
+                break;
+            }
+
         }
     }
     if(0 != pNodeRes)
