@@ -1,0 +1,20 @@
+
+// Variable definitions
+$FIRST_NAME = $(STRING)
+$MESSAGE = $(TEXT)
+
+
+$YEAR = $(NUMBER)
+$MONTH = $(NUMBER)
+$DATE = $(NUMBER)
+$HOUR = $(NUMBER)
+$MINUTE = $(NUMBER)
+$SECONDS = $(NUMBER)
+$ZONE = $(NUMBER)
+$TIMESTAMP=[$YEAR,'-',$MONTH,'-',$DATE,'T',$HOUR,':',$MINUTE,':',$SECONDS,'.',$ZONE,'Z']
+
+// Line template definitions
+$$ACCOUNT1_CREATED = ['\{"level":"debug"\,"message":"0e53cee0-6a0e-11e8-b2db-55a3ec1167c6:New FeildOfficer account has been created:',$FIRST_NAME,'"\,"timestamp":"',$TIMESTAMP,'"\}']
+$$ACCOUNT2_CREATED = ['\{"level":"debug"\,"message":"842ac930-ebb3-11e8-9e5e-8beed51eb843:New FeildOfficer account has been created:',$FIRST_NAME,'"\,"timestamp":"',$TIMESTAMP,'"\}']
+$$ACCOUNT3_CREATED = ['\{"level":"debug"\,"message":"114133b0-1d6c-11e9-8df7-5375a8de996d:New FeildOfficer account has been created:',$FIRST_NAME,'"\,"timestamp":"',$TIMESTAMP,'"\}']
+$$NONEMPTY_LINE = [$(TEXT)]

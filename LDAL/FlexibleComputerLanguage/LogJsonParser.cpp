@@ -67,7 +67,7 @@ Node* LogJsonParser::LOGJSONToNodeTreeRecursively(rapidjson::Value &j,Node* pare
 void LogJsonParser::LogNodeTreetoJsonRecursivly(Node* root)
 {
     MOFSTREAM newjsonfile;
-    newjsonfile.open("../FlexibleComputerLanguage/trcfdmaskedJSON.json");
+    newjsonfile.open("../../Files/maskedJSON.json");
     newjsonfile<<"[";
     LogJsonParser::PrintTreeToFileRecursivly(newjsonfile,root->GetFirstChild());
     newjsonfile<<"]";
@@ -110,7 +110,7 @@ void LogJsonParser::PrintTreeToFileRecursivly(MOFSTREAM &newjsonfile,PNODE node)
 void LogJsonParser::LogNodeTreetoLog(Node* root)
 {
     MOFSTREAM newjsonfile;
-    newjsonfile.open("../FlexibleComputerLanguage/trcfdmaskedLog.txt");
+    newjsonfile.open("../../Files/maskedLog.txt");
     LogJsonParser::PrintTreeToLog(newjsonfile,root->GetFirstChild());
 }
 

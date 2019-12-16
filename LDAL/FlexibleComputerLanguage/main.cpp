@@ -60,9 +60,7 @@ int main(int argc, const char * argv[])
     // tt.RunTest6();
     std::string line;
     std::string jsonline;
-    //std::ifstream jsonfile ("../FlexibleComputerLanguage/resultJSON.json");
-    //std::ifstream jsonfile ("../FlexibleComputerLanguage/norwayresultJSON.json");
-    std::ifstream jsonfile ("../FlexibleComputerLanguage/trcfdlogJSON.json");
+    std::ifstream jsonfile ("../../Files/resultJSON.json");
     if (jsonfile.is_open())
     {
         getline (jsonfile,line);
@@ -78,13 +76,11 @@ int main(int argc, const char * argv[])
     else
     {
         perror ("The Database could not be connected, Please check the db connection!");
-        exit(1);
+        throw _exception();
     }
 
     std::string scriptline;
-    //std::ifstream scriptfile ("../FlexibleComputerLanguage/Masking/maskscript.txt");
-    //std::ifstream scriptfile ("../FlexibleComputerLanguage/Masking/norwaymaskscript.txt");
-    std::ifstream scriptfile ("../FlexibleComputerLanguage/Masking/trcfdmaskscript.txt");
+    std::ifstream scriptfile ("../../Files/maskingScript.txt");
     std::string script="";
 
     while(getline(scriptfile,scriptline))

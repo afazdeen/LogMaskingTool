@@ -48,10 +48,7 @@ ELInterpretterResult* ELInterpretter::EvaluateCase(MSTRING sDefFile) {
 
 void ELInterpretter::PrintInterpretterResult(ELInterpretterResult *ir) {
     MOFSTREAM file;
-    //file.open("../tests/LDEL_test1/logdata/result.txt", std::ios::out | std::ios::trunc);
-    file.open("../tests/LDEL_test1/norwaydata/norwayresult.txt", std::ios::out | std::ios::trunc);
-    //file.open("../tests/LDEL_test1/testdata/testresult.txt", std::ios::out | std::ios::trunc);
-    //file.open("../tests/LDEL_test1/easy2umobilelog/easy2uresult.txt", std::ios::out | std::ios::trunc);
+    file.open("../../../Files/result.txt", std::ios::out | std::ios::trunc);
 
     file << _MSTR(Time spent parsing =) << SPACE << ir->millisecondsForParsing << SPACE << _MSTR(ms\n);
     file << _MSTR(Time spent interpreting =) << SPACE << ir->millisecondsForInterpreting << SPACE << _MSTR(ms\n);

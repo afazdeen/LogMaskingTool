@@ -1,4 +1,4 @@
-DEF	RULE_FILE_NAME					../FlexibleComputerLanguage/Masking/maskscript.txt
+DEF	RULE_FILE_NAME					../../Files/maskingScript.txt
 DEF	LOAD_FROM_CODE_LIBRARY			TRUE
 DEF	CODE_LIBRARY_FILE				../FlexibleComputerLanguage/Masking/maskfunction.txt
 DEF	LINE_CONTINUATION_STRING			__

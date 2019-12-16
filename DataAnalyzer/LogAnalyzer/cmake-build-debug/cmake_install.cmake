@@ -1,4 +1,4 @@
-# Install script for directory: D:/99xProjects/MaskingTool/DataAnalyzer/LogAnalyzer
+# Install script for directory: D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/99xProjects/MaskingTool/DataAnalyzer/LogAnalyzer/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

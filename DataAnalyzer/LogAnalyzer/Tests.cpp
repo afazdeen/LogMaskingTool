@@ -88,38 +88,10 @@ void Tests::RunTest3()
 }
 
 void Tests::RunLDELtest1() {
-    MSTRING stringFlag;
-    cout<<"Enter the type of file you want to generate the result in"<<std::endl;
-    cout<<"(Enter \"txt\" for text file or \"json\" for json file) :\t";
-    cin>>stringFlag;
 
-    std::for_each(stringFlag.begin(), stringFlag.end(), [](char & c) {
-        c = ::tolower(c);
-    });
-
-    //Enter the path to the log file and the script file in the Defs.txt file under the fields LDEL_LOG_FILE and LDEL_SCRIPT_FILE respectively.
-
-    if(stringFlag =="txt")
-    {
-        ELInterpretter intp;
-        //intp.EvaluateCase("../tests/LDEL_test1/logdata/Defs.txt");
-        intp.EvaluateCase("../tests/LDEL_test1/norwaydata/norwayDefs.txt");
-        //intp.EvaluateCase("../tests/LDEL_test1/testdata/testDefs.txt");
-        //intp.EvaluateCase("../tests/LDEL_test1/easy2umobilelog/easy2uDefs.txt");
-    }
-   else if(stringFlag =="json")
-    {
         ELInterpretterJSON intp;
-        //intp.EvaluateCase("../tests/LDEL_test1/logdata/Defs.txt");
-        intp.EvaluateCase("../tests/LDEL_test1/norwaydata/norwayDefs.txt");
-        //intp.EvaluateCase("../tests/LDEL_test1/testdata/testDefs.txt");
-        //intp.EvaluateCase("../tests/LDEL_test1/easy2umobilelog/easy2uDefs.txt");
-    }
-   else
-    {
-        cout<<"Invalid file type"<<std::endl;
-        exit(1);
-    }
+        intp.EvaluateCase("../../../Files/Defs.txt");
+
 }
 
 void Tests::RunLDELtest2() {
