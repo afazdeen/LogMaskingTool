@@ -16,7 +16,11 @@ void ExecutionTemplateList::Destroy()
 
 void ExecutionTemplateList::Execute(ExecutionContext* pContext,MYSQL* conn)
 {
-	STK_ITER stkLoopStart;
+    std::cout<<"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n";
+
+    //MSTRING dbString = dbConn->GetValue();
+    //std::cout <<"DBConn Node is: "<< dbString<<"\n";
+    STK_ITER stkLoopStart;
 	MAP_ITER_ITER mapLoopStartEnd;
 	MAP_ITER_ITER mapLoopEndStart;
 	ExecutionTemplateList::const_iterator ite1 = begin();
