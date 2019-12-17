@@ -16,7 +16,7 @@ void ExecutionTemplateList::Destroy()
 
 void ExecutionTemplateList::Execute(ExecutionContext* pContext,MYSQL* conn)
 {
-    std::cout<<"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n";
+    //std::cout<<"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n";
 
     //MSTRING dbString = dbConn->GetValue();
     //std::cout <<"DBConn Node is: "<< dbString<<"\n";

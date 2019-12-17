@@ -47,13 +47,13 @@ int main(int argc, const char * argv[])
     std::cout<<"Log analyzer masking started\n";
 
     MYSQL *conn = nullptr;
-    MSTRING hostname = "localhost" ;
+    /*MSTRING hostname = "localhost" ;
     MSTRING username = "admin";
     MSTRING password = "admin";
     MSTRING dbname = "substitutiondb";
     int port = 0;
     MysqlConnector mysqlobj;
-    conn = mysqlobj.getConnection(hostname, username, password, dbname, port);
+    conn = mysqlobj.getConnection(hostname, username, password, dbname, port);*/
 
     //Tests tt;
     // tt.RunTest6();
@@ -67,16 +67,6 @@ int main(int argc, const char * argv[])
         jsonfile.close();
     }
     Node* jsonroot = LogJsonParser::LogJSONToNodeTree(jsonline);
-
-    if(conn)
-    {
-        std::cout<<"Connected\n";
-    }
-    else
-    {
-        perror ("The Database could not be connected, Please check the db connection!");
-        throw _exception();
-    }
 
     std::string scriptline;
     std::ifstream scriptfile ("../../Files/maskingScript.txt");

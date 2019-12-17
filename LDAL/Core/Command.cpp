@@ -20,8 +20,11 @@
 #include <windows.h>
 #include <mysql.h>
 #include <MysqlConnector.h>
+#include <math.h>
 
 //Global variable
+MYSQL *connection = nullptr;
+
 int counttest=0;
 int countfname = 0;
 int countlname = 0;
@@ -1017,18 +1020,59 @@ PENTITY Command::ExecuteNodeCommand(MULONG ulCommand, PENTITY pEntity, Execution
                 pIntRes->SetValue(pNode->GetMaximumChildWeight());
                 break;
             }
+            case COMMAND_TYPE_SET_DB_STRING:
+            {
+                MemoryManager::Inst.CreateObject(&pNullRes);
+                if(ENTITY_TYPE_STRING == pArg->ul_Type)
+                {
+                    String* pStrArg = (String*)pArg;
+                    std::cout<<"??????????????????????????????????????????\n";
+                    if(0 != pStrArg)
+                    {
+                        MSTRING dbString = pStrArg->GetValue();
+                        std::string delimiter = "_";
+                        std::size_t pos = 0;
+                        pos = dbString.find(delimiter);
+                        MSTRING hostname = dbString.substr(0, pos);
+                        std::cout <<hostname<<"\n";
+                        dbString.erase(0, pos + delimiter.length());
+                        pos = dbString.find(delimiter);
+                        MSTRING username = dbString.substr(0, pos);
+                        std::cout <<username<<"\n";
+                        dbString.erase(0, pos + delimiter.length());
+                        pos = dbString.find(delimiter);
+                        MSTRING password = dbString.substr(0, pos);
+                        std::cout <<password<<"\n";
+                        dbString.erase(0, pos + delimiter.length());
+                        pos = dbString.find(delimiter);
+                        MSTRING dbname = dbString.substr(0, pos);
+                        std::cout <<dbname<<"\n";
+                        dbString.erase(0, pos + delimiter.length());
+                        int port = std::stoi(dbString);
+                        std::cout << port << std::endl;
+
+                        MysqlConnector mysqlobj;
+                        conn = mysqlobj.getConnection(hostname, username, password, dbname, port);
+                        connection = conn;
+                        std::cout<<conn<<"\n";
+
+
+                        pNode->SetValue((PMCHAR)pStrArg->GetValue().c_str());
+                    }
+                }
+                break;
+            }
             case COMMAND_TYPE_SET_VALUE:
             {
                 MemoryManager::Inst.CreateObject(&pNullRes);
                 if(ENTITY_TYPE_STRING == pArg->ul_Type)
-                    if(ENTITY_TYPE_STRING == pArg->ul_Type)
+                {
+                    String* pStrArg = (String*)pArg;
+                    if(0 != pStrArg)
                     {
-                        String* pStrArg = (String*)pArg;
-                        if(0 != pStrArg)
-                        {
-                            pNode->SetValue((PMCHAR)pStrArg->GetValue().c_str());
-                        }
+                        pNode->SetValue((PMCHAR)pStrArg->GetValue().c_str());
                     }
+                }
                 break;
             }
             case COMMAND_TYPE_SET_LVALUE:
@@ -1407,31 +1451,32 @@ PENTITY Command::ExecuteNodeCommand(MULONG ulCommand, PENTITY pEntity, Execution
                     }
                     std::cout << '\n';
                     srand(time(NULL)*countfname); //generates random seed val
-                    if(conn)
+                    if(connection)
                     {
                         MysqlConnector mysqlobj;
-                        int resultmale = mysqlobj.existsFirstNameMale(conn,argument);
-                        int resultfemale = mysqlobj.existsFirstNameFemale(conn,argument);
+                        int resultmale = mysqlobj.existsFirstNameMale(connection,argument);
+                        int resultfemale = mysqlobj.existsFirstNameFemale(connection,argument);
 
                         if(resultmale==1)
                         {
                             int randid = rand()%((7732 - 1) + 1) + 1;
-                            replacement = mysqlobj.selectFirstNameMale(conn,randid);
+                            replacement = mysqlobj.selectFirstNameMale(connection,randid);
                         }
                         else if(resultfemale == 1)
                         {
                             int randid = rand()%((7144 - 1) + 1) + 1;
-                            replacement = mysqlobj.selectFirstNameFemale(conn,randid);
+                            replacement = mysqlobj.selectFirstNameFemale(connection,randid);
                         }
                         else
                         {
                             int randid = rand()%((744 - 1) + 1) + 1;
-                            replacement = mysqlobj.selectFirstNameUnisex(conn,randid);
+                            replacement = mysqlobj.selectFirstNameUnisex(connection,randid);
                         }
                     }
                     else
                     {
-                        perror ("The Database could not be connected!");
+                        perror ("The Database could not be connected, Please check the db connection!");
+                        throw _exception();
                     }
                     std::size_t pos=nodeString.find(argument);
                     nodeString.replace(pos,argument.length(),replacement);
@@ -1466,15 +1511,16 @@ PENTITY Command::ExecuteNodeCommand(MULONG ulCommand, PENTITY pEntity, Execution
                     }
                     std::cout << '\n';
                     srand(time(NULL)*countlname); //generates random seed val
-                    if(conn)
+                    if(connection)
                     {
                         MysqlConnector mysqlobj;
                         int randid = rand()%((789 - 1) + 1) + 1;
-                        replacement = mysqlobj.selectLastName(conn,randid);
+                        replacement = mysqlobj.selectLastName(connection,randid);
                     }
                     else
                     {
-                        perror ("The Database could not be connected!");
+                        perror ("The Database could not be connected, Please check the db connection!");
+                        throw _exception();
                     }
                     std::size_t pos=nodeString.find(argument);
                     nodeString.replace(pos,argument.length(),replacement);
@@ -1509,35 +1555,36 @@ PENTITY Command::ExecuteNodeCommand(MULONG ulCommand, PENTITY pEntity, Execution
                     }
                     std::cout << '\n';
                     srand(time(NULL)*countfullname); //generates random seed val
-                    if(conn)
+                    if(connection)
                     {
                         MysqlConnector mysqlobj;
                         MSTRING fname;
                         int randlnameid = rand()%((789 - 1) + 1) + 1;
-                        int resultmale = mysqlobj.existsFirstNameMale(conn,argument);
-                        int resultfemale = mysqlobj.existsFirstNameFemale(conn,argument);
+                        int resultmale = mysqlobj.existsFirstNameMale(connection,argument);
+                        int resultfemale = mysqlobj.existsFirstNameFemale(connection,argument);
 
                         if(resultmale==1)
                         {
                             int randid = rand()%((7732 - 1) + 1) + 1;
-                            fname = mysqlobj.selectFirstNameMale(conn,randid);
+                            fname = mysqlobj.selectFirstNameMale(connection,randid);
                         }
                         else if(resultfemale == 1)
                         {
                             int randid = rand()%((7144 - 1) + 1) + 1;
-                            fname = mysqlobj.selectFirstNameFemale(conn,randid);
+                            fname = mysqlobj.selectFirstNameFemale(connection,randid);
                         }
                         else
                         {
                             int randid = rand()%((744 - 1) + 1) + 1;
-                            fname = mysqlobj.selectFirstNameUnisex(conn,randid);
+                            fname = mysqlobj.selectFirstNameUnisex(connection,randid);
                         }
-                        MSTRING lname = mysqlobj.selectLastName(conn,randlnameid);
+                        MSTRING lname = mysqlobj.selectLastName(connection,randlnameid);
                         replacement = fname + " " + lname;
                     }
                     else
                     {
-                        perror ("The Database could not be connected!");
+                        perror ("The Database could not be connected, Please check the db connection!");
+                        throw _exception();
                     }
                     std::size_t pos=nodeString.find(argument);
                     nodeString.replace(pos,argument.length(),replacement);
@@ -1865,14 +1912,15 @@ PENTITY Command::ExecuteNodeCommand(MULONG ulCommand, PENTITY pEntity, Execution
                     MSTRING telNum;
                     int randid = rand()%((13 - 1) + 1) + 1;
 
-                    if(conn)
+                    if(connection)
                     {
                         MysqlConnector mysqlobj;
-                        replacement = mysqlobj.selectCityCode(conn,randid);
+                        replacement = mysqlobj.selectCityCode(connection,randid);
                     }
                     else
                     {
-                        perror ("The Database could not be connected!");
+                        perror ("The Database could not be connected, Please check the db connection!");
+                        throw _exception();
                     }
 
                     if(replacement.length()==1)
@@ -1921,15 +1969,16 @@ PENTITY Command::ExecuteNodeCommand(MULONG ulCommand, PENTITY pEntity, Execution
                     }
                     std::cout << '\n';
                     srand(time(NULL)*countaddress); //generates random seed val
-                    if(conn)
+                    if(connection)
                     {
                         MysqlConnector mysqlobj;
                         int randid = rand()%((499 - 1) + 1) + 1;
-                        replacement = mysqlobj.selectAddress(conn,randid);
+                        replacement = mysqlobj.selectAddress(connection,randid);
                     }
                     else
                     {
-                        perror ("The Database could not be connected!");
+                        perror ("The Database could not be connected, Please check the db connection!");
+                        throw _exception();
                     }
                     std::size_t pos=nodeString.find(argument);
                     nodeString.replace(pos,argument.length(),replacement);
@@ -1964,15 +2013,16 @@ PENTITY Command::ExecuteNodeCommand(MULONG ulCommand, PENTITY pEntity, Execution
                     }
                     std::cout << '\n';
                     srand(time(NULL)*countpostalcode); //generates random seed val
-                    if(conn)
+                    if(connection)
                     {
                         MysqlConnector mysqlobj;
                         int randid = rand()%((200 - 1) + 1) + 1;
-                        replacement = mysqlobj.selectPostalCode(conn,randid);
+                        replacement = mysqlobj.selectPostalCode(connection,randid);
                     }
                     else
                     {
-                        perror ("The Database could not be connected!");
+                        perror ("The Database could not be connected, Please check the db connection!");
+                        throw _exception();
                     }
                     std::size_t pos=nodeString.find(argument);
                     nodeString.replace(pos,argument.length(),replacement);
@@ -2228,33 +2278,34 @@ PENTITY Command::ExecuteNodeCommand(MULONG ulCommand, PENTITY pEntity, Execution
                     std::size_t posAt=argument.find("@");
                     MSTRING sub = argument.substr(0,posAt);
                     MSTRING remainder = argument.substr(posAt,argument.length()-sub.length());
-                    if(conn)
+                    if(connection)
                     {
                         MysqlConnector mysqlobj;
-                        int resultmale = mysqlobj.existsFirstNameMale(conn,sub);
-                        int resultfemale = mysqlobj.existsFirstNameFemale(conn,sub);
+                        int resultmale = mysqlobj.existsFirstNameMale(connection,sub);
+                        int resultfemale = mysqlobj.existsFirstNameFemale(connection,sub);
                         MSTRING username = "";
 
                         if(resultmale==1)
                         {
                             int randid = rand()%((7732 - 1) + 1) + 1;
-                            username = mysqlobj.selectFirstNameMale(conn,randid);
+                            username = mysqlobj.selectFirstNameMale(connection,randid);
                         }
                         else if(resultfemale == 1)
                         {
                             int randid = rand()%((7144 - 1) + 1) + 1;
-                            username = mysqlobj.selectFirstNameFemale(conn,randid);
+                            username = mysqlobj.selectFirstNameFemale(connection,randid);
                         }
                         else
                         {
                             int randid = rand()%((744 - 1) + 1) + 1;
-                            username = mysqlobj.selectFirstNameUnisex(conn,randid);
+                            username = mysqlobj.selectFirstNameUnisex(connection,randid);
                         }
                         replacement =username+remainder;
                     }
                     else
                     {
-                        perror ("The Database could not be connected!");
+                        perror ("The Database could not be connected, Please check the db connection!");
+                        throw _exception();
                     }
                     std::size_t pos=nodeString.find(argument);
                     nodeString.replace(pos,argument.length(),replacement);

@@ -1,6 +1,6 @@
 $RESULT.SetCustomString(normal)
 
-$DBCONNECTIONNODE.SetValue(localhost_admin_admin_substitutiondb_0)
+$DBCONNECTIONNODE.SetDbString(localhost_admin_admin_substitutiondb_0)
 
 $FIRSTNAMENODE.SetValue(FIRST_NAME)
 $LASTNAMENODE.SetValue(LAST_NAME)

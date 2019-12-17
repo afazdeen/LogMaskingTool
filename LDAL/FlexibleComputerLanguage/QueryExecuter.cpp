@@ -71,31 +71,6 @@ MSTRING QueryExecuter::run(Node *root, MSTRING querycode,MYSQL* conn)
     ec.map_Var["EMAILNODE"] = email;
     ec.map_Var["RESULT"] = pRESULT;
     op.p_ETL->Execute(&ec,conn);
-   // std::cout<<"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n";
-    MSTRING dbString = dbConn->GetValue();
-    std::cout <<"DBConn Node is: "<< dbString<<"\n";
-
-    std::string delimiter = "_";
-    std::size_t pos = 0;
-    pos = dbString.find(delimiter);
-    MSTRING hostname = dbString.substr(0, pos);
-    std::cout <<hostname<<"\n";
-    dbString.erase(0, pos + delimiter.length());
-    pos = dbString.find(delimiter);
-    MSTRING username = dbString.substr(0, pos);
-    std::cout <<username<<"\n";
-    dbString.erase(0, pos + delimiter.length());
-    pos = dbString.find(delimiter);
-    MSTRING password = dbString.substr(0, pos);
-    std::cout <<password<<"\n";
-    dbString.erase(0, pos + delimiter.length());
-    pos = dbString.find(delimiter);
-    MSTRING dbname = dbString.substr(0, pos);
-    std::cout <<dbname<<"\n";
-    dbString.erase(0, pos + delimiter.length());
-    int port = std::stoi(dbString);
-    std::cout << port << std::endl;
-
 
     return ResultGenerator::CreateResult(pRESULT);
 

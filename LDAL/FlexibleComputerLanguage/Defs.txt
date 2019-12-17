@@ -42,6 +42,7 @@ DEF	GET_NATURE					GetNature
 DEF	GET_WEIGHT					GetWeight
 DEF	GET_MIN_CHILD_WEIGHT				GetMinimumChildWeight
 DEF	GET_MAX_CHILD_WEIGHT				GetMaximumChildWeight
+DEF	SET_DB_STRING				SetDbString
 DEF	SET_VALUE					SetValue
 DEF	SET_LVALUE					SetLValue
 DEF	SET_RVALUE					SetRValue
