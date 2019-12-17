@@ -8,7 +8,7 @@
 #include "MemMan.h"
 
 
-void Tests::RunTest1(MYSQL* conn)
+void Tests::RunTest1()
 {
 	DefFileReader dfr;
     MetaData* pMD = dfr.Read("../Core/TestCases/files/test1/Defs.txt");
@@ -26,10 +26,10 @@ void Tests::RunTest1(MYSQL* conn)
 	Node* pY = MemoryManager::Inst.CreateNode(2);
 	ec.map_Var["X"] = pX;
 	ec.map_Var["Y"] = pY;
-	op.p_ETL->Execute(&ec,conn);
+	op.p_ETL->Execute(&ec);
 }
 
-void Tests::RunTest2(MYSQL* conn)
+void Tests::RunTest2()
 {
 	DefFileReader dfr;
     MetaData* pMD = dfr.Read("../Core/TestCases/files/test2/Defs.txt");
@@ -49,14 +49,14 @@ void Tests::RunTest2(MYSQL* conn)
 	ec.map_Var["X"] = pX;
 	ec.map_Var["Y"] = pY;
 	ec.map_Var["Z"] = pZ;
-	op.p_ETL->Execute(&ec,conn);
+	op.p_ETL->Execute(&ec);
 	pX->DestroyWithSubTree();
 	pY->DestroyWithSubTree();
 	pZ->DestroyWithSubTree();
 	op.p_ETL->Destroy();
 }
 
-void Tests::RunTest3(MYSQL* conn)
+void Tests::RunTest3()
 {
 	DefFileReader dfr;
     MetaData* pMD = dfr.Read("../Core/TestCases/files/test3/Defs.txt");
@@ -76,14 +76,14 @@ void Tests::RunTest3(MYSQL* conn)
 	ec.map_Var["X"] = pX;
 	ec.map_Var["Y"] = pY;
 	ec.map_Var["Z"] = pZ;
-	op.p_ETL->Execute(&ec,conn);
+	op.p_ETL->Execute(&ec);
 	pX->DestroyWithSubTree();
 	pY->DestroyWithSubTree();
 	pZ->DestroyWithSubTree();
 //	op.p_ETL->Destroy();
 }
 
-void Tests::RunTest4(MYSQL* conn)
+void Tests::RunTest4()
 {
 	DefFileReader dfr;
     MetaData* pMD = dfr.Read("../Core/TestCases/files/test5/Defs.txt");
@@ -101,10 +101,10 @@ void Tests::RunTest4(MYSQL* conn)
 	Node* pY = MemoryManager::Inst.CreateNode(2);
 	ec.map_Var["X"] = pX;
 	ec.map_Var["Y"] = pY;
-	op.p_ETL->Execute(&ec,conn);
+	op.p_ETL->Execute(&ec);
 }
 
-void Tests::RunTest5(MYSQL* conn)
+void Tests::RunTest5()
 {
     std::wcout<<"Test 5 Started\n";
 	DefFileReader dfr;
@@ -125,14 +125,14 @@ void Tests::RunTest5(MYSQL* conn)
 	ec.map_Var["X"] = pX;
 	ec.map_Var["Y"] = pY;
 	ec.map_Var["Z"] = pZ;
-	op.p_ETL->Execute(&ec,conn);
+	op.p_ETL->Execute(&ec);
     std::cout <<"X : "<< pX->GetValue()<<"\n";
     std::cout <<"Y : "<< pY->GetValue()<<"\n";
 	pX->DestroyWithSubTree();
 	pY->DestroyWithSubTree();
 	pZ->DestroyWithSubTree();
 }
-void Tests::RunTest6(MYSQL* conn)
+void Tests::RunTest6()
 {
     DefFileReader dfr;
     MetaData* pMD = dfr.Read("../Core/TestCases/files/TestLoadFromCodeLibraryScriptDefs.txt");
@@ -152,7 +152,7 @@ void Tests::RunTest6(MYSQL* conn)
     ec.map_Var["X"] = pX;
     ec.map_Var["Y"] = pY;
     ec.map_Var["Z"] = pZ;
-    op.p_ETL->Execute(&ec,conn);
+    op.p_ETL->Execute(&ec);
     //std::cout <<"X : "<< pX->GetValue()<<"\n";
     // std::cout <<"Y : "<< pY->GetValue()<<"\n";
     std::cout <<"Z : "<< pZ->GetChildCount()<<"\n";

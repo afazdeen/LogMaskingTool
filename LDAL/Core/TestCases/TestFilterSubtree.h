@@ -11,11 +11,9 @@
 
 #include <iostream>
 #include "TestCaseBase.h"
-#include <windows.h>
-#include <mysql.h>
 
 class TestFilterSubtree : public TestCaseBase {
-    virtual TestCaseExecutionResult Execute(TestCaseArgument* arg,MYSQL* conn);
+    virtual TestCaseExecutionResult Execute(TestCaseArgument* arg);
 };
 
 #endif /* defined(__LogAnalyzer__TestFilterSubtree__) */

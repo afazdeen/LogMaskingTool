@@ -11,7 +11,6 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <sys/stat.h>
-#include "Tests.h"
 #include "json.hpp"
 #include "MemMan.h"
 #include "Node.h"
@@ -23,19 +22,13 @@
 #include "OTPParser.h"
 #include "LogJsonParser.h"
 #include "easylogging++.h"
-#include "Logger.h"
 #include <iostream>
 #include <memory>
 #include <pthread.h>
 #include "rapidjson/document.h"
 #include "rapidjson/writer.h"
-#include "rapidjson/stringbuffer.h"
-#include "dotenv.h"
-#include "EntityList.h"
 #include "QueryExecuter.h"
 #include "MysqlConnector.h"
-#include <windows.h>
-#include <mysql.h>
 
 using namespace rapidjson;
 using json = nlohmann::json;
@@ -45,18 +38,6 @@ INITIALIZE_EASYLOGGINGPP
 int main(int argc, const char * argv[])
 {
     std::cout<<"Log analyzer masking started\n";
-
-    MYSQL *conn = nullptr;
-    /*MSTRING hostname = "localhost" ;
-    MSTRING username = "admin";
-    MSTRING password = "admin";
-    MSTRING dbname = "substitutiondb";
-    int port = 0;
-    MysqlConnector mysqlobj;
-    conn = mysqlobj.getConnection(hostname, username, password, dbname, port);*/
-
-    //Tests tt;
-    // tt.RunTest6();
     std::string line;
     std::string jsonline;
     std::ifstream jsonfile ("../../Files/resultJSON.json");
@@ -78,9 +59,7 @@ int main(int argc, const char * argv[])
         script+="\n";
     }
 
-    std::string res = QueryExecuter::run(jsonroot,script,conn);
-    std::cout << "\n";
-    std::cout <<res;
+    std::string res = QueryExecuter::run(jsonroot,script);
 
     LogJsonParser::LogNodeTreetoJsonRecursivly(jsonroot);
 

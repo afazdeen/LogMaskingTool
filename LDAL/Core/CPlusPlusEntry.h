@@ -10,12 +10,10 @@
 #define __LogAnalyzer__CPlusPlusEntry__
 
 #include <iostream>
-#include <windows.h>
-#include <mysql.h>
 
 class CPlusPlusEntry {
 public:
-    void RunMenu(MYSQL* conn);
+    void RunMenu();
     void RunDefault();
 private:
     

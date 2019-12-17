@@ -1,7 +1,6 @@
 #include "CommonIncludes.h"
 #include "Entity.h"
-#include <windows.h>
-#include <mysql.h>
+
 class ExecutionContext;
 
 class ExecutionTemplate : public Entity
@@ -30,7 +29,7 @@ public:
 	PENTITY GetEntity();
 	MULONG GetSpecialCommand();
 	MSTRING GetCodeLine();
-	PENTITY Execute(ExecutionContext* pContext,MYSQL* conn);
+	PENTITY Execute(ExecutionContext* pContext);
 	bool IsEmpty();
     
 	friend std::ostream& operator << (ExecutionTemplate& et, std::ostream& x)
@@ -43,5 +42,5 @@ public:
 	}
     
 private:
-    PENTITY ExecuteCommand(PENTITY entity, ExecutionContext* context, Command* cmd,MYSQL* conn);
+    PENTITY ExecuteCommand(PENTITY entity, ExecutionContext* context, Command* cmd);
 };

@@ -11,11 +11,9 @@
 
 #include <iostream>
 #include "TestCaseBase.h"
-#include <windows.h>
-#include <mysql.h>
 
 class TestLoadFromCodeLibrary : public TestCaseBase {
-    virtual TestCaseExecutionResult Execute(TestCaseArgument* arg,MYSQL* conn);
+    virtual TestCaseExecutionResult Execute(TestCaseArgument* arg);
 };
 
 #endif /* defined(__FlexibleComputerLanguage__TestLoadFromCodeLibrary__) */

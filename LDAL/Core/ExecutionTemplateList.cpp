@@ -14,7 +14,7 @@ void ExecutionTemplateList::Destroy()
 	MemoryManager::Inst.DeleteObject(this);
 }
 
-void ExecutionTemplateList::Execute(ExecutionContext* pContext,MYSQL* conn)
+void ExecutionTemplateList::Execute(ExecutionContext* pContext)
 {
     //std::cout<<"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n";
 
@@ -61,7 +61,7 @@ void ExecutionTemplateList::Execute(ExecutionContext* pContext,MYSQL* conn)
 		{
             case COMMAND_TYPE_IF:
 			{
-				PENTITY pRes = (*ite1)->Execute(pContext,conn);
+				PENTITY pRes = (*ite1)->Execute(pContext);
 				if((0 != (PBool)pRes) && (((PBool)pRes)->GetValue()))
 				{
 					++ite1;
@@ -76,7 +76,7 @@ void ExecutionTemplateList::Execute(ExecutionContext* pContext,MYSQL* conn)
 			}
             case COMMAND_TYPE_IFNOT:
 			{
-				PENTITY pRes = (*ite1)->Execute(pContext,conn);
+				PENTITY pRes = (*ite1)->Execute(pContext);
 				if((0 != (PBool)pRes) && (((PBool)pRes)->GetValue()))
 				{
 					// If evaluated to false
@@ -104,7 +104,7 @@ void ExecutionTemplateList::Execute(ExecutionContext* pContext,MYSQL* conn)
 				}
 				else
 				{
-					PENTITY pRes = (*ite1)->Execute(pContext,conn);
+					PENTITY pRes = (*ite1)->Execute(pContext);
 					if((0 != (PBool)pRes) && (((PBool)pRes)->GetValue()))
 					{
 						bGoInsideWhileLoop = true;
@@ -159,7 +159,7 @@ void ExecutionTemplateList::Execute(ExecutionContext* pContext,MYSQL* conn)
 			}
             default:
 			{
-				(*ite1)->Execute(pContext,conn);
+				(*ite1)->Execute(pContext);
 				++ite1;
 			}
 		}

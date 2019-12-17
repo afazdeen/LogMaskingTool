@@ -95,7 +95,7 @@ MSTRING ExecutionTemplate::GetCodeLine()
 	return s_CodeLine;
 }
 
-PENTITY ExecutionTemplate::Execute(ExecutionContext *pContext,MYSQL* conn)
+PENTITY ExecutionTemplate::Execute(ExecutionContext *pContext)
 {
     //std::cout<<s_CodeLine<<std::endl;
     if(!s_StartVarName.empty())
@@ -124,11 +124,11 @@ PENTITY ExecutionTemplate::Execute(ExecutionContext *pContext,MYSQL* conn)
         
 		LST_COMMANDPTR::const_iterator ite1 = lst_Commands.begin();
 		LST_COMMANDPTR::const_iterator iteEnd1 = lst_Commands.end();
-		PENTITY pCurr = ExecuteCommand(pVar, pContext, *ite1,conn);
+		PENTITY pCurr = ExecuteCommand(pVar, pContext, *ite1);
 		++ite1;
 		while(pCurr && (ite1 != iteEnd1))
 		{
-			PENTITY pNew = ExecuteCommand(pCurr, pContext, *ite1,conn);
+			PENTITY pNew = ExecuteCommand(pCurr, pContext, *ite1);
 			pCurr->Destroy();
 			pCurr = pNew;
 			++ite1;
@@ -142,7 +142,7 @@ PENTITY ExecutionTemplate::Execute(ExecutionContext *pContext,MYSQL* conn)
 			EntityList* pEL = (EntityList*)p_Entity;
 			if(0 != pEL)
 			{
-				pEL->ExecuteElements(pContext,conn);
+				pEL->ExecuteElements(pContext);
 			}
 		}
 		if(lst_Commands.size() == 0)
@@ -156,11 +156,11 @@ PENTITY ExecutionTemplate::Execute(ExecutionContext *pContext,MYSQL* conn)
 		}
 		LST_COMMANDPTR::const_iterator ite1 = lst_Commands.begin();
 		LST_COMMANDPTR::const_iterator iteEnd1 = lst_Commands.end();
-		PENTITY pCurr = ExecuteCommand(p_Entity, pContext, *ite1,conn);
+		PENTITY pCurr = ExecuteCommand(p_Entity, pContext, *ite1);
 		++ite1;
 		while(ite1 != iteEnd1)
 		{
-			PENTITY pNew = ExecuteCommand(pCurr, pContext, *ite1,conn);
+			PENTITY pNew = ExecuteCommand(pCurr, pContext, *ite1);
 			pCurr->Destroy();
 			pCurr = pNew;
 			++ite1;
@@ -171,13 +171,13 @@ PENTITY ExecutionTemplate::Execute(ExecutionContext *pContext,MYSQL* conn)
 	return 0;
 }
 
-PENTITY ExecutionTemplate::ExecuteCommand(PENTITY entity, ExecutionContext* context, Command* cmd,MYSQL* conn) {
-    PENTITY res = cmd->Execute(entity, context,conn);
+PENTITY ExecutionTemplate::ExecuteCommand(PENTITY entity, ExecutionContext* context, Command* cmd) {
+    PENTITY res = cmd->Execute(entity, context);
     if (res) {
         return res;
     }
     
-    return SpecialCommandExecuter::inst.ExecuteSpecialCommand(entity, context, cmd,conn);
+    return SpecialCommandExecuter::inst.ExecuteSpecialCommand(entity, context, cmd);
 }
 
 bool ExecutionTemplate::IsEmpty()

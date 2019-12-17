@@ -12,7 +12,7 @@
 
 // shared data
 int id = 0;
-MSTRING QueryExecuter::run(Node *root, MSTRING querycode,MYSQL* conn)
+MSTRING QueryExecuter::run(Node *root, MSTRING querycode)
 {
 
     DefFileReader dfr;
@@ -70,7 +70,7 @@ MSTRING QueryExecuter::run(Node *root, MSTRING querycode,MYSQL* conn)
     ec.map_Var["NICNODE"] = nic;
     ec.map_Var["EMAILNODE"] = email;
     ec.map_Var["RESULT"] = pRESULT;
-    op.p_ETL->Execute(&ec,conn);
+    op.p_ETL->Execute(&ec);
 
     return ResultGenerator::CreateResult(pRESULT);
 

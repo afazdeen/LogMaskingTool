@@ -114,7 +114,7 @@ MSTRING Command::GetAdditionalFuncName() {
     return s_AdditionalFuncName;
 }
 
-PENTITY Command::Execute(PENTITY pEntity, ExecutionContext* pContext,MYSQL* conn)
+PENTITY Command::Execute(PENTITY pEntity, ExecutionContext* pContext)
 {
 
     if(COMMAND_TYPE_ADDITIONAL_FUNCTION == ul_CommandType)
@@ -128,7 +128,7 @@ PENTITY Command::Execute(PENTITY pEntity, ExecutionContext* pContext,MYSQL* conn
             ec.p_mapFunctions = pContext->p_mapFunctions;
             ec.p_MD = pContext->p_MD;
             ec.map_Var[pContext->p_MD->s_FuncArg] = pEntity;
-            ((*iteFind2).second)->Execute(&ec,conn);
+            ((*iteFind2).second)->Execute(&ec);
             MAP_STR_ENTITYPTR::iterator iteFind3 = ec.map_Var.find(pContext->p_MD->s_FuncRet);
             if(ec.map_Var.end() == iteFind3)
             {
@@ -148,7 +148,7 @@ PENTITY Command::Execute(PENTITY pEntity, ExecutionContext* pContext,MYSQL* conn
             fun = (*iteFind).second;
             if(0 != p_Arg)
             {
-                p_EntityArg = p_Arg->Execute(pContext,conn);
+                p_EntityArg = p_Arg->Execute(pContext);
             }
             return fun(p_EntityArg);
         }
@@ -184,23 +184,23 @@ PENTITY Command::Execute(PENTITY pEntity, ExecutionContext* pContext,MYSQL* conn
         if (ENTITY_TYPE_LIST == pEntity->ul_Type) {
             if(0 != p_Arg)
             {
-                p_EntityArg = p_Arg->Execute(pContext,conn);
+                p_EntityArg = p_Arg->Execute(pContext);
             }
-            return ExecuteListCommand(ul_CommandType, pEntity, pContext, p_EntityArg,conn);
+            return ExecuteListCommand(ul_CommandType, pEntity, pContext, p_EntityArg);
         } else if (ENTITY_TYPE_NODE == pEntity->ul_Type) {
-            return ExecuteNodeCommand(ul_CommandType, pEntity, pContext,conn);
+            return ExecuteNodeCommand(ul_CommandType, pEntity, pContext);
         } else {
             if(0 != p_Arg)
             {
-                p_EntityArg = p_Arg->Execute(pContext,conn);
+                p_EntityArg = p_Arg->Execute(pContext);
             }
-            return ExecuteEntityCommand(ul_CommandType, pEntity, p_EntityArg,conn);
+            return ExecuteEntityCommand(ul_CommandType, pEntity, p_EntityArg);
         }
     }
     return 0;
 }
 
-PENTITY Command::ExecuteEntityCommand(MULONG ulCommand, PENTITY pEntity, PENTITY pArg,MYSQL* conn)
+PENTITY Command::ExecuteEntityCommand(MULONG ulCommand, PENTITY pEntity, PENTITY pArg)
 {
     // General functions in Entity level
     if(COMMAND_TYPE_IS_NULL == ulCommand)
@@ -888,7 +888,7 @@ PENTITY Command::ExecuteDateTimeCommand(MULONG ulCommand, PENTITY pEntity, PENTI
     return 0;
 }
 
-PENTITY Command::ExecuteNodeCommand(MULONG ulCommand, PENTITY pEntity, ExecutionContext* pContext, MYSQL* conn)
+PENTITY Command::ExecuteNodeCommand(MULONG ulCommand, PENTITY pEntity, ExecutionContext* pContext)
 {
     PNODE pNode = (PNODE)pEntity;
     if(0 == pNode)
@@ -907,14 +907,14 @@ PENTITY Command::ExecuteNodeCommand(MULONG ulCommand, PENTITY pEntity, Execution
     // first handle the commands that would need to access the execution context
     if (COMMAND_TYPE_FILTER_SUBTREE == ulCommand) {
         MemoryManager::Inst.CreateObject(&pNodeListRes);
-        FilterSubTree(pNode, p_Arg, pContext, pNodeListRes,conn);
+        FilterSubTree(pNode, p_Arg, pContext, pNodeListRes);
     } else {
         // now handle commands that would not explicitly need the execution context
         // for these command, for the sake of simplicity, we first evaluate the command argument and use it subsequently
         PENTITY pArg = 0;
         if(0 != p_Arg)
         {
-            p_EntityArg = p_Arg->Execute(pContext,conn);
+            p_EntityArg = p_Arg->Execute(pContext);
             pArg = p_EntityArg;
         }
         MSTRING argument;
@@ -1026,7 +1026,6 @@ PENTITY Command::ExecuteNodeCommand(MULONG ulCommand, PENTITY pEntity, Execution
                 if(ENTITY_TYPE_STRING == pArg->ul_Type)
                 {
                     String* pStrArg = (String*)pArg;
-                    std::cout<<"??????????????????????????????????????????\n";
                     if(0 != pStrArg)
                     {
                         MSTRING dbString = pStrArg->GetValue();
@@ -1052,11 +1051,7 @@ PENTITY Command::ExecuteNodeCommand(MULONG ulCommand, PENTITY pEntity, Execution
                         std::cout << port << std::endl;
 
                         MysqlConnector mysqlobj;
-                        conn = mysqlobj.getConnection(hostname, username, password, dbname, port);
-                        connection = conn;
-                        std::cout<<conn<<"\n";
-
-
+                        connection = mysqlobj.getConnection(hostname, username, password, dbname, port);
                         pNode->SetValue((PMCHAR)pStrArg->GetValue().c_str());
                     }
                 }
@@ -2349,7 +2344,7 @@ PENTITY Command::ExecuteNodeCommand(MULONG ulCommand, PENTITY pEntity, Execution
     return 0;
 }
 
-PENTITY Command::ExecuteListCommand(MULONG ulCommand, PENTITY pEntity, ExecutionContext* pContext, PENTITY pArg,MYSQL* conn)
+PENTITY Command::ExecuteListCommand(MULONG ulCommand, PENTITY pEntity, ExecutionContext* pContext, PENTITY pArg)
 {
     PENTITYLIST pEntityList = (PENTITYLIST)pEntity;
     if(0 == pEntityList)
@@ -2395,7 +2390,7 @@ PENTITY Command::ExecuteListCommand(MULONG ulCommand, PENTITY pEntity, Execution
             pContext->map_Var[pContext->p_MD->s_ListItemVar] = *ite1;
             if(0 != p_Arg)
             {
-                PBool pRes = (PBool)p_Arg->Execute(pContext,conn);
+                PBool pRes = (PBool)p_Arg->Execute(pContext);
                 if (pRes->GetValue()) {
                     pListRes->push_back(*ite1);
                 }
@@ -2413,7 +2408,7 @@ PENTITY Command::ExecuteListCommand(MULONG ulCommand, PENTITY pEntity, Execution
             pContext->map_Var[pContext->p_MD->s_ListItemVar] = *ite1;
             if(0 != p_Arg)
             {
-                PENTITY pRes = p_Arg->Execute(pContext,conn);
+                PENTITY pRes = p_Arg->Execute(pContext);
                 MSTRING key = pRes->ToString();
                 std::map<MSTRING, PENTITYLIST>::iterator ite = groupedLists.find(key);
                 if (ite == groupedLists.end()) {
@@ -2598,7 +2593,7 @@ PENTITY Command::ExecuteListCommand(MULONG ulCommand, PENTITY pEntity, Execution
             pContext->map_Var[pContext->p_MD->s_ListItemVar] = *ite1;
             if(0 != p_Arg)
             {
-                PENTITY pRes = p_Arg->Execute(pContext,conn);
+                PENTITY pRes = p_Arg->Execute(pContext);
                 MSTRING key = pRes->ToString();
                 if (firstKeyDetected && (key == currentkey)) {
                     currentlist->push_back(*ite1);
@@ -2745,7 +2740,7 @@ PENTITY Command::ExecuteListCommand(MULONG ulCommand, PENTITY pEntity, Execution
         {
             PENTITYLIST pNodeList = 0;
             MemoryManager::Inst.CreateObject(&pNodeList);
-            FilterSubTree(currNode, p_Arg, pContext, pNodeList,conn);
+            FilterSubTree(currNode, p_Arg, pContext, pNodeList);
             pListRes->SeekToBegin();
             PNODE internalNode = (PNODE)pNodeList->GetCurrElem();
             while(internalNode != 0)
@@ -2762,7 +2757,7 @@ PENTITY Command::ExecuteListCommand(MULONG ulCommand, PENTITY pEntity, Execution
     {
         if(0 != p_Arg)
         {
-            p_EntityArg = p_Arg->Execute(pContext,conn);
+            p_EntityArg = p_Arg->Execute(pContext);
         }
         MemoryManager::Inst.CreateObject(&pListRes);
         EntityList::const_iterator ite1 = pEntityList->begin();
@@ -2771,9 +2766,9 @@ PENTITY Command::ExecuteListCommand(MULONG ulCommand, PENTITY pEntity, Execution
         {
             PENTITY pRes = 0;
             if ((*ite1)->ul_Type == ENTITY_TYPE_NODE) {
-                pRes = ExecuteNodeCommand(ulCommand, *ite1, pContext,conn);
+                pRes = ExecuteNodeCommand(ulCommand, *ite1, pContext);
             } else {
-                pRes = ExecuteEntityCommand(ulCommand, *ite1, p_EntityArg,conn);
+                pRes = ExecuteEntityCommand(ulCommand, *ite1, p_EntityArg);
             }
 
             switch(pRes->ul_Type)
@@ -2848,10 +2843,10 @@ void Command::AddSubtreeToNodeList(PENTITYLIST pList, PNODE pRoot)
     }
 }
 
-void Command::FilterSubTree(PNODE root, ExecutionTemplate* arg, ExecutionContext* context, PENTITYLIST resultList,MYSQL* conn)
+void Command::FilterSubTree(PNODE root, ExecutionTemplate* arg, ExecutionContext* context, PENTITYLIST resultList)
 {
     context->map_Var[context->p_MD->s_ListItemVar] = root;
-    PBool res = (PBool)arg->Execute(context,conn);
+    PBool res = (PBool)arg->Execute(context);
     if (res->GetValue()) {
         resultList->push_back(root);
         //std::cout<<root ->GetValue()<<"\n";
@@ -2859,7 +2854,7 @@ void Command::FilterSubTree(PNODE root, ExecutionTemplate* arg, ExecutionContext
     PNODE pChild = root->GetFirstChild();
     while(0 != pChild)
     {
-        FilterSubTree(pChild, arg, context, resultList,conn);
+        FilterSubTree(pChild, arg, context, resultList);
         pChild = pChild->GetRightSibling();
     }
 }

@@ -13,7 +13,7 @@
 #include "MetaData.h"
 #include "Strings.h"
 
-PENTITY NodeCustomValueShorthand::ExecuteSpecialCommand(PENTITY entity, ExecutionContext* context, Command* cmd,MYSQL* conn) {
+PENTITY NodeCustomValueShorthand::ExecuteSpecialCommand(PENTITY entity, ExecutionContext* context, Command* cmd) {
     MSTRING customstr = cmd->GetAdditionalFuncName();
     if (customstr.empty()) {
         return 0;
@@ -35,5 +35,5 @@ PENTITY NodeCustomValueShorthand::ExecuteSpecialCommand(PENTITY entity, Executio
     et->AddCommand(innercmd2);
     newcmd->SetArg(et);
     
-    return newcmd->Execute(entity, context,conn);
+    return newcmd->Execute(entity, context);
 }

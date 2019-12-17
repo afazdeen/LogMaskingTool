@@ -11,12 +11,10 @@
 
 #include "CommonIncludes.h"
 #include "ISpecialCommand.h"
-#include <windows.h>
-#include <mysql.h>
 
 class NodeCustomValueShorthand : public ISpecialCommand {
 public:
-    virtual PENTITY ExecuteSpecialCommand(PENTITY entity, ExecutionContext* context, Command* cmd,MYSQL* conn);
+    virtual PENTITY ExecuteSpecialCommand(PENTITY entity, ExecutionContext* context, Command* cmd);
 };
 
 #endif /* defined(__LogAnalyzer__NodeCustomValueShorthand__) */

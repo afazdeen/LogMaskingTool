@@ -11,11 +11,9 @@
 
 #include <iostream>
 #include "TestCaseBase.h"
-#include <windows.h>
-#include <mysql.h>
 
 class TestListGroupBy : public TestCaseBase {
-    virtual TestCaseExecutionResult Execute(TestCaseArgument* arg,MYSQL* conn);
+    virtual TestCaseExecutionResult Execute(TestCaseArgument* arg);
 };
 
 #endif /* defined(__LogAnalyzer__TestListGroupBy__) */

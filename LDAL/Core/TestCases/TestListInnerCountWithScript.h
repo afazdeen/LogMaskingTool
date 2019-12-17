@@ -11,12 +11,10 @@
 
 #include <iostream>
 #include "TestCaseBase.h"
-#include <windows.h>
-#include <mysql.h>
 
 class TestListInnerCountWithScript : public TestCaseBase {
 public:
-    virtual TestCaseExecutionResult Execute(TestCaseArgument* arg,MYSQL* conn);
+    virtual TestCaseExecutionResult Execute(TestCaseArgument* arg);
 };
 
 #endif /* defined(__LogAnalyzer__TestListInnerCountWithScript__) */

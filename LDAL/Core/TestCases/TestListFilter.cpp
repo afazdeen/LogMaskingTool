@@ -15,7 +15,7 @@
 #include "ScriptReader.h"
 #include "ExecutionContext.h"
 
-TestCaseExecutionResult TestListFilter::Execute(TestCaseArgument* arg,MYSQL* conn) {
+TestCaseExecutionResult TestListFilter::Execute(TestCaseArgument* arg) {
     TestCaseExecutionResult res;
     
     PString str1 = 0;
@@ -56,7 +56,7 @@ TestCaseExecutionResult TestListFilter::Execute(TestCaseArgument* arg,MYSQL* con
 	ec.p_mapFunctions = &op.map_Functions;
 	ec.p_MD = pMD;
 	ec.map_Var["BigList"] = list;
-	op.p_ETL->Execute(&ec,conn);
+	op.p_ETL->Execute(&ec);
     PENTITYLIST result = (PENTITYLIST)(ec.map_Var["Result"]);
     
     if (result->size() != 2) {
