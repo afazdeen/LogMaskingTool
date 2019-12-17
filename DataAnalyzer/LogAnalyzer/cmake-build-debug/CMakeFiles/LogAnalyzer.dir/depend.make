@@ -476,5 +476,16 @@ CMakeFiles/LogAnalyzer.dir/Utils.cpp.obj: ../Utils.cpp
 CMakeFiles/LogAnalyzer.dir/Utils.cpp.obj: ../Utils.h
 
 CMakeFiles/LogAnalyzer.dir/main.cpp.obj: ../CPlusPlusEntry.h
+CMakeFiles/LogAnalyzer.dir/main.cpp.obj: ../CommonIncludes.h
+CMakeFiles/LogAnalyzer.dir/main.cpp.obj: ../Defs.h
+CMakeFiles/LogAnalyzer.dir/main.cpp.obj: ../Entity.h
+CMakeFiles/LogAnalyzer.dir/main.cpp.obj: ../ExecutionContext.h
+CMakeFiles/LogAnalyzer.dir/main.cpp.obj: ../ExecutionTemplateList.h
+CMakeFiles/LogAnalyzer.dir/main.cpp.obj: ../Int.h
+CMakeFiles/LogAnalyzer.dir/main.cpp.obj: ../MemMan.h
+CMakeFiles/LogAnalyzer.dir/main.cpp.obj: ../MetaData.h
+CMakeFiles/LogAnalyzer.dir/main.cpp.obj: ../Node.h
+CMakeFiles/LogAnalyzer.dir/main.cpp.obj: ../TypeDefs.h
+CMakeFiles/LogAnalyzer.dir/main.cpp.obj: ../Value.h
 CMakeFiles/LogAnalyzer.dir/main.cpp.obj: ../main.cpp
 

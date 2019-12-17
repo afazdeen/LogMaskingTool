@@ -37,16 +37,24 @@ INITIALIZE_EASYLOGGINGPP
 
 int main(int argc, const char * argv[])
 {
+
+    //system("D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/cmake-build-debug/LogAnalyzer.exe");
+   // system("pause");
+
+
     std::cout<<"Log analyzer masking started\n";
     std::string line;
     std::string jsonline;
+
     std::ifstream jsonfile ("../../Files/resultJSON.json");
+
     if (jsonfile.is_open())
     {
         getline (jsonfile,line);
         jsonline = line;
         jsonfile.close();
     }
+
     Node* jsonroot = LogJsonParser::LogJSONToNodeTree(jsonline);
 
     std::string scriptline;

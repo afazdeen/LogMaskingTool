@@ -89,7 +89,7 @@ void Tests::RunTest3()
 
 void Tests::RunLDELtest1() {
 
-        ELInterpretterJSON intp;
+    ELInterpretterJSON intp;
         intp.EvaluateCase("../../../Files/Defs.txt");
 
 }

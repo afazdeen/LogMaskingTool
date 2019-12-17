@@ -22,6 +22,7 @@ Node *LogJsonParser::LogJSONToNodeTree(std::string jsonString)
     rapidjson::Document logs;
     logs.Parse(jsonString.c_str());
     Node *root = MemoryManager::Inst.CreateNode(++id);
+
     for(rapidjson::Value::ConstValueIterator itr = logs.Begin(); itr != logs.End(); ++itr){
 
         for(rapidjson::Value::ConstMemberIterator tps = itr->MemberBegin(); tps != itr->MemberEnd(); ++tps) {

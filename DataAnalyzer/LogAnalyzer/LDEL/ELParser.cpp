@@ -30,6 +30,7 @@ bool ELParser::ProcessScript(MSTRING &sFile, MetaData *md, ELParserResult &resul
 
     LST_STR lstLines;
 	LST_INT lstLineNumbers;
+    cout<<"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n";
 	ReadFileToLines(sFile, md->s_LineContinuation, md->s_CommentStart, lstLines, lstLineNumbers);
 
     if(lstLines.empty())
@@ -47,6 +48,7 @@ bool ELParser::ProcessScript(MSTRING &sFile, MetaData *md, ELParserResult &resul
     LST_STR::const_iterator ite1 = lstLines.begin();
 	LST_STR::const_iterator iteEnd1 = lstLines.end();
 	LST_INT::const_iterator ite2 = lstLineNumbers.begin();
+
 	for( ; ite1 != iteEnd1; ++ite1, ++ite2)
 	{
         MSTRING line = *ite1;

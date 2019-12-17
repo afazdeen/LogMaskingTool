@@ -6,21 +6,9 @@
 
 #IncludeRegexTransform: 
 
-../LDEL/ELInterpretter.h
+D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/CPlusPlusEntry.h
 iostream
 -
-CommonIncludes.h
-../LDEL/CommonIncludes.h
-Node.h
-../LDEL/Node.h
-
-../LDEL/ELInterpretterJSON.h
-iostream
--
-CommonIncludes.h
-../LDEL/CommonIncludes.h
-Node.h
-../LDEL/Node.h
 
 D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/CommonIncludes.h
 iostream
@@ -50,10 +38,6 @@ D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/Defs.h
 TypeDefs.h
 D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/TypeDefs.h
 
-D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/DefFileReader.h
-CommonIncludes.h
-D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/CommonIncludes.h
-
 D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/Defs.h
 
 D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/Entity.h
@@ -74,6 +58,10 @@ D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/ExecutionTemplat
 CommonIncludes.h
 D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/CommonIncludes.h
 
+D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/Int.h
+Value.h
+D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/Value.h
+
 D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/MemMan.h
 CommonIncludes.h
 D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/CommonIncludes.h
@@ -87,38 +75,6 @@ CommonIncludes.h
 D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/CommonIncludes.h
 Entity.h
 D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/Entity.h
-
-D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/ScriptReader.h
-CommonIncludes.h
-D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/CommonIncludes.h
-
-D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/Tests.cpp
-Tests.h
-D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/Tests.h
-DefFileReader.h
-D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/DefFileReader.h
-ScriptReader.h
-D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/ScriptReader.h
-MetaData.h
-D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/MetaData.h
-ExecutionTemplateList.h
-D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/ExecutionTemplateList.h
-ExecutionContext.h
-D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/ExecutionContext.h
-Node.h
-D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/Node.h
-MemMan.h
-D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/MemMan.h
-ELInterpretter.h
-D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/ELInterpretter.h
-ELInterpretterJSON.h
-D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/ELInterpretterJSON.h
-iostream
--
-
-D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/Tests.h
-CommonIncludes.h
-D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/CommonIncludes.h
 
 D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/TypeDefs.h
 string
@@ -131,4 +87,48 @@ stack
 -
 Defs.h
 D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/Defs.h
+
+D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/Value.h
+Entity.h
+D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/Entity.h
+MemMan.h
+D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/MemMan.h
+
+D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/main.cpp
+map
+-
+string
+-
+iostream
+-
+CPlusPlusEntry.h
+D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/CPlusPlusEntry.h
+thread
+-
+iostream
+-
+unistd.h
+-
+fcntl.h
+-
+sys/stat.h
+-
+MemMan.h
+D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/MemMan.h
+Node.h
+D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/Node.h
+MetaData.h
+D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/MetaData.h
+ExecutionTemplateList.h
+D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/ExecutionTemplateList.h
+ExecutionContext.h
+D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/ExecutionContext.h
+Int.h
+D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/Int.h
+iostream
+-
+memory
+-
+pthread.h
+-
 

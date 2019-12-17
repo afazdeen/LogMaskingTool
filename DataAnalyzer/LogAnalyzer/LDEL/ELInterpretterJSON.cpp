@@ -29,7 +29,6 @@ ELInterpretterJSONResult* ELInterpretterJSON::EvaluateCase(MSTRING sDefFile) {
     ELInterpretterJSONResult *ir = 0;
     MemoryManager::Inst.CreateObject(&ir);
     bool succ = p.ProcessScript(md->s_ScriptFile, md, res);
-
     WIDESTRING sLines = ProcessLinesInFile(md->s_LogFile, res.vec_LineTemplates, ir);
     ir->finalString = ProcessBlocks(sLines, res.vec_BlockTemplates, res.vec_LineTemplates, ir);
 
