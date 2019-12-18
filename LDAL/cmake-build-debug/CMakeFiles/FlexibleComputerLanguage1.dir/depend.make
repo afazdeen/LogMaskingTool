@@ -585,16 +585,7 @@ CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: 
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../Core/Value.h
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../FlexibleComputerLanguage/rapidjson/error/error.h
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../FlexibleComputerLanguage/rapidjson/reader.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../MySql/mysqlheaders/mysqlheaders/my_alloc.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../MySql/mysqlheaders/mysqlheaders/my_list.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../MySql/mysqlheaders/mysqlheaders/mysql.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../MySql/mysqlheaders/mysqlheaders/mysql_com.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../MySql/mysqlheaders/mysqlheaders/mysql_time.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../MySql/mysqlheaders/mysqlheaders/mysql_version.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../MySql/mysqlheaders/mysqlheaders/typelib.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../FlexibleComputerLanguage/DbConnection.h
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../FlexibleComputerLanguage/LogJsonParser.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../FlexibleComputerLanguage/MysqlConnector.h
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../FlexibleComputerLanguage/OTPParser.h
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../FlexibleComputerLanguage/QueryExecuter.h
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../FlexibleComputerLanguage/easylogging++.h

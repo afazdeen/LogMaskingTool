@@ -30,7 +30,9 @@ void ExecuteLDEL()
 int main(int argc, const char * argv[])
 {
     ExecuteLDEL();
+    cout<<"\n\nPress Enter To Exit";
+    std::getchar();
+
     //system("pause");
-    //system("start D:/99xProjects/Masktool/LogMaskingTool/LDAL/cmake-build-debug/FlexibleComputerLanguage1.exe")
     return 0;
 }

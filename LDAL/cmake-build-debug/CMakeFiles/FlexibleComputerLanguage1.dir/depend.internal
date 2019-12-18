@@ -586,16 +586,7 @@ CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj
  ../Core/Value.h
  ../FlexibleComputerLanguage/rapidjson/error/error.h
  ../FlexibleComputerLanguage/rapidjson/reader.h
- ../MySql/mysqlheaders/mysqlheaders/my_alloc.h
- ../MySql/mysqlheaders/mysqlheaders/my_list.h
- ../MySql/mysqlheaders/mysqlheaders/mysql.h
- ../MySql/mysqlheaders/mysqlheaders/mysql_com.h
- ../MySql/mysqlheaders/mysqlheaders/mysql_time.h
- ../MySql/mysqlheaders/mysqlheaders/mysql_version.h
- ../MySql/mysqlheaders/mysqlheaders/typelib.h
- D:/99xProjects/Masktool/LogMaskingTool/LDAL/FlexibleComputerLanguage/DbConnection.h
  D:/99xProjects/Masktool/LogMaskingTool/LDAL/FlexibleComputerLanguage/LogJsonParser.h
- D:/99xProjects/Masktool/LogMaskingTool/LDAL/FlexibleComputerLanguage/MysqlConnector.h
  D:/99xProjects/Masktool/LogMaskingTool/LDAL/FlexibleComputerLanguage/OTPParser.h
  D:/99xProjects/Masktool/LogMaskingTool/LDAL/FlexibleComputerLanguage/QueryExecuter.h
  D:/99xProjects/Masktool/LogMaskingTool/LDAL/FlexibleComputerLanguage/easylogging++.h

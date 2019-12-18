@@ -30,7 +30,6 @@ bool ELParser::ProcessScript(MSTRING &sFile, MetaData *md, ELParserResult &resul
 
     LST_STR lstLines;
 	LST_INT lstLineNumbers;
-    cout<<"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n";
 	ReadFileToLines(sFile, md->s_LineContinuation, md->s_CommentStart, lstLines, lstLineNumbers);
 
     if(lstLines.empty())

@@ -28,7 +28,6 @@
 #include "rapidjson/document.h"
 #include "rapidjson/writer.h"
 #include "QueryExecuter.h"
-#include "MysqlConnector.h"
 
 using namespace rapidjson;
 using json = nlohmann::json;
@@ -37,11 +36,6 @@ INITIALIZE_EASYLOGGINGPP
 
 int main(int argc, const char * argv[])
 {
-
-    //system("D:/99xProjects/Masktool/LogMaskingTool/DataAnalyzer/LogAnalyzer/cmake-build-debug/LogAnalyzer.exe");
-   // system("pause");
-
-
     std::cout<<"Log analyzer masking started\n";
     std::string line;
     std::string jsonline;
@@ -72,6 +66,9 @@ int main(int argc, const char * argv[])
     LogJsonParser::LogNodeTreetoJsonRecursivly(jsonroot);
 
     LogJsonParser::LogNodeTreetoLog(jsonroot);
+
+    std::cout<<"\n\nPress Enter To Exit";
+    std::getchar();
 
 
     return 0;

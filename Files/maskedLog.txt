@@ -1,18 +1,5 @@
-My first name is Wilgott
-My last name is Forde
-My full name is Wilgott Forde
-My telephone number is 27884928
-My postal address is Mathallen Oslo, Vulkan 5, Oslo
-My postal code is 2005
-My index number is 13402
-My salary is 23,403.788
-My national id number is 24069760288
-My first name is Octavia
-My last name is Sundet
-My full name is Octavia Sundet
-My telephone number is 38771396
-My postal address is Larvik sentrumsterminal, Larvik
-My postal code is 3359
-My index number is 13701
-My salary is 13,701.771
-My national id number is 12108609347
+{"level":"debug","message":"0e53cee0-6a0e-11e8-b2db-55a3ec1167c6:New FeildOfficer account has been created:Nikola","timestamp":"2018-08-01T10:49:58.350Z"}
+{"level":"debug","message":"842ac930-ebb3-11e8-9e5e-8beed51eb843:New FeildOfficer account has been created:Gunni","timestamp":"2018-12-18T07:14:54.238Z"}
+{"level":"debug","message":"0e53cee0-6a0e-11e8-b2db-55a3ec1167c6:New FeildOfficer account has been created:Timmi","timestamp":"2019-01-09T05:50:37.370Z"}
+{"level":"debug","message":"0e53cee0-6a0e-11e8-b2db-55a3ec1167c6:New FeildOfficer account has been created:Kendy","timestamp":"2019-01-09T07:08:15.491Z"}
+{"level":"debug","message":"114133b0-1d6c-11e9-8df7-5375a8de996d:New FeildOfficer account has been created:Anki","timestamp":"2019-01-21T11:25:54.856Z"}
