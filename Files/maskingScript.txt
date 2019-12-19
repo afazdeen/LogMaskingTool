@@ -3,7 +3,8 @@ $RESULT.SetCustomString(normal)
 $DBCONNECTIONNODE.SetDbString(localhost_admin_admin_substitutiondb_0)
 
 $FIRSTNAMENODE.SetValue(FIRST_NAME)
+$EMAILNODE.SetValue(EMAIL)
 
-{$FIRSTNAMENODE}:=LIST
+{$FIRSTNAMENODE,$EMAILNODE}:=LIST
 
 MaskFunction({$X,$LIST})

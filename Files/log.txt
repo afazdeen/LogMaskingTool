@@ -1,5 +1,17 @@
+{"level":"debug","message":"undefined:New account created for muthuminid@99x.lk.:tracifiedTest","timestamp":"2018-08-01T07:51:18.206Z"}
 {"level":"debug","message":"0e53cee0-6a0e-11e8-b2db-55a3ec1167c6:New FeildOfficer account has been created:DilanNiranga","timestamp":"2018-08-01T10:49:58.350Z"}
+{"level":"debug","message":"undefined:New account created for dilan@saaraketha.com.:DilanNiranga","timestamp":"2018-08-01T10:49:58.357Z"}
+{"level":"debug","message":"undefined:New account created for muthupriyadarshani@gmail.com.:tracified123","timestamp":"2018-08-17T06:46:56.466Z"}
+{"level":"debug","message":"undefined:New account created for pubudutr@gmail.com.:tracifiedOfficer","timestamp":"2018-08-17T06:52:47.212Z"}
+{"level":"debug","message":"842ac930-ebb3-11e8-9e5e-8beed51eb843:New FeildOfficer account has been created:nadithaTest","timestamp":"2018-11-19T07:23:45.819Z"}
+{"level":"debug","message":"9cf96760-ed74-11e8-868f-3914347d4dc5:New FeildOfficer account has been created:malindaFO","timestamp":"2018-11-21T10:55:07.914Z"}
+{"level":"debug","message":"9cf96760-ed74-11e8-868f-3914347d4dc5:malindaFO account disabled.:tracifiedtestprod@gmail.com","timestamp":"2018-11-21T11:37:30.655Z"}
+{"level":"debug","message":"9cf96760-ed74-11e8-868f-3914347d4dc5:malindaFO account enabled.:U2FsdGVkX1+iFPrWwcaTF22e69vbK8OHIt3vr1b/m2EWb/KJXfbiogTDG31Iv/l4","timestamp":"2018-11-21T11:37:44.530Z"}
 {"level":"debug","message":"842ac930-ebb3-11e8-9e5e-8beed51eb843:New FeildOfficer account has been created:bashiddt","timestamp":"2018-12-18T07:14:54.238Z"}
+{"level":"debug","message":"842ac930-ebb3-11e8-9e5e-8beed51eb843:bashiddt account disabled.:tracifiedtest@gmail.com","timestamp":"2018-12-19T08:48:43.456Z"}
+{"level":"debug","message":"842ac930-ebb3-11e8-9e5e-8beed51eb843:bashiddt account enabled.:U2FsdGVkX19ULH3it58rJ+FkFYZG/80KQdKbgHWAc1jOyfEfo+0KLXybhbOED515","timestamp":"2018-12-19T08:57:22.290Z"}
 {"level":"debug","message":"0e53cee0-6a0e-11e8-b2db-55a3ec1167c6:New FeildOfficer account has been created:NiroshaW","timestamp":"2019-01-09T05:50:37.370Z"}
+{"level":"debug","message":"0e53cee0-6a0e-11e8-b2db-55a3ec1167c6:New FeildOfficer account has been created:NiroshaW","timestamp":"2019-01-09T05:54:04.501Z"}
 {"level":"debug","message":"0e53cee0-6a0e-11e8-b2db-55a3ec1167c6:New FeildOfficer account has been created:vinodm","timestamp":"2019-01-09T07:08:15.491Z"}
+{"level":"debug","message":"0e53cee0-6a0e-11e8-b2db-55a3ec1167c6:NiroshaW account password has changed.","timestamp":"2019-01-09T07:15:08.655Z"}
 {"level":"debug","message":"114133b0-1d6c-11e9-8df7-5375a8de996d:New FeildOfficer account has been created:vinushap","timestamp":"2019-01-21T11:25:54.856Z"}

@@ -20,6 +20,8 @@ ELString::ELString()
         AddChar(ch);
     }
     AddChar('_');
+    AddChar('-');
+    AddChar('@');
 }
 
 ELString::~ELString() {
