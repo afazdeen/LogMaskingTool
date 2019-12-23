@@ -24,7 +24,7 @@ void ELVariable::AddNodesForEvaluatedStrings(PNODE parent) {
     info.name = name;
     info.value = evaluatedStr;
     info.parserElement = this;
-    evaluatedStr = EMPTY_STRING;
+    //evaluatedStr = EMPTY_STRING;
     ELNodeWrapper *wrapper = new ELNodeWrapper(info);
     PNODE newNode = wrapper->GetNode();
     parent->AppendNode(newNode);
