@@ -65,6 +65,7 @@ int main(int argc, const char * argv[])
      }
 
      std::string res = QueryExecuter::run(jsonroot,script);
+     std::cout<<res<<"\n";
 
      LogJsonParser::LogNodeTreetoJsonRecursivly(jsonroot);
 
