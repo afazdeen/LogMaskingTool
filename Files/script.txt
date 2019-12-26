@@ -1,29 +1,23 @@
-
 // Variable definitions
 $FIRST_NAME = $(STRING)
-$USER = $(STRING)
-$DOMAIN = $(STRING)
+$LAST_NAME = $(STRING)
+$FULL_NAME = $(TEXT)
+$TELEPHONE_NUMBER = $(NUMBER)
+$ADDRESS = $(TEXT)
+$POSTAL_CODE = $(NUMBER)
+$INTEGER = $(NUMBER)
+$PRICE = $(TEXT)
+$NIC = $(TEXT)
 
-$YEAR = $(NUMBER)
-$MONTH = $(NUMBER)
-$DATE = $(NUMBER)
-$HOUR = $(NUMBER)
-$MINUTE = $(NUMBER)
-$SECONDS = $(NUMBER)
-$ZONE = $(NUMBER)
-
-$MESSAGE = $(STRING)
-$EMAIL = [$USER,'.',$DOMAIN]
-$TIMESTAMP=[$YEAR,'-',$MONTH,'-',$DATE,'T',$HOUR,':',$MINUTE,':',$SECONDS,'.',$ZONE,'Z']
-
-// Line template definitions
-$$ACCOUNT_CREATED = ['{"level":"debug","message":"',$MESSAGE,':New FeildOfficer account has been created:',$FIRST_NAME,'","timestamp":"',$TIMESTAMP,'"}']
-$$ACCOUNT_DISABLED = ['{"level":"debug","message":"',$MESSAGE,':',$FIRST_NAME,' account disabled.:',$EMAIL,'","timestamp":"',$TIMESTAMP,'"}']
-
-$$ACCOUNT_ENABLED1 = ['{"level":"debug","message":"',$MESSAGE,':',$FIRST_NAME,' account enabled.:U2FsdGVkX1+iFPrWwcaTF22e69vbK8OHIt3vr1b/m2EWb/KJXfbiogTDG31Iv/l4","timestamp":"',$TIMESTAMP,'"}']
-$$ACCOUNT_ENABLED2 = ['{"level":"debug","message":"',$MESSAGE,':',$FIRST_NAME,' account enabled.:U2FsdGVkX19ULH3it58rJ+FkFYZG/80KQdKbgHWAc1jOyfEfo+0KLXybhbOED515","timestamp":"',$TIMESTAMP,'"}']
-
-$$ACCOUNT_PASSWORD_CHANGED = ['{"level":"debug","message":"',$MESSAGE,':',$FIRST_NAME,' account password has changed.","timestamp":"',$TIMESTAMP,'"}']
-$$NEW_ACCOUNT_CREATED = ['{"level":"debug","message":"',$MESSAGE,':New account created for ',$EMAIL,'.:',$FIRST_NAME,'","timestamp":"',$TIMESTAMP,'"}']
-
+$$FIRST_NAME_LINE = ['My first name is ',$FIRST_NAME]
+$$LAST_NAME_LINE = ['My last name is ',$LAST_NAME]
+$$FULL_NAME_LINE = ['My full name is ',$FULL_NAME]
+$$TEL_NUM_LINE = ['My telephone number is ',$TELEPHONE_NUMBER]
+$$POSTAL_ADDRESS_LINE = ['My postal address is ',$ADDRESS]
+$$POSTAL_CODE_LINE = ['My postal code is ',$POSTAL_CODE]
+$$INDEX_NUMBER_LINE = ['My index number is ',$INTEGER]
+$$PRICE_LINE = ['My salary is ',$PRICE]
+$$NATIONAL_ID_LINE = ['My national id number is ',$NIC]
 $$NONEMPTY_LINE = [$(TEXT)]
+
+$$$PERSON_BLOCK = [$$FIRST_NAME_LINE,$$LAST_NAME_LINE,$$FULL_NAME_LINE,$$TEL_NUM_LINE,$$POSTAL_ADDRESS_LINE,$$POSTAL_CODE_LINE,$$INDEX_NUMBER_LINE,$$PRICE_LINE,$$NATIONAL_ID_LINE]

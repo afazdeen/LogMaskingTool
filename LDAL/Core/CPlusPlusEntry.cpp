@@ -25,13 +25,13 @@ class Menu
 	public:
 		FuncType func;
 		Menu* pMenu;
-        
+
 		MenuItem()
         : func(0), pMenu(0)
 		{
-            
+
 		}
-        
+
 		void Destroy()
 		{
 			if(0 != pMenu)
@@ -55,7 +55,7 @@ class Menu
 	};
 	typedef std::map<int, MenuItem*> MAP_INT_MENUITEMPTR;
 public:
-    
+
 	void Destroy()
 	{
 		MAP_INT_MENUITEMPTR::const_iterator ite1 = map_Items.begin();
@@ -66,7 +66,7 @@ public:
 		}
 		delete this;
 	}
-    
+
 	void AddFunction(MSTRING sDisplayName, FuncType func)
 	{
 		int iNewIndex = map_Items.size() + 1;
@@ -75,7 +75,7 @@ public:
 		map_Items[iNewIndex] = pNewItem;
 		map_ItemNames[iNewIndex] = sDisplayName;
 	}
-    
+
 	Menu* AddMenu(MSTRING sDisplayName)
 	{
 		int iNewIndex = map_Items.size() + 1;
@@ -86,7 +86,7 @@ public:
 		map_ItemNames[iNewIndex] = sDisplayName;
 		return pNewMenu;
 	}
-	
+
 	int Execute()
 	{
 		std::wcout<<"\n";
@@ -141,7 +141,7 @@ int TestTokenize()
 	{
 		std::wcout<<*ite2<<"\n";
 	}
-    
+
 	std::wcout<<"\nTesting Utils::TokenizeString\n";
 	sStr = "<root>\n<errors>\t\t<error level=1 desc=\"error1\"/>\t\t<error level=2 desc=\"error2\"/>\t</errors></root>";
 	lstTokens.clear();
@@ -166,7 +166,7 @@ int TestTokenize()
 	{
 		std::wcout<<&*ite1<<"\n";
 	}
-    
+
 	// Another string
 	sStr = "$X.LeftSibling.GetValue(cc)=Y";
 	lstTokens.clear();
@@ -192,7 +192,7 @@ int TestTokenize()
 	{
 		std::wcout<<&*ite1<<"\n";
 	}
-    
+
 	return 1;
 }
 
@@ -216,6 +216,14 @@ int RunUnitTest3()
 	tests.RunTest3();
 	return 1;
 }
+
+int RunLDELtest1() {
+    Tests tests;
+    tests.RunLDELtest1();
+
+    return 1;
+}
+
 
 void CPlusPlusEntry::RunMenu()
 {
@@ -243,11 +251,11 @@ void CPlusPlusEntry::RunMenu()
 			break;
 		}
 	}
-	pMain->Destroy();	
+	pMain->Destroy();
 }
 
 void CPlusPlusEntry::RunDefault() {
-    //RunUnitTest3();
+    RunLDELtest1();
 }
 
 

@@ -55,6 +55,7 @@ public:
     MSTRING s_ELFilePath;
     MSTRING s_ELSpacesString;
     MSTRING s_ELFloat;
+    MSTRING s_ELJson;
     MSTRING s_ELFormattedFloat;
     MSTRING s_ELTimestamp;
     MSTRING s_ELVarSequenceStart;

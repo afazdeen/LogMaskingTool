@@ -19,7 +19,6 @@
 #include "ExecutionContext.h"
 #include "TestCaseExecuter.h"
 #include "Int.h"
-#include "OTPParser.h"
 #include "LogJsonParser.h"
 #include "easylogging++.h"
 #include <iostream>
@@ -28,6 +27,7 @@
 #include "rapidjson/document.h"
 #include "rapidjson/writer.h"
 #include "QueryExecuter.h"
+#include "CPlusPlusEntry.h"
 
 using namespace rapidjson;
 using json = nlohmann::json;
@@ -36,11 +36,14 @@ INITIALIZE_EASYLOGGINGPP
 
 int main(int argc, const char * argv[])
 {
+    CPlusPlusEntry cppEntry;
+    cppEntry.RunDefault();
+
     std::cout<<"Log analyzer masking started\n";
     std::string line;
     std::string jsonline;
 
-    std::ifstream jsonfile ("../../Files/resultJSON.json");
+    std::ifstream jsonfile ("../FlexibleComputerLanguage/resultJSON.json");
 
     if (jsonfile.is_open())
     {
@@ -51,24 +54,26 @@ int main(int argc, const char * argv[])
 
     Node* jsonroot = LogJsonParser::LogJSONToNodeTree(jsonline);
 
-    std::string scriptline;
-    std::ifstream scriptfile ("../../Files/maskingScript.txt");
-    std::string script="";
+     std::string scriptline;
+     std::ifstream scriptfile ("../../Files/maskingScript.txt");
+     std::string script="";
 
-    while(getline(scriptfile,scriptline))
-    {
-        script+=scriptline;
-        script+="\n";
-    }
+     while(getline(scriptfile,scriptline))
+     {
+         script+=scriptline;
+         script+="\n";
+     }
 
-    std::string res = QueryExecuter::run(jsonroot,script);
+     std::string res = QueryExecuter::run(jsonroot,script);
 
-    LogJsonParser::LogNodeTreetoJsonRecursivly(jsonroot);
+     LogJsonParser::LogNodeTreetoJsonRecursivly(jsonroot);
 
-    LogJsonParser::LogNodeTreetoLog(jsonroot);
+     LogJsonParser::LogNodeTreetoLog(jsonroot);
 
-    std::cout<<"\n\nPress Enter To Exit";
-    std::getchar();
+    std::cout<<"\n\nLog File Masked Successfully";
+
+     std::cout<<"\n\nPress Enter To Exit";
+     std::getchar();
 
 
     return 0;

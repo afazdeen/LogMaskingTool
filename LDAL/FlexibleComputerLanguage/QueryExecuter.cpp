@@ -48,6 +48,7 @@ MSTRING QueryExecuter::run(Node *root, MSTRING querycode)
     Node *nic = MemoryManager::Inst.CreateNode(++id);
     Node *email = MemoryManager::Inst.CreateNode(++id);
     Node *pRESULT = MemoryManager::Inst.CreateNode(++id);
+
     std::string s = "52";
     std::string fname = "FIRST_NAME";
     std::string lname = "LAST_NAME";
@@ -81,6 +82,7 @@ MSTRING QueryExecuter::run(Node *root, MSTRING querycode)
     postalCode->SetValue((char *)postalcode.c_str());
     integer->SetValue((char *)integer_.c_str());
     price->SetValue((char *)price_.c_str());
+    nic->SetValue((char *)nic_.c_str());
     email->SetValue((char *)email_.c_str());
 
     ec.map_Var["X"] = root;

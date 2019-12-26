@@ -2,6 +2,6 @@ $RESULT.SetCustomString(normal)
 
 $DB_CONNECTION_STRING.SetDbString(localhost_admin_admin_substitutiondb_0)
 
-{$FIRST_NAME,$EMAIL}:=LIST
+{$FIRST_NAME,$LAST_NAME,$TELEPHONE_NUMBER,$ADDRESS,$POSTAL_CODE,$INTEGER,$PRICE,$NIC}:=LIST
 
 MaskFunction({$X,$LIST})

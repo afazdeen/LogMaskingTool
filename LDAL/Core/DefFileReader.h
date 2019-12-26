@@ -9,9 +9,11 @@ class DefFileReader
 {
 public:
 	MetaData* Read(MSTRING sFile);
+    MetaData* ReadNew(MSTRING sFile);
     
 private:
 	void ProcessLine(MSTRING& sLine, MetaData* pMD);
+    void ProcessLineNew(MSTRING& sLine, MetaData* pMD);
 	void AddKeyAndValue(MetaData* pMD, MSTRING sKey, MSTRING sVal);
     void AddFuncNames(MetaData* pMD, MSTRING sKey, MSTRING sVal);
     void ModifyFilePathsIfNeeded(MetaData *md, MSTRING sDefFilePath);

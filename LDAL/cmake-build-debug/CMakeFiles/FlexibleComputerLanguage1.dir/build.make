@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\99xProjects\Masktool\LogMaskingTool\LDAL
+CMAKE_SOURCE_DIR = "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug
+CMAKE_BINARY_DIR = "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/FlexibleComputerLanguage1.dir/depend.make
@@ -59,506 +59,940 @@ include CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCaseBase.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCaseBase.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCaseBase.cpp.obj: ../Core/TestCases/TestCaseBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCaseBase.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestCaseBase.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestCaseBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCaseBase.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestCaseBase.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestCaseBase.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCaseBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCaseBase.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestCaseBase.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestCaseBase.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestCaseBase.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestCaseBase.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCaseBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCaseBase.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestCaseBase.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestCaseBase.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestCaseBase.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestCaseBase.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCaseExecuter.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCaseExecuter.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCaseExecuter.cpp.obj: ../Core/TestCases/TestCaseExecuter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCaseExecuter.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestCaseExecuter.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestCaseExecuter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCaseExecuter.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestCaseExecuter.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestCaseExecuter.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCaseExecuter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCaseExecuter.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestCaseExecuter.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestCaseExecuter.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestCaseExecuter.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestCaseExecuter.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCaseExecuter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCaseExecuter.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestCaseExecuter.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestCaseExecuter.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestCaseExecuter.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestCaseExecuter.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCompound1.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCompound1.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCompound1.cpp.obj: ../Core/TestCases/TestCompound1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCompound1.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestCompound1.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestCompound1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCompound1.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestCompound1.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestCompound1.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCompound1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCompound1.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestCompound1.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestCompound1.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestCompound1.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestCompound1.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCompound1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCompound1.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestCompound1.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestCompound1.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestCompound1.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestCompound1.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCustomStrFilterShorthand.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCustomStrFilterShorthand.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCustomStrFilterShorthand.cpp.obj: ../Core/TestCases/TestCustomStrFilterShorthand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCustomStrFilterShorthand.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestCustomStrFilterShorthand.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestCustomStrFilterShorthand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCustomStrFilterShorthand.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestCustomStrFilterShorthand.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestCustomStrFilterShorthand.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCustomStrFilterShorthand.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCustomStrFilterShorthand.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestCustomStrFilterShorthand.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestCustomStrFilterShorthand.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestCustomStrFilterShorthand.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestCustomStrFilterShorthand.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCustomStrFilterShorthand.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestCustomStrFilterShorthand.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestCustomStrFilterShorthand.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestCustomStrFilterShorthand.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestCustomStrFilterShorthand.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestCustomStrFilterShorthand.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestFilterSubtree.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestFilterSubtree.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestFilterSubtree.cpp.obj: ../Core/TestCases/TestFilterSubtree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestFilterSubtree.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestFilterSubtree.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestFilterSubtree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestFilterSubtree.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestFilterSubtree.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestFilterSubtree.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestFilterSubtree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestFilterSubtree.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestFilterSubtree.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestFilterSubtree.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestFilterSubtree.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestFilterSubtree.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestFilterSubtree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestFilterSubtree.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestFilterSubtree.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestFilterSubtree.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestFilterSubtree.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestFilterSubtree.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListFilter.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListFilter.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListFilter.cpp.obj: ../Core/TestCases/TestListFilter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListFilter.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListFilter.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListFilter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListFilter.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListFilter.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListFilter.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListFilter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListFilter.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListFilter.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListFilter.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListFilter.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListFilter.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListFilter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListFilter.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListFilter.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListFilter.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListFilter.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListFilter.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListGroupBy.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListGroupBy.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListGroupBy.cpp.obj: ../Core/TestCases/TestListGroupBy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListGroupBy.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListGroupBy.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListGroupBy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListGroupBy.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListGroupBy.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListGroupBy.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListGroupBy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListGroupBy.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListGroupBy.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListGroupBy.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListGroupBy.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListGroupBy.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListGroupBy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListGroupBy.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListGroupBy.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListGroupBy.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListGroupBy.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListGroupBy.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListInnerCount.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListInnerCount.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListInnerCount.cpp.obj: ../Core/TestCases/TestListInnerCount.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListInnerCount.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListInnerCount.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListInnerCount.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListInnerCount.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListInnerCount.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListInnerCount.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListInnerCount.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListInnerCount.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListInnerCount.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListInnerCount.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListInnerCount.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListInnerCount.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListInnerCount.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListInnerCount.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListInnerCount.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListInnerCount.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListInnerCount.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListInnerCount.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListInnerCountWithScript.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListInnerCountWithScript.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListInnerCountWithScript.cpp.obj: ../Core/TestCases/TestListInnerCountWithScript.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListInnerCountWithScript.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListInnerCountWithScript.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListInnerCountWithScript.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListInnerCountWithScript.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListInnerCountWithScript.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListInnerCountWithScript.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListInnerCountWithScript.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListInnerCountWithScript.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListInnerCountWithScript.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListInnerCountWithScript.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListInnerCountWithScript.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListInnerCountWithScript.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListInnerCountWithScript.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListInnerCountWithScript.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListInnerCountWithScript.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListInnerCountWithScript.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListInnerCountWithScript.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListInnerCountWithScript.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListSeek.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListSeek.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListSeek.cpp.obj: ../Core/TestCases/TestListSeek.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListSeek.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListSeek.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListSeek.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListSeek.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListSeek.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListSeek.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListSeek.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListSeek.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListSeek.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListSeek.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListSeek.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListSeek.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListSeek.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestListSeek.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListSeek.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListSeek.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestListSeek.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestListSeek.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestLoadFromCodeLibrary.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestLoadFromCodeLibrary.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestLoadFromCodeLibrary.cpp.obj: ../Core/TestCases/TestLoadFromCodeLibrary.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestLoadFromCodeLibrary.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestLoadFromCodeLibrary.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestLoadFromCodeLibrary.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestLoadFromCodeLibrary.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestLoadFromCodeLibrary.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestLoadFromCodeLibrary.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestLoadFromCodeLibrary.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestLoadFromCodeLibrary.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestLoadFromCodeLibrary.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestLoadFromCodeLibrary.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestLoadFromCodeLibrary.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestLoadFromCodeLibrary.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestLoadFromCodeLibrary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestLoadFromCodeLibrary.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestLoadFromCodeLibrary.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestLoadFromCodeLibrary.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestLoadFromCodeLibrary.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestLoadFromCodeLibrary.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestStringEnclosure.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestStringEnclosure.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestStringEnclosure.cpp.obj: ../Core/TestCases/TestStringEnclosure.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestStringEnclosure.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestStringEnclosure.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestStringEnclosure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestStringEnclosure.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestStringEnclosure.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestStringEnclosure.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestStringEnclosure.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestStringEnclosure.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestStringEnclosure.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestStringEnclosure.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestStringEnclosure.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestStringEnclosure.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestStringEnclosure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestStringEnclosure.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestStringEnclosure.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestStringEnclosure.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestStringEnclosure.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestStringEnclosure.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestTestCase.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestTestCase.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestTestCase.cpp.obj: ../Core/TestCases/TestTestCase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestTestCase.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestTestCase.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestTestCase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestTestCase.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestTestCase.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestTestCase.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestTestCase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestTestCase.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestTestCase.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestTestCase.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestTestCase.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestTestCase.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestTestCase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestTestCase.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestTestCase.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestTestCase.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\TestCases\TestTestCase.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\TestCases\TestTestCase.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Bool.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Bool.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Bool.cpp.obj: ../Core/Bool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/Bool.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\Bool.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\Bool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/Bool.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\Bool.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\Bool.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Bool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/Bool.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\Bool.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\Bool.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\Bool.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\Bool.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Bool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/Bool.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\Bool.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\Bool.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\Bool.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\Bool.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Command.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Command.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Command.cpp.obj: ../Core/Command.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/Command.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\Command.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\Command.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/Command.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\Command.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\Command.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Command.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/Command.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\Command.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\Command.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\Command.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\Command.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Command.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/Command.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\Command.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\Command.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\Command.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\Command.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/CPlusPlusEntry.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/CPlusPlusEntry.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/CPlusPlusEntry.cpp.obj: ../Core/CPlusPlusEntry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/CPlusPlusEntry.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\CPlusPlusEntry.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\CPlusPlusEntry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/CPlusPlusEntry.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\CPlusPlusEntry.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\CPlusPlusEntry.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/CPlusPlusEntry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/CPlusPlusEntry.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\CPlusPlusEntry.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\CPlusPlusEntry.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\CPlusPlusEntry.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\CPlusPlusEntry.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/CPlusPlusEntry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/CPlusPlusEntry.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\CPlusPlusEntry.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\CPlusPlusEntry.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\CPlusPlusEntry.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\CPlusPlusEntry.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/DefFileReader.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/DefFileReader.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/DefFileReader.cpp.obj: ../Core/DefFileReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/DefFileReader.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\DefFileReader.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\DefFileReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/DefFileReader.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\DefFileReader.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\DefFileReader.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/DefFileReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/DefFileReader.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\DefFileReader.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\DefFileReader.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\DefFileReader.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\DefFileReader.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/DefFileReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/DefFileReader.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\DefFileReader.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\DefFileReader.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\DefFileReader.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\DefFileReader.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/DateTimeOperations.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/DateTimeOperations.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/DateTimeOperations.cpp.obj: ../Core/DateTimeOperations.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/DateTimeOperations.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\DateTimeOperations.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\DateTimeOperations.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/DateTimeOperations.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\DateTimeOperations.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\DateTimeOperations.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/DateTimeOperations.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/DateTimeOperations.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\DateTimeOperations.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\DateTimeOperations.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\DateTimeOperations.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\DateTimeOperations.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/DateTimeOperations.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/DateTimeOperations.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\DateTimeOperations.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\DateTimeOperations.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\DateTimeOperations.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\DateTimeOperations.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/EntityList.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/EntityList.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/EntityList.cpp.obj: ../Core/EntityList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/EntityList.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\EntityList.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\EntityList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/EntityList.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\EntityList.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\EntityList.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/EntityList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/EntityList.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\EntityList.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\EntityList.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\EntityList.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\EntityList.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/EntityList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/EntityList.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\EntityList.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\EntityList.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\EntityList.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\EntityList.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/ExecutionTemplate.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/ExecutionTemplate.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/ExecutionTemplate.cpp.obj: ../Core/ExecutionTemplate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/ExecutionTemplate.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\ExecutionTemplate.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\ExecutionTemplate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/ExecutionTemplate.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\ExecutionTemplate.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\ExecutionTemplate.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/ExecutionTemplate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/ExecutionTemplate.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\ExecutionTemplate.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\ExecutionTemplate.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\ExecutionTemplate.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\ExecutionTemplate.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/ExecutionTemplate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/ExecutionTemplate.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\ExecutionTemplate.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\ExecutionTemplate.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\ExecutionTemplate.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\ExecutionTemplate.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/ExecutionTemplateList.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/ExecutionTemplateList.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/ExecutionTemplateList.cpp.obj: ../Core/ExecutionTemplateList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/ExecutionTemplateList.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\ExecutionTemplateList.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\ExecutionTemplateList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/ExecutionTemplateList.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\ExecutionTemplateList.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\ExecutionTemplateList.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/ExecutionTemplateList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/ExecutionTemplateList.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\ExecutionTemplateList.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\ExecutionTemplateList.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\ExecutionTemplateList.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\ExecutionTemplateList.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/ExecutionTemplateList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/ExecutionTemplateList.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\ExecutionTemplateList.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\ExecutionTemplateList.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\ExecutionTemplateList.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\ExecutionTemplateList.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/MemMan.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/MemMan.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/MemMan.cpp.obj: ../Core/MemMan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/MemMan.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\MemMan.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\MemMan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/MemMan.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\MemMan.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\MemMan.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/MemMan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/MemMan.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\MemMan.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\MemMan.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\MemMan.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\MemMan.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/MemMan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/MemMan.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\MemMan.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\MemMan.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\MemMan.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\MemMan.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Node.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Node.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Node.cpp.obj: ../Core/Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/Node.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\Node.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/Node.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\Node.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\Node.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/Node.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\Node.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\Node.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\Node.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\Node.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/Node.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\Node.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\Node.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\Node.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\Node.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/NodeCustomValueShorthand.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/NodeCustomValueShorthand.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/NodeCustomValueShorthand.cpp.obj: ../Core/NodeCustomValueShorthand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/NodeCustomValueShorthand.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\NodeCustomValueShorthand.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\NodeCustomValueShorthand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/NodeCustomValueShorthand.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\NodeCustomValueShorthand.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\NodeCustomValueShorthand.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/NodeCustomValueShorthand.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/NodeCustomValueShorthand.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\NodeCustomValueShorthand.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\NodeCustomValueShorthand.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\NodeCustomValueShorthand.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\NodeCustomValueShorthand.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/NodeCustomValueShorthand.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/NodeCustomValueShorthand.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\NodeCustomValueShorthand.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\NodeCustomValueShorthand.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\NodeCustomValueShorthand.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\NodeCustomValueShorthand.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/ScriptReader.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/ScriptReader.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/ScriptReader.cpp.obj: ../Core/ScriptReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/ScriptReader.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\ScriptReader.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\ScriptReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/ScriptReader.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\ScriptReader.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\ScriptReader.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/ScriptReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/ScriptReader.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\ScriptReader.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\ScriptReader.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\ScriptReader.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\ScriptReader.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/ScriptReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/ScriptReader.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\ScriptReader.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\ScriptReader.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\ScriptReader.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\ScriptReader.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/SpecialCommandExecuter.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/SpecialCommandExecuter.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/SpecialCommandExecuter.cpp.obj: ../Core/SpecialCommandExecuter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/SpecialCommandExecuter.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\SpecialCommandExecuter.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\SpecialCommandExecuter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/SpecialCommandExecuter.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\SpecialCommandExecuter.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\SpecialCommandExecuter.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/SpecialCommandExecuter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/SpecialCommandExecuter.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\SpecialCommandExecuter.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\SpecialCommandExecuter.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\SpecialCommandExecuter.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\SpecialCommandExecuter.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/SpecialCommandExecuter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/SpecialCommandExecuter.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\SpecialCommandExecuter.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\SpecialCommandExecuter.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\SpecialCommandExecuter.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\SpecialCommandExecuter.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/StringOperations.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/StringOperations.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/StringOperations.cpp.obj: ../Core/StringOperations.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/StringOperations.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\StringOperations.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\StringOperations.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/StringOperations.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\StringOperations.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\StringOperations.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/StringOperations.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/StringOperations.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\StringOperations.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\StringOperations.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\StringOperations.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\StringOperations.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/StringOperations.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/StringOperations.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\StringOperations.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\StringOperations.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\StringOperations.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\StringOperations.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Tests.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Tests.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Tests.cpp.obj: ../Core/Tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/Tests.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\Tests.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\Tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/Tests.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\Tests.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\Tests.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/Tests.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\Tests.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\Tests.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\Tests.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\Tests.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/Tests.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\Tests.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\Tests.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\Tests.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\Tests.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Utils.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Utils.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Utils.cpp.obj: ../Core/Utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/Utils.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\Utils.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\Utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/Utils.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\Utils.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\Utils.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/Utils.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\Utils.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\Core\Utils.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\Utils.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\Utils.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/Utils.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\Core\Utils.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\Utils.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\Utils.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\Utils.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.obj: ../Core/LDEL/ELBasicVariableParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELBasicVariableParser.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELBasicVariableParser.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELBasicVariableParser.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELBasicVariableParser.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELBasicVariableParser.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELBasicVariableParser.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockElement.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockElement.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockElement.cpp.obj: ../Core/LDEL/ELBlockElement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockElement.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELBlockElement.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELBlockElement.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockElement.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockElement.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELBlockElement.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELBlockElement.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockElement.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockElement.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELBlockElement.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELBlockElement.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplate.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplate.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplate.cpp.obj: ../Core/LDEL/ELBlockTemplate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplate.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELBlockTemplate.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELBlockTemplate.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplate.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELBlockTemplate.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELBlockTemplate.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplate.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELBlockTemplate.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELBlockTemplate.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplateParser.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplateParser.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplateParser.cpp.obj: ../Core/LDEL/ELBlockTemplateParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplateParser.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELBlockTemplateParser.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELBlockTemplateParser.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplateParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplateParser.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELBlockTemplateParser.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELBlockTemplateParser.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplateParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplateParser.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELBlockTemplateParser.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELBlockTemplateParser.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELCompositeVariableParser.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELCompositeVariableParser.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELCompositeVariableParser.cpp.obj: ../Core/LDEL/ELCompositeVariableParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELCompositeVariableParser.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELCompositeVariableParser.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELCompositeVariableParser.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELCompositeVariableParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELCompositeVariableParser.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELCompositeVariableParser.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELCompositeVariableParser.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELCompositeVariableParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELCompositeVariableParser.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELCompositeVariableParser.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELCompositeVariableParser.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELConstantString.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELConstantString.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELConstantString.cpp.obj: ../Core/LDEL/ELConstantString.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELConstantString.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELConstantString.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELConstantString.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELConstantString.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELConstantString.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELConstantString.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELConstantString.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELConstantString.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELConstantString.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELConstantString.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELConstantString.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFillerString.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFillerString.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFillerString.cpp.obj: ../Core/LDEL/ELFillerString.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFillerString.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELFillerString.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELFillerString.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFillerString.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFillerString.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELFillerString.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELFillerString.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFillerString.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFillerString.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELFillerString.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELFillerString.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFloat.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFloat.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFloat.cpp.obj: ../Core/LDEL/ELFloat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFloat.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELFloat.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELFloat.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFloat.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFloat.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELFloat.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELFloat.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFloat.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFloat.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELFloat.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELFloat.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretedElement.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretedElement.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretedElement.cpp.obj: ../Core/LDEL/ELInterpretedElement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretedElement.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELInterpretedElement.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELInterpretedElement.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretedElement.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretedElement.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELInterpretedElement.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELInterpretedElement.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretedElement.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretedElement.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELInterpretedElement.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELInterpretedElement.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.obj: ../Core/LDEL/ELInterpretter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELInterpretter.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELInterpretter.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELInterpretter.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELInterpretter.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELInterpretter.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELInterpretter.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.obj: ../Core/LDEL/ELInterpretterJSON.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELInterpretterJSON.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELInterpretterJSON.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELInterpretterJSON.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELInterpretterJSON.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELInterpretterJSON.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELInterpretterJSON.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELJSON.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELJSON.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELJSON.cpp.obj: ../Core/LDEL/ELJSON.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELJSON.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELJSON.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELJSON.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELJSON.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELJSON.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELJSON.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELJSON.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELJSON.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELJSON.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELJSON.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELJSON.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParser.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParser.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParser.cpp.obj: ../Core/LDEL/ELLineParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParser.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELLineParser.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELLineParser.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParser.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELLineParser.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELLineParser.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParser.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELLineParser.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELLineParser.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParserResult.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParserResult.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParserResult.cpp.obj: ../Core/LDEL/ELLineParserResult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParserResult.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELLineParserResult.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELLineParserResult.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParserResult.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParserResult.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELLineParserResult.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELLineParserResult.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParserResult.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParserResult.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELLineParserResult.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELLineParserResult.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplate.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplate.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplate.cpp.obj: ../Core/LDEL/ELLineTemplate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplate.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELLineTemplate.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELLineTemplate.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplate.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELLineTemplate.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELLineTemplate.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplate.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELLineTemplate.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELLineTemplate.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplateParser.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplateParser.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplateParser.cpp.obj: ../Core/LDEL/ELLineTemplateParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplateParser.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELLineTemplateParser.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELLineTemplateParser.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplateParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplateParser.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELLineTemplateParser.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELLineTemplateParser.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplateParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplateParser.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELLineTemplateParser.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELLineTemplateParser.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELListParser.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELListParser.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELListParser.cpp.obj: ../Core/LDEL/ELListParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELListParser.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELListParser.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELListParser.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELListParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELListParser.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELListParser.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELListParser.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELListParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELListParser.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELListParser.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELListParser.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapper.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapper.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapper.cpp.obj: ../Core/LDEL/ELNodeWrapper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapper.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELNodeWrapper.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELNodeWrapper.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapper.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELNodeWrapper.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELNodeWrapper.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapper.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELNodeWrapper.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELNodeWrapper.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapperJSON.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapperJSON.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapperJSON.cpp.obj: ../Core/LDEL/ELNodeWrapperJSON.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapperJSON.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELNodeWrapperJSON.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELNodeWrapperJSON.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapperJSON.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapperJSON.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELNodeWrapperJSON.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELNodeWrapperJSON.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapperJSON.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapperJSON.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELNodeWrapperJSON.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELNodeWrapperJSON.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNumber.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNumber.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNumber.cpp.obj: ../Core/LDEL/ELNumber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNumber.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELNumber.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELNumber.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNumber.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNumber.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELNumber.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELNumber.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNumber.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNumber.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELNumber.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELNumber.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.obj: ../Core/LDEL/ELParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELParser.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELParser.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELParser.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELParser.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELParser.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELParser.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParserResult.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParserResult.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParserResult.cpp.obj: ../Core/LDEL/ELParserResult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParserResult.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELParserResult.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELParserResult.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParserResult.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParserResult.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELParserResult.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELParserResult.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParserResult.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParserResult.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELParserResult.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELParserResult.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceBlockElement.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceBlockElement.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceBlockElement.cpp.obj: ../Core/LDEL/ELSequenceBlockElement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceBlockElement.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELSequenceBlockElement.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELSequenceBlockElement.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceBlockElement.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceBlockElement.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELSequenceBlockElement.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELSequenceBlockElement.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceBlockElement.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceBlockElement.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELSequenceBlockElement.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELSequenceBlockElement.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceVar.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceVar.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceVar.cpp.obj: ../Core/LDEL/ELSequenceVar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceVar.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELSequenceVar.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELSequenceVar.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceVar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceVar.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELSequenceVar.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELSequenceVar.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceVar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceVar.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELSequenceVar.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELSequenceVar.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSingularBlockElement.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSingularBlockElement.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSingularBlockElement.cpp.obj: ../Core/LDEL/ELSingularBlockElement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSingularBlockElement.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELSingularBlockElement.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELSingularBlockElement.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSingularBlockElement.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSingularBlockElement.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELSingularBlockElement.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELSingularBlockElement.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSingularBlockElement.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSingularBlockElement.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELSingularBlockElement.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELSingularBlockElement.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSpacesString.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSpacesString.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSpacesString.cpp.obj: ../Core/LDEL/ELSpacesString.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSpacesString.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELSpacesString.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELSpacesString.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSpacesString.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSpacesString.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELSpacesString.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELSpacesString.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSpacesString.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSpacesString.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELSpacesString.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELSpacesString.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELString.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELString.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELString.cpp.obj: ../Core/LDEL/ELString.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELString.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELString.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELString.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELString.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELString.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELString.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELString.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELString.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELString.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELString.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELString.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELStringLiteralParser.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELStringLiteralParser.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELStringLiteralParser.cpp.obj: ../Core/LDEL/ELStringLiteralParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELStringLiteralParser.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELStringLiteralParser.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELStringLiteralParser.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELStringLiteralParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELStringLiteralParser.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELStringLiteralParser.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELStringLiteralParser.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELStringLiteralParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELStringLiteralParser.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELStringLiteralParser.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELStringLiteralParser.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELText.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELText.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELText.cpp.obj: ../Core/LDEL/ELText.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELText.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELText.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELText.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELText.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELText.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELText.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELText.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELText.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELText.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELText.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELText.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariable.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariable.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariable.cpp.obj: ../Core/LDEL/ELVariable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariable.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELVariable.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELVariable.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariable.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELVariable.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELVariable.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariable.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELVariable.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELVariable.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariableParser.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariableParser.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariableParser.cpp.obj: ../Core/LDEL/ELVariableParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariableParser.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELVariableParser.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELVariableParser.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariableParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariableParser.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELVariableParser.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELVariableParser.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariableParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariableParser.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELVariableParser.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELVariableParser.cpp.s
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLogFileFilter.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLogFileFilter.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLogFileFilter.cpp.obj: ../Core/LDEL/ELLogFileFilter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLogFileFilter.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELLogFileFilter.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELLogFileFilter.cpp"
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLogFileFilter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLogFileFilter.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELLogFileFilter.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELLogFileFilter.cpp.i
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLogFileFilter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLogFileFilter.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\Core\LDEL\ELLogFileFilter.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\Core\LDEL\ELLogFileFilter.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../FlexibleComputerLanguage/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\main.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\main.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\main.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\main.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\main.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\main.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\main.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\main.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\main.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\main.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\main.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/ResultGenerator.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/ResultGenerator.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/ResultGenerator.cpp.obj: ../FlexibleComputerLanguage/ResultGenerator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/ResultGenerator.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\ResultGenerator.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\ResultGenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/ResultGenerator.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\ResultGenerator.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\ResultGenerator.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/ResultGenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/ResultGenerator.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\ResultGenerator.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\ResultGenerator.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\ResultGenerator.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\ResultGenerator.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/ResultGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/ResultGenerator.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\ResultGenerator.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\ResultGenerator.cpp.s
-
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/OTPParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\OTPParser.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\OTPParser.cpp
-
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\OTPParser.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\OTPParser.cpp.i
-
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\OTPParser.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\OTPParser.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\ResultGenerator.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\ResultGenerator.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/easylogging++.cc.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/easylogging++.cc.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/easylogging++.cc.obj: ../FlexibleComputerLanguage/easylogging++.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/easylogging++.cc.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\easylogging++.cc.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\easylogging++.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/easylogging++.cc.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\easylogging++.cc.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\easylogging++.cc"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/easylogging++.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/easylogging++.cc.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\easylogging++.cc > CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\easylogging++.cc.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\easylogging++.cc" > CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\easylogging++.cc.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/easylogging++.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/easylogging++.cc.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\easylogging++.cc -o CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\easylogging++.cc.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\easylogging++.cc" -o CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\easylogging++.cc.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/LogJsonParser.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/LogJsonParser.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/LogJsonParser.cpp.obj: ../FlexibleComputerLanguage/LogJsonParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/LogJsonParser.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\LogJsonParser.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\LogJsonParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/LogJsonParser.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\LogJsonParser.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\LogJsonParser.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/LogJsonParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/LogJsonParser.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\LogJsonParser.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\LogJsonParser.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\LogJsonParser.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\LogJsonParser.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/LogJsonParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/LogJsonParser.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\LogJsonParser.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\LogJsonParser.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\LogJsonParser.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\LogJsonParser.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/QueryExecuter.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/QueryExecuter.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/QueryExecuter.cpp.obj: ../FlexibleComputerLanguage/QueryExecuter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/QueryExecuter.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\QueryExecuter.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\QueryExecuter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/QueryExecuter.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\QueryExecuter.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\QueryExecuter.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/QueryExecuter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/QueryExecuter.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\QueryExecuter.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\QueryExecuter.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\QueryExecuter.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\QueryExecuter.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/QueryExecuter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/QueryExecuter.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\QueryExecuter.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\QueryExecuter.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\QueryExecuter.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\QueryExecuter.cpp.s
 
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/MysqlConnector.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/flags.make
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/MysqlConnector.cpp.obj: CMakeFiles/FlexibleComputerLanguage1.dir/includes_CXX.rsp
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/MysqlConnector.cpp.obj: ../FlexibleComputerLanguage/MysqlConnector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/MysqlConnector.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\MysqlConnector.cpp.obj -c D:\99xProjects\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\MysqlConnector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/MysqlConnector.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\MysqlConnector.cpp.obj -c "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\MysqlConnector.cpp"
 
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/MysqlConnector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/MysqlConnector.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\99xProjects\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\MysqlConnector.cpp > CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\MysqlConnector.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\MysqlConnector.cpp" > CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\MysqlConnector.cpp.i
 
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/MysqlConnector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/MysqlConnector.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\99xProjects\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\MysqlConnector.cpp -o CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\MysqlConnector.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\FlexibleComputerLanguage\MysqlConnector.cpp" -o CMakeFiles\FlexibleComputerLanguage1.dir\FlexibleComputerLanguage\MysqlConnector.cpp.s
 
 # Object files for target FlexibleComputerLanguage1
 FlexibleComputerLanguage1_OBJECTS = \
@@ -591,9 +1025,40 @@ FlexibleComputerLanguage1_OBJECTS = \
 "CMakeFiles/FlexibleComputerLanguage1.dir/Core/StringOperations.cpp.obj" \
 "CMakeFiles/FlexibleComputerLanguage1.dir/Core/Tests.cpp.obj" \
 "CMakeFiles/FlexibleComputerLanguage1.dir/Core/Utils.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockElement.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplate.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplateParser.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELCompositeVariableParser.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELConstantString.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFillerString.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFloat.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretedElement.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELJSON.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParser.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParserResult.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplate.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplateParser.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELListParser.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapper.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapperJSON.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNumber.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParserResult.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceBlockElement.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceVar.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSingularBlockElement.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSpacesString.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELString.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELStringLiteralParser.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELText.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariable.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariableParser.cpp.obj" \
+"CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLogFileFilter.cpp.obj" \
 "CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj" \
 "CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/ResultGenerator.cpp.obj" \
-"CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj" \
 "CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/easylogging++.cc.obj" \
 "CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/LogJsonParser.cpp.obj" \
 "CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/QueryExecuter.cpp.obj" \
@@ -631,9 +1096,40 @@ FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/Spe
 FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/StringOperations.cpp.obj
 FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/Tests.cpp.obj
 FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/Utils.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockElement.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplate.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplateParser.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELCompositeVariableParser.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELConstantString.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFillerString.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFloat.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretedElement.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELJSON.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParser.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParserResult.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplate.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplateParser.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELListParser.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapper.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapperJSON.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNumber.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParserResult.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceBlockElement.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceVar.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSingularBlockElement.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSpacesString.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELString.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELStringLiteralParser.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELText.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariable.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariableParser.cpp.obj
+FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLogFileFilter.cpp.obj
 FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj
 FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/ResultGenerator.cpp.obj
-FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj
 FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/easylogging++.cc.obj
 FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/LogJsonParser.cpp.obj
 FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/QueryExecuter.cpp.obj
@@ -642,7 +1138,7 @@ FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/build.ma
 FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/linklibs.rsp
 FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/objects1.rsp
 FlexibleComputerLanguage1.exe: CMakeFiles/FlexibleComputerLanguage1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Linking CXX executable FlexibleComputerLanguage1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_68) "Linking CXX executable FlexibleComputerLanguage1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FlexibleComputerLanguage1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -655,6 +1151,6 @@ CMakeFiles/FlexibleComputerLanguage1.dir/clean:
 .PHONY : CMakeFiles/FlexibleComputerLanguage1.dir/clean
 
 CMakeFiles/FlexibleComputerLanguage1.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\99xProjects\Masktool\LogMaskingTool\LDAL D:\99xProjects\Masktool\LogMaskingTool\LDAL D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles\FlexibleComputerLanguage1.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL" "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL" "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug" "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug" "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles\FlexibleComputerLanguage1.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/FlexibleComputerLanguage1.dir/depend
 

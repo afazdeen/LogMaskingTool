@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\99xProjects\Masktool\LogMaskingTool\LDAL
+CMAKE_SOURCE_DIR = "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug
+CMAKE_BINARY_DIR = "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\99xProjects\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\99xProjects\Project2 - Flat file Masking\Masktool\LogMaskingTool\LDAL\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -337,6 +337,870 @@ Core/ExecutionTemplateList.s: Core/ExecutionTemplateList.cpp.s
 Core/ExecutionTemplateList.cpp.s:
 	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/ExecutionTemplateList.cpp.s
 .PHONY : Core/ExecutionTemplateList.cpp.s
+
+Core/LDEL/ELBasicVariableParser.obj: Core/LDEL/ELBasicVariableParser.cpp.obj
+
+.PHONY : Core/LDEL/ELBasicVariableParser.obj
+
+# target to build an object file
+Core/LDEL/ELBasicVariableParser.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.obj
+.PHONY : Core/LDEL/ELBasicVariableParser.cpp.obj
+
+Core/LDEL/ELBasicVariableParser.i: Core/LDEL/ELBasicVariableParser.cpp.i
+
+.PHONY : Core/LDEL/ELBasicVariableParser.i
+
+# target to preprocess a source file
+Core/LDEL/ELBasicVariableParser.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.i
+.PHONY : Core/LDEL/ELBasicVariableParser.cpp.i
+
+Core/LDEL/ELBasicVariableParser.s: Core/LDEL/ELBasicVariableParser.cpp.s
+
+.PHONY : Core/LDEL/ELBasicVariableParser.s
+
+# target to generate assembly for a file
+Core/LDEL/ELBasicVariableParser.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.s
+.PHONY : Core/LDEL/ELBasicVariableParser.cpp.s
+
+Core/LDEL/ELBlockElement.obj: Core/LDEL/ELBlockElement.cpp.obj
+
+.PHONY : Core/LDEL/ELBlockElement.obj
+
+# target to build an object file
+Core/LDEL/ELBlockElement.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockElement.cpp.obj
+.PHONY : Core/LDEL/ELBlockElement.cpp.obj
+
+Core/LDEL/ELBlockElement.i: Core/LDEL/ELBlockElement.cpp.i
+
+.PHONY : Core/LDEL/ELBlockElement.i
+
+# target to preprocess a source file
+Core/LDEL/ELBlockElement.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockElement.cpp.i
+.PHONY : Core/LDEL/ELBlockElement.cpp.i
+
+Core/LDEL/ELBlockElement.s: Core/LDEL/ELBlockElement.cpp.s
+
+.PHONY : Core/LDEL/ELBlockElement.s
+
+# target to generate assembly for a file
+Core/LDEL/ELBlockElement.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockElement.cpp.s
+.PHONY : Core/LDEL/ELBlockElement.cpp.s
+
+Core/LDEL/ELBlockTemplate.obj: Core/LDEL/ELBlockTemplate.cpp.obj
+
+.PHONY : Core/LDEL/ELBlockTemplate.obj
+
+# target to build an object file
+Core/LDEL/ELBlockTemplate.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplate.cpp.obj
+.PHONY : Core/LDEL/ELBlockTemplate.cpp.obj
+
+Core/LDEL/ELBlockTemplate.i: Core/LDEL/ELBlockTemplate.cpp.i
+
+.PHONY : Core/LDEL/ELBlockTemplate.i
+
+# target to preprocess a source file
+Core/LDEL/ELBlockTemplate.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplate.cpp.i
+.PHONY : Core/LDEL/ELBlockTemplate.cpp.i
+
+Core/LDEL/ELBlockTemplate.s: Core/LDEL/ELBlockTemplate.cpp.s
+
+.PHONY : Core/LDEL/ELBlockTemplate.s
+
+# target to generate assembly for a file
+Core/LDEL/ELBlockTemplate.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplate.cpp.s
+.PHONY : Core/LDEL/ELBlockTemplate.cpp.s
+
+Core/LDEL/ELBlockTemplateParser.obj: Core/LDEL/ELBlockTemplateParser.cpp.obj
+
+.PHONY : Core/LDEL/ELBlockTemplateParser.obj
+
+# target to build an object file
+Core/LDEL/ELBlockTemplateParser.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplateParser.cpp.obj
+.PHONY : Core/LDEL/ELBlockTemplateParser.cpp.obj
+
+Core/LDEL/ELBlockTemplateParser.i: Core/LDEL/ELBlockTemplateParser.cpp.i
+
+.PHONY : Core/LDEL/ELBlockTemplateParser.i
+
+# target to preprocess a source file
+Core/LDEL/ELBlockTemplateParser.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplateParser.cpp.i
+.PHONY : Core/LDEL/ELBlockTemplateParser.cpp.i
+
+Core/LDEL/ELBlockTemplateParser.s: Core/LDEL/ELBlockTemplateParser.cpp.s
+
+.PHONY : Core/LDEL/ELBlockTemplateParser.s
+
+# target to generate assembly for a file
+Core/LDEL/ELBlockTemplateParser.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplateParser.cpp.s
+.PHONY : Core/LDEL/ELBlockTemplateParser.cpp.s
+
+Core/LDEL/ELCompositeVariableParser.obj: Core/LDEL/ELCompositeVariableParser.cpp.obj
+
+.PHONY : Core/LDEL/ELCompositeVariableParser.obj
+
+# target to build an object file
+Core/LDEL/ELCompositeVariableParser.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELCompositeVariableParser.cpp.obj
+.PHONY : Core/LDEL/ELCompositeVariableParser.cpp.obj
+
+Core/LDEL/ELCompositeVariableParser.i: Core/LDEL/ELCompositeVariableParser.cpp.i
+
+.PHONY : Core/LDEL/ELCompositeVariableParser.i
+
+# target to preprocess a source file
+Core/LDEL/ELCompositeVariableParser.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELCompositeVariableParser.cpp.i
+.PHONY : Core/LDEL/ELCompositeVariableParser.cpp.i
+
+Core/LDEL/ELCompositeVariableParser.s: Core/LDEL/ELCompositeVariableParser.cpp.s
+
+.PHONY : Core/LDEL/ELCompositeVariableParser.s
+
+# target to generate assembly for a file
+Core/LDEL/ELCompositeVariableParser.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELCompositeVariableParser.cpp.s
+.PHONY : Core/LDEL/ELCompositeVariableParser.cpp.s
+
+Core/LDEL/ELConstantString.obj: Core/LDEL/ELConstantString.cpp.obj
+
+.PHONY : Core/LDEL/ELConstantString.obj
+
+# target to build an object file
+Core/LDEL/ELConstantString.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELConstantString.cpp.obj
+.PHONY : Core/LDEL/ELConstantString.cpp.obj
+
+Core/LDEL/ELConstantString.i: Core/LDEL/ELConstantString.cpp.i
+
+.PHONY : Core/LDEL/ELConstantString.i
+
+# target to preprocess a source file
+Core/LDEL/ELConstantString.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELConstantString.cpp.i
+.PHONY : Core/LDEL/ELConstantString.cpp.i
+
+Core/LDEL/ELConstantString.s: Core/LDEL/ELConstantString.cpp.s
+
+.PHONY : Core/LDEL/ELConstantString.s
+
+# target to generate assembly for a file
+Core/LDEL/ELConstantString.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELConstantString.cpp.s
+.PHONY : Core/LDEL/ELConstantString.cpp.s
+
+Core/LDEL/ELFillerString.obj: Core/LDEL/ELFillerString.cpp.obj
+
+.PHONY : Core/LDEL/ELFillerString.obj
+
+# target to build an object file
+Core/LDEL/ELFillerString.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFillerString.cpp.obj
+.PHONY : Core/LDEL/ELFillerString.cpp.obj
+
+Core/LDEL/ELFillerString.i: Core/LDEL/ELFillerString.cpp.i
+
+.PHONY : Core/LDEL/ELFillerString.i
+
+# target to preprocess a source file
+Core/LDEL/ELFillerString.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFillerString.cpp.i
+.PHONY : Core/LDEL/ELFillerString.cpp.i
+
+Core/LDEL/ELFillerString.s: Core/LDEL/ELFillerString.cpp.s
+
+.PHONY : Core/LDEL/ELFillerString.s
+
+# target to generate assembly for a file
+Core/LDEL/ELFillerString.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFillerString.cpp.s
+.PHONY : Core/LDEL/ELFillerString.cpp.s
+
+Core/LDEL/ELFloat.obj: Core/LDEL/ELFloat.cpp.obj
+
+.PHONY : Core/LDEL/ELFloat.obj
+
+# target to build an object file
+Core/LDEL/ELFloat.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFloat.cpp.obj
+.PHONY : Core/LDEL/ELFloat.cpp.obj
+
+Core/LDEL/ELFloat.i: Core/LDEL/ELFloat.cpp.i
+
+.PHONY : Core/LDEL/ELFloat.i
+
+# target to preprocess a source file
+Core/LDEL/ELFloat.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFloat.cpp.i
+.PHONY : Core/LDEL/ELFloat.cpp.i
+
+Core/LDEL/ELFloat.s: Core/LDEL/ELFloat.cpp.s
+
+.PHONY : Core/LDEL/ELFloat.s
+
+# target to generate assembly for a file
+Core/LDEL/ELFloat.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFloat.cpp.s
+.PHONY : Core/LDEL/ELFloat.cpp.s
+
+Core/LDEL/ELInterpretedElement.obj: Core/LDEL/ELInterpretedElement.cpp.obj
+
+.PHONY : Core/LDEL/ELInterpretedElement.obj
+
+# target to build an object file
+Core/LDEL/ELInterpretedElement.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretedElement.cpp.obj
+.PHONY : Core/LDEL/ELInterpretedElement.cpp.obj
+
+Core/LDEL/ELInterpretedElement.i: Core/LDEL/ELInterpretedElement.cpp.i
+
+.PHONY : Core/LDEL/ELInterpretedElement.i
+
+# target to preprocess a source file
+Core/LDEL/ELInterpretedElement.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretedElement.cpp.i
+.PHONY : Core/LDEL/ELInterpretedElement.cpp.i
+
+Core/LDEL/ELInterpretedElement.s: Core/LDEL/ELInterpretedElement.cpp.s
+
+.PHONY : Core/LDEL/ELInterpretedElement.s
+
+# target to generate assembly for a file
+Core/LDEL/ELInterpretedElement.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretedElement.cpp.s
+.PHONY : Core/LDEL/ELInterpretedElement.cpp.s
+
+Core/LDEL/ELInterpretter.obj: Core/LDEL/ELInterpretter.cpp.obj
+
+.PHONY : Core/LDEL/ELInterpretter.obj
+
+# target to build an object file
+Core/LDEL/ELInterpretter.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.obj
+.PHONY : Core/LDEL/ELInterpretter.cpp.obj
+
+Core/LDEL/ELInterpretter.i: Core/LDEL/ELInterpretter.cpp.i
+
+.PHONY : Core/LDEL/ELInterpretter.i
+
+# target to preprocess a source file
+Core/LDEL/ELInterpretter.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.i
+.PHONY : Core/LDEL/ELInterpretter.cpp.i
+
+Core/LDEL/ELInterpretter.s: Core/LDEL/ELInterpretter.cpp.s
+
+.PHONY : Core/LDEL/ELInterpretter.s
+
+# target to generate assembly for a file
+Core/LDEL/ELInterpretter.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.s
+.PHONY : Core/LDEL/ELInterpretter.cpp.s
+
+Core/LDEL/ELInterpretterJSON.obj: Core/LDEL/ELInterpretterJSON.cpp.obj
+
+.PHONY : Core/LDEL/ELInterpretterJSON.obj
+
+# target to build an object file
+Core/LDEL/ELInterpretterJSON.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.obj
+.PHONY : Core/LDEL/ELInterpretterJSON.cpp.obj
+
+Core/LDEL/ELInterpretterJSON.i: Core/LDEL/ELInterpretterJSON.cpp.i
+
+.PHONY : Core/LDEL/ELInterpretterJSON.i
+
+# target to preprocess a source file
+Core/LDEL/ELInterpretterJSON.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.i
+.PHONY : Core/LDEL/ELInterpretterJSON.cpp.i
+
+Core/LDEL/ELInterpretterJSON.s: Core/LDEL/ELInterpretterJSON.cpp.s
+
+.PHONY : Core/LDEL/ELInterpretterJSON.s
+
+# target to generate assembly for a file
+Core/LDEL/ELInterpretterJSON.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.s
+.PHONY : Core/LDEL/ELInterpretterJSON.cpp.s
+
+Core/LDEL/ELJSON.obj: Core/LDEL/ELJSON.cpp.obj
+
+.PHONY : Core/LDEL/ELJSON.obj
+
+# target to build an object file
+Core/LDEL/ELJSON.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELJSON.cpp.obj
+.PHONY : Core/LDEL/ELJSON.cpp.obj
+
+Core/LDEL/ELJSON.i: Core/LDEL/ELJSON.cpp.i
+
+.PHONY : Core/LDEL/ELJSON.i
+
+# target to preprocess a source file
+Core/LDEL/ELJSON.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELJSON.cpp.i
+.PHONY : Core/LDEL/ELJSON.cpp.i
+
+Core/LDEL/ELJSON.s: Core/LDEL/ELJSON.cpp.s
+
+.PHONY : Core/LDEL/ELJSON.s
+
+# target to generate assembly for a file
+Core/LDEL/ELJSON.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELJSON.cpp.s
+.PHONY : Core/LDEL/ELJSON.cpp.s
+
+Core/LDEL/ELLineParser.obj: Core/LDEL/ELLineParser.cpp.obj
+
+.PHONY : Core/LDEL/ELLineParser.obj
+
+# target to build an object file
+Core/LDEL/ELLineParser.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParser.cpp.obj
+.PHONY : Core/LDEL/ELLineParser.cpp.obj
+
+Core/LDEL/ELLineParser.i: Core/LDEL/ELLineParser.cpp.i
+
+.PHONY : Core/LDEL/ELLineParser.i
+
+# target to preprocess a source file
+Core/LDEL/ELLineParser.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParser.cpp.i
+.PHONY : Core/LDEL/ELLineParser.cpp.i
+
+Core/LDEL/ELLineParser.s: Core/LDEL/ELLineParser.cpp.s
+
+.PHONY : Core/LDEL/ELLineParser.s
+
+# target to generate assembly for a file
+Core/LDEL/ELLineParser.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParser.cpp.s
+.PHONY : Core/LDEL/ELLineParser.cpp.s
+
+Core/LDEL/ELLineParserResult.obj: Core/LDEL/ELLineParserResult.cpp.obj
+
+.PHONY : Core/LDEL/ELLineParserResult.obj
+
+# target to build an object file
+Core/LDEL/ELLineParserResult.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParserResult.cpp.obj
+.PHONY : Core/LDEL/ELLineParserResult.cpp.obj
+
+Core/LDEL/ELLineParserResult.i: Core/LDEL/ELLineParserResult.cpp.i
+
+.PHONY : Core/LDEL/ELLineParserResult.i
+
+# target to preprocess a source file
+Core/LDEL/ELLineParserResult.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParserResult.cpp.i
+.PHONY : Core/LDEL/ELLineParserResult.cpp.i
+
+Core/LDEL/ELLineParserResult.s: Core/LDEL/ELLineParserResult.cpp.s
+
+.PHONY : Core/LDEL/ELLineParserResult.s
+
+# target to generate assembly for a file
+Core/LDEL/ELLineParserResult.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParserResult.cpp.s
+.PHONY : Core/LDEL/ELLineParserResult.cpp.s
+
+Core/LDEL/ELLineTemplate.obj: Core/LDEL/ELLineTemplate.cpp.obj
+
+.PHONY : Core/LDEL/ELLineTemplate.obj
+
+# target to build an object file
+Core/LDEL/ELLineTemplate.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplate.cpp.obj
+.PHONY : Core/LDEL/ELLineTemplate.cpp.obj
+
+Core/LDEL/ELLineTemplate.i: Core/LDEL/ELLineTemplate.cpp.i
+
+.PHONY : Core/LDEL/ELLineTemplate.i
+
+# target to preprocess a source file
+Core/LDEL/ELLineTemplate.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplate.cpp.i
+.PHONY : Core/LDEL/ELLineTemplate.cpp.i
+
+Core/LDEL/ELLineTemplate.s: Core/LDEL/ELLineTemplate.cpp.s
+
+.PHONY : Core/LDEL/ELLineTemplate.s
+
+# target to generate assembly for a file
+Core/LDEL/ELLineTemplate.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplate.cpp.s
+.PHONY : Core/LDEL/ELLineTemplate.cpp.s
+
+Core/LDEL/ELLineTemplateParser.obj: Core/LDEL/ELLineTemplateParser.cpp.obj
+
+.PHONY : Core/LDEL/ELLineTemplateParser.obj
+
+# target to build an object file
+Core/LDEL/ELLineTemplateParser.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplateParser.cpp.obj
+.PHONY : Core/LDEL/ELLineTemplateParser.cpp.obj
+
+Core/LDEL/ELLineTemplateParser.i: Core/LDEL/ELLineTemplateParser.cpp.i
+
+.PHONY : Core/LDEL/ELLineTemplateParser.i
+
+# target to preprocess a source file
+Core/LDEL/ELLineTemplateParser.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplateParser.cpp.i
+.PHONY : Core/LDEL/ELLineTemplateParser.cpp.i
+
+Core/LDEL/ELLineTemplateParser.s: Core/LDEL/ELLineTemplateParser.cpp.s
+
+.PHONY : Core/LDEL/ELLineTemplateParser.s
+
+# target to generate assembly for a file
+Core/LDEL/ELLineTemplateParser.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplateParser.cpp.s
+.PHONY : Core/LDEL/ELLineTemplateParser.cpp.s
+
+Core/LDEL/ELListParser.obj: Core/LDEL/ELListParser.cpp.obj
+
+.PHONY : Core/LDEL/ELListParser.obj
+
+# target to build an object file
+Core/LDEL/ELListParser.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELListParser.cpp.obj
+.PHONY : Core/LDEL/ELListParser.cpp.obj
+
+Core/LDEL/ELListParser.i: Core/LDEL/ELListParser.cpp.i
+
+.PHONY : Core/LDEL/ELListParser.i
+
+# target to preprocess a source file
+Core/LDEL/ELListParser.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELListParser.cpp.i
+.PHONY : Core/LDEL/ELListParser.cpp.i
+
+Core/LDEL/ELListParser.s: Core/LDEL/ELListParser.cpp.s
+
+.PHONY : Core/LDEL/ELListParser.s
+
+# target to generate assembly for a file
+Core/LDEL/ELListParser.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELListParser.cpp.s
+.PHONY : Core/LDEL/ELListParser.cpp.s
+
+Core/LDEL/ELLogFileFilter.obj: Core/LDEL/ELLogFileFilter.cpp.obj
+
+.PHONY : Core/LDEL/ELLogFileFilter.obj
+
+# target to build an object file
+Core/LDEL/ELLogFileFilter.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLogFileFilter.cpp.obj
+.PHONY : Core/LDEL/ELLogFileFilter.cpp.obj
+
+Core/LDEL/ELLogFileFilter.i: Core/LDEL/ELLogFileFilter.cpp.i
+
+.PHONY : Core/LDEL/ELLogFileFilter.i
+
+# target to preprocess a source file
+Core/LDEL/ELLogFileFilter.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLogFileFilter.cpp.i
+.PHONY : Core/LDEL/ELLogFileFilter.cpp.i
+
+Core/LDEL/ELLogFileFilter.s: Core/LDEL/ELLogFileFilter.cpp.s
+
+.PHONY : Core/LDEL/ELLogFileFilter.s
+
+# target to generate assembly for a file
+Core/LDEL/ELLogFileFilter.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLogFileFilter.cpp.s
+.PHONY : Core/LDEL/ELLogFileFilter.cpp.s
+
+Core/LDEL/ELNodeWrapper.obj: Core/LDEL/ELNodeWrapper.cpp.obj
+
+.PHONY : Core/LDEL/ELNodeWrapper.obj
+
+# target to build an object file
+Core/LDEL/ELNodeWrapper.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapper.cpp.obj
+.PHONY : Core/LDEL/ELNodeWrapper.cpp.obj
+
+Core/LDEL/ELNodeWrapper.i: Core/LDEL/ELNodeWrapper.cpp.i
+
+.PHONY : Core/LDEL/ELNodeWrapper.i
+
+# target to preprocess a source file
+Core/LDEL/ELNodeWrapper.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapper.cpp.i
+.PHONY : Core/LDEL/ELNodeWrapper.cpp.i
+
+Core/LDEL/ELNodeWrapper.s: Core/LDEL/ELNodeWrapper.cpp.s
+
+.PHONY : Core/LDEL/ELNodeWrapper.s
+
+# target to generate assembly for a file
+Core/LDEL/ELNodeWrapper.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapper.cpp.s
+.PHONY : Core/LDEL/ELNodeWrapper.cpp.s
+
+Core/LDEL/ELNodeWrapperJSON.obj: Core/LDEL/ELNodeWrapperJSON.cpp.obj
+
+.PHONY : Core/LDEL/ELNodeWrapperJSON.obj
+
+# target to build an object file
+Core/LDEL/ELNodeWrapperJSON.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapperJSON.cpp.obj
+.PHONY : Core/LDEL/ELNodeWrapperJSON.cpp.obj
+
+Core/LDEL/ELNodeWrapperJSON.i: Core/LDEL/ELNodeWrapperJSON.cpp.i
+
+.PHONY : Core/LDEL/ELNodeWrapperJSON.i
+
+# target to preprocess a source file
+Core/LDEL/ELNodeWrapperJSON.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapperJSON.cpp.i
+.PHONY : Core/LDEL/ELNodeWrapperJSON.cpp.i
+
+Core/LDEL/ELNodeWrapperJSON.s: Core/LDEL/ELNodeWrapperJSON.cpp.s
+
+.PHONY : Core/LDEL/ELNodeWrapperJSON.s
+
+# target to generate assembly for a file
+Core/LDEL/ELNodeWrapperJSON.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapperJSON.cpp.s
+.PHONY : Core/LDEL/ELNodeWrapperJSON.cpp.s
+
+Core/LDEL/ELNumber.obj: Core/LDEL/ELNumber.cpp.obj
+
+.PHONY : Core/LDEL/ELNumber.obj
+
+# target to build an object file
+Core/LDEL/ELNumber.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNumber.cpp.obj
+.PHONY : Core/LDEL/ELNumber.cpp.obj
+
+Core/LDEL/ELNumber.i: Core/LDEL/ELNumber.cpp.i
+
+.PHONY : Core/LDEL/ELNumber.i
+
+# target to preprocess a source file
+Core/LDEL/ELNumber.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNumber.cpp.i
+.PHONY : Core/LDEL/ELNumber.cpp.i
+
+Core/LDEL/ELNumber.s: Core/LDEL/ELNumber.cpp.s
+
+.PHONY : Core/LDEL/ELNumber.s
+
+# target to generate assembly for a file
+Core/LDEL/ELNumber.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNumber.cpp.s
+.PHONY : Core/LDEL/ELNumber.cpp.s
+
+Core/LDEL/ELParser.obj: Core/LDEL/ELParser.cpp.obj
+
+.PHONY : Core/LDEL/ELParser.obj
+
+# target to build an object file
+Core/LDEL/ELParser.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.obj
+.PHONY : Core/LDEL/ELParser.cpp.obj
+
+Core/LDEL/ELParser.i: Core/LDEL/ELParser.cpp.i
+
+.PHONY : Core/LDEL/ELParser.i
+
+# target to preprocess a source file
+Core/LDEL/ELParser.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.i
+.PHONY : Core/LDEL/ELParser.cpp.i
+
+Core/LDEL/ELParser.s: Core/LDEL/ELParser.cpp.s
+
+.PHONY : Core/LDEL/ELParser.s
+
+# target to generate assembly for a file
+Core/LDEL/ELParser.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.s
+.PHONY : Core/LDEL/ELParser.cpp.s
+
+Core/LDEL/ELParserResult.obj: Core/LDEL/ELParserResult.cpp.obj
+
+.PHONY : Core/LDEL/ELParserResult.obj
+
+# target to build an object file
+Core/LDEL/ELParserResult.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParserResult.cpp.obj
+.PHONY : Core/LDEL/ELParserResult.cpp.obj
+
+Core/LDEL/ELParserResult.i: Core/LDEL/ELParserResult.cpp.i
+
+.PHONY : Core/LDEL/ELParserResult.i
+
+# target to preprocess a source file
+Core/LDEL/ELParserResult.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParserResult.cpp.i
+.PHONY : Core/LDEL/ELParserResult.cpp.i
+
+Core/LDEL/ELParserResult.s: Core/LDEL/ELParserResult.cpp.s
+
+.PHONY : Core/LDEL/ELParserResult.s
+
+# target to generate assembly for a file
+Core/LDEL/ELParserResult.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParserResult.cpp.s
+.PHONY : Core/LDEL/ELParserResult.cpp.s
+
+Core/LDEL/ELSequenceBlockElement.obj: Core/LDEL/ELSequenceBlockElement.cpp.obj
+
+.PHONY : Core/LDEL/ELSequenceBlockElement.obj
+
+# target to build an object file
+Core/LDEL/ELSequenceBlockElement.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceBlockElement.cpp.obj
+.PHONY : Core/LDEL/ELSequenceBlockElement.cpp.obj
+
+Core/LDEL/ELSequenceBlockElement.i: Core/LDEL/ELSequenceBlockElement.cpp.i
+
+.PHONY : Core/LDEL/ELSequenceBlockElement.i
+
+# target to preprocess a source file
+Core/LDEL/ELSequenceBlockElement.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceBlockElement.cpp.i
+.PHONY : Core/LDEL/ELSequenceBlockElement.cpp.i
+
+Core/LDEL/ELSequenceBlockElement.s: Core/LDEL/ELSequenceBlockElement.cpp.s
+
+.PHONY : Core/LDEL/ELSequenceBlockElement.s
+
+# target to generate assembly for a file
+Core/LDEL/ELSequenceBlockElement.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceBlockElement.cpp.s
+.PHONY : Core/LDEL/ELSequenceBlockElement.cpp.s
+
+Core/LDEL/ELSequenceVar.obj: Core/LDEL/ELSequenceVar.cpp.obj
+
+.PHONY : Core/LDEL/ELSequenceVar.obj
+
+# target to build an object file
+Core/LDEL/ELSequenceVar.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceVar.cpp.obj
+.PHONY : Core/LDEL/ELSequenceVar.cpp.obj
+
+Core/LDEL/ELSequenceVar.i: Core/LDEL/ELSequenceVar.cpp.i
+
+.PHONY : Core/LDEL/ELSequenceVar.i
+
+# target to preprocess a source file
+Core/LDEL/ELSequenceVar.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceVar.cpp.i
+.PHONY : Core/LDEL/ELSequenceVar.cpp.i
+
+Core/LDEL/ELSequenceVar.s: Core/LDEL/ELSequenceVar.cpp.s
+
+.PHONY : Core/LDEL/ELSequenceVar.s
+
+# target to generate assembly for a file
+Core/LDEL/ELSequenceVar.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceVar.cpp.s
+.PHONY : Core/LDEL/ELSequenceVar.cpp.s
+
+Core/LDEL/ELSingularBlockElement.obj: Core/LDEL/ELSingularBlockElement.cpp.obj
+
+.PHONY : Core/LDEL/ELSingularBlockElement.obj
+
+# target to build an object file
+Core/LDEL/ELSingularBlockElement.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSingularBlockElement.cpp.obj
+.PHONY : Core/LDEL/ELSingularBlockElement.cpp.obj
+
+Core/LDEL/ELSingularBlockElement.i: Core/LDEL/ELSingularBlockElement.cpp.i
+
+.PHONY : Core/LDEL/ELSingularBlockElement.i
+
+# target to preprocess a source file
+Core/LDEL/ELSingularBlockElement.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSingularBlockElement.cpp.i
+.PHONY : Core/LDEL/ELSingularBlockElement.cpp.i
+
+Core/LDEL/ELSingularBlockElement.s: Core/LDEL/ELSingularBlockElement.cpp.s
+
+.PHONY : Core/LDEL/ELSingularBlockElement.s
+
+# target to generate assembly for a file
+Core/LDEL/ELSingularBlockElement.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSingularBlockElement.cpp.s
+.PHONY : Core/LDEL/ELSingularBlockElement.cpp.s
+
+Core/LDEL/ELSpacesString.obj: Core/LDEL/ELSpacesString.cpp.obj
+
+.PHONY : Core/LDEL/ELSpacesString.obj
+
+# target to build an object file
+Core/LDEL/ELSpacesString.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSpacesString.cpp.obj
+.PHONY : Core/LDEL/ELSpacesString.cpp.obj
+
+Core/LDEL/ELSpacesString.i: Core/LDEL/ELSpacesString.cpp.i
+
+.PHONY : Core/LDEL/ELSpacesString.i
+
+# target to preprocess a source file
+Core/LDEL/ELSpacesString.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSpacesString.cpp.i
+.PHONY : Core/LDEL/ELSpacesString.cpp.i
+
+Core/LDEL/ELSpacesString.s: Core/LDEL/ELSpacesString.cpp.s
+
+.PHONY : Core/LDEL/ELSpacesString.s
+
+# target to generate assembly for a file
+Core/LDEL/ELSpacesString.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSpacesString.cpp.s
+.PHONY : Core/LDEL/ELSpacesString.cpp.s
+
+Core/LDEL/ELString.obj: Core/LDEL/ELString.cpp.obj
+
+.PHONY : Core/LDEL/ELString.obj
+
+# target to build an object file
+Core/LDEL/ELString.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELString.cpp.obj
+.PHONY : Core/LDEL/ELString.cpp.obj
+
+Core/LDEL/ELString.i: Core/LDEL/ELString.cpp.i
+
+.PHONY : Core/LDEL/ELString.i
+
+# target to preprocess a source file
+Core/LDEL/ELString.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELString.cpp.i
+.PHONY : Core/LDEL/ELString.cpp.i
+
+Core/LDEL/ELString.s: Core/LDEL/ELString.cpp.s
+
+.PHONY : Core/LDEL/ELString.s
+
+# target to generate assembly for a file
+Core/LDEL/ELString.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELString.cpp.s
+.PHONY : Core/LDEL/ELString.cpp.s
+
+Core/LDEL/ELStringLiteralParser.obj: Core/LDEL/ELStringLiteralParser.cpp.obj
+
+.PHONY : Core/LDEL/ELStringLiteralParser.obj
+
+# target to build an object file
+Core/LDEL/ELStringLiteralParser.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELStringLiteralParser.cpp.obj
+.PHONY : Core/LDEL/ELStringLiteralParser.cpp.obj
+
+Core/LDEL/ELStringLiteralParser.i: Core/LDEL/ELStringLiteralParser.cpp.i
+
+.PHONY : Core/LDEL/ELStringLiteralParser.i
+
+# target to preprocess a source file
+Core/LDEL/ELStringLiteralParser.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELStringLiteralParser.cpp.i
+.PHONY : Core/LDEL/ELStringLiteralParser.cpp.i
+
+Core/LDEL/ELStringLiteralParser.s: Core/LDEL/ELStringLiteralParser.cpp.s
+
+.PHONY : Core/LDEL/ELStringLiteralParser.s
+
+# target to generate assembly for a file
+Core/LDEL/ELStringLiteralParser.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELStringLiteralParser.cpp.s
+.PHONY : Core/LDEL/ELStringLiteralParser.cpp.s
+
+Core/LDEL/ELText.obj: Core/LDEL/ELText.cpp.obj
+
+.PHONY : Core/LDEL/ELText.obj
+
+# target to build an object file
+Core/LDEL/ELText.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELText.cpp.obj
+.PHONY : Core/LDEL/ELText.cpp.obj
+
+Core/LDEL/ELText.i: Core/LDEL/ELText.cpp.i
+
+.PHONY : Core/LDEL/ELText.i
+
+# target to preprocess a source file
+Core/LDEL/ELText.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELText.cpp.i
+.PHONY : Core/LDEL/ELText.cpp.i
+
+Core/LDEL/ELText.s: Core/LDEL/ELText.cpp.s
+
+.PHONY : Core/LDEL/ELText.s
+
+# target to generate assembly for a file
+Core/LDEL/ELText.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELText.cpp.s
+.PHONY : Core/LDEL/ELText.cpp.s
+
+Core/LDEL/ELVariable.obj: Core/LDEL/ELVariable.cpp.obj
+
+.PHONY : Core/LDEL/ELVariable.obj
+
+# target to build an object file
+Core/LDEL/ELVariable.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariable.cpp.obj
+.PHONY : Core/LDEL/ELVariable.cpp.obj
+
+Core/LDEL/ELVariable.i: Core/LDEL/ELVariable.cpp.i
+
+.PHONY : Core/LDEL/ELVariable.i
+
+# target to preprocess a source file
+Core/LDEL/ELVariable.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariable.cpp.i
+.PHONY : Core/LDEL/ELVariable.cpp.i
+
+Core/LDEL/ELVariable.s: Core/LDEL/ELVariable.cpp.s
+
+.PHONY : Core/LDEL/ELVariable.s
+
+# target to generate assembly for a file
+Core/LDEL/ELVariable.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariable.cpp.s
+.PHONY : Core/LDEL/ELVariable.cpp.s
+
+Core/LDEL/ELVariableParser.obj: Core/LDEL/ELVariableParser.cpp.obj
+
+.PHONY : Core/LDEL/ELVariableParser.obj
+
+# target to build an object file
+Core/LDEL/ELVariableParser.cpp.obj:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariableParser.cpp.obj
+.PHONY : Core/LDEL/ELVariableParser.cpp.obj
+
+Core/LDEL/ELVariableParser.i: Core/LDEL/ELVariableParser.cpp.i
+
+.PHONY : Core/LDEL/ELVariableParser.i
+
+# target to preprocess a source file
+Core/LDEL/ELVariableParser.cpp.i:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariableParser.cpp.i
+.PHONY : Core/LDEL/ELVariableParser.cpp.i
+
+Core/LDEL/ELVariableParser.s: Core/LDEL/ELVariableParser.cpp.s
+
+.PHONY : Core/LDEL/ELVariableParser.s
+
+# target to generate assembly for a file
+Core/LDEL/ELVariableParser.cpp.s:
+	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariableParser.cpp.s
+.PHONY : Core/LDEL/ELVariableParser.cpp.s
 
 Core/MemMan.obj: Core/MemMan.cpp.obj
 
@@ -959,33 +1823,6 @@ FlexibleComputerLanguage/MysqlConnector.cpp.s:
 	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/MysqlConnector.cpp.s
 .PHONY : FlexibleComputerLanguage/MysqlConnector.cpp.s
 
-FlexibleComputerLanguage/OTPParser.obj: FlexibleComputerLanguage/OTPParser.cpp.obj
-
-.PHONY : FlexibleComputerLanguage/OTPParser.obj
-
-# target to build an object file
-FlexibleComputerLanguage/OTPParser.cpp.obj:
-	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj
-.PHONY : FlexibleComputerLanguage/OTPParser.cpp.obj
-
-FlexibleComputerLanguage/OTPParser.i: FlexibleComputerLanguage/OTPParser.cpp.i
-
-.PHONY : FlexibleComputerLanguage/OTPParser.i
-
-# target to preprocess a source file
-FlexibleComputerLanguage/OTPParser.cpp.i:
-	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.i
-.PHONY : FlexibleComputerLanguage/OTPParser.cpp.i
-
-FlexibleComputerLanguage/OTPParser.s: FlexibleComputerLanguage/OTPParser.cpp.s
-
-.PHONY : FlexibleComputerLanguage/OTPParser.s
-
-# target to generate assembly for a file
-FlexibleComputerLanguage/OTPParser.cpp.s:
-	$(MAKE) -f CMakeFiles\FlexibleComputerLanguage1.dir\build.make CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.s
-.PHONY : FlexibleComputerLanguage/OTPParser.cpp.s
-
 FlexibleComputerLanguage/QueryExecuter.obj: FlexibleComputerLanguage/QueryExecuter.cpp.obj
 
 .PHONY : FlexibleComputerLanguage/QueryExecuter.obj
@@ -1127,6 +1964,102 @@ help:
 	@echo ... Core/ExecutionTemplateList.obj
 	@echo ... Core/ExecutionTemplateList.i
 	@echo ... Core/ExecutionTemplateList.s
+	@echo ... Core/LDEL/ELBasicVariableParser.obj
+	@echo ... Core/LDEL/ELBasicVariableParser.i
+	@echo ... Core/LDEL/ELBasicVariableParser.s
+	@echo ... Core/LDEL/ELBlockElement.obj
+	@echo ... Core/LDEL/ELBlockElement.i
+	@echo ... Core/LDEL/ELBlockElement.s
+	@echo ... Core/LDEL/ELBlockTemplate.obj
+	@echo ... Core/LDEL/ELBlockTemplate.i
+	@echo ... Core/LDEL/ELBlockTemplate.s
+	@echo ... Core/LDEL/ELBlockTemplateParser.obj
+	@echo ... Core/LDEL/ELBlockTemplateParser.i
+	@echo ... Core/LDEL/ELBlockTemplateParser.s
+	@echo ... Core/LDEL/ELCompositeVariableParser.obj
+	@echo ... Core/LDEL/ELCompositeVariableParser.i
+	@echo ... Core/LDEL/ELCompositeVariableParser.s
+	@echo ... Core/LDEL/ELConstantString.obj
+	@echo ... Core/LDEL/ELConstantString.i
+	@echo ... Core/LDEL/ELConstantString.s
+	@echo ... Core/LDEL/ELFillerString.obj
+	@echo ... Core/LDEL/ELFillerString.i
+	@echo ... Core/LDEL/ELFillerString.s
+	@echo ... Core/LDEL/ELFloat.obj
+	@echo ... Core/LDEL/ELFloat.i
+	@echo ... Core/LDEL/ELFloat.s
+	@echo ... Core/LDEL/ELInterpretedElement.obj
+	@echo ... Core/LDEL/ELInterpretedElement.i
+	@echo ... Core/LDEL/ELInterpretedElement.s
+	@echo ... Core/LDEL/ELInterpretter.obj
+	@echo ... Core/LDEL/ELInterpretter.i
+	@echo ... Core/LDEL/ELInterpretter.s
+	@echo ... Core/LDEL/ELInterpretterJSON.obj
+	@echo ... Core/LDEL/ELInterpretterJSON.i
+	@echo ... Core/LDEL/ELInterpretterJSON.s
+	@echo ... Core/LDEL/ELJSON.obj
+	@echo ... Core/LDEL/ELJSON.i
+	@echo ... Core/LDEL/ELJSON.s
+	@echo ... Core/LDEL/ELLineParser.obj
+	@echo ... Core/LDEL/ELLineParser.i
+	@echo ... Core/LDEL/ELLineParser.s
+	@echo ... Core/LDEL/ELLineParserResult.obj
+	@echo ... Core/LDEL/ELLineParserResult.i
+	@echo ... Core/LDEL/ELLineParserResult.s
+	@echo ... Core/LDEL/ELLineTemplate.obj
+	@echo ... Core/LDEL/ELLineTemplate.i
+	@echo ... Core/LDEL/ELLineTemplate.s
+	@echo ... Core/LDEL/ELLineTemplateParser.obj
+	@echo ... Core/LDEL/ELLineTemplateParser.i
+	@echo ... Core/LDEL/ELLineTemplateParser.s
+	@echo ... Core/LDEL/ELListParser.obj
+	@echo ... Core/LDEL/ELListParser.i
+	@echo ... Core/LDEL/ELListParser.s
+	@echo ... Core/LDEL/ELLogFileFilter.obj
+	@echo ... Core/LDEL/ELLogFileFilter.i
+	@echo ... Core/LDEL/ELLogFileFilter.s
+	@echo ... Core/LDEL/ELNodeWrapper.obj
+	@echo ... Core/LDEL/ELNodeWrapper.i
+	@echo ... Core/LDEL/ELNodeWrapper.s
+	@echo ... Core/LDEL/ELNodeWrapperJSON.obj
+	@echo ... Core/LDEL/ELNodeWrapperJSON.i
+	@echo ... Core/LDEL/ELNodeWrapperJSON.s
+	@echo ... Core/LDEL/ELNumber.obj
+	@echo ... Core/LDEL/ELNumber.i
+	@echo ... Core/LDEL/ELNumber.s
+	@echo ... Core/LDEL/ELParser.obj
+	@echo ... Core/LDEL/ELParser.i
+	@echo ... Core/LDEL/ELParser.s
+	@echo ... Core/LDEL/ELParserResult.obj
+	@echo ... Core/LDEL/ELParserResult.i
+	@echo ... Core/LDEL/ELParserResult.s
+	@echo ... Core/LDEL/ELSequenceBlockElement.obj
+	@echo ... Core/LDEL/ELSequenceBlockElement.i
+	@echo ... Core/LDEL/ELSequenceBlockElement.s
+	@echo ... Core/LDEL/ELSequenceVar.obj
+	@echo ... Core/LDEL/ELSequenceVar.i
+	@echo ... Core/LDEL/ELSequenceVar.s
+	@echo ... Core/LDEL/ELSingularBlockElement.obj
+	@echo ... Core/LDEL/ELSingularBlockElement.i
+	@echo ... Core/LDEL/ELSingularBlockElement.s
+	@echo ... Core/LDEL/ELSpacesString.obj
+	@echo ... Core/LDEL/ELSpacesString.i
+	@echo ... Core/LDEL/ELSpacesString.s
+	@echo ... Core/LDEL/ELString.obj
+	@echo ... Core/LDEL/ELString.i
+	@echo ... Core/LDEL/ELString.s
+	@echo ... Core/LDEL/ELStringLiteralParser.obj
+	@echo ... Core/LDEL/ELStringLiteralParser.i
+	@echo ... Core/LDEL/ELStringLiteralParser.s
+	@echo ... Core/LDEL/ELText.obj
+	@echo ... Core/LDEL/ELText.i
+	@echo ... Core/LDEL/ELText.s
+	@echo ... Core/LDEL/ELVariable.obj
+	@echo ... Core/LDEL/ELVariable.i
+	@echo ... Core/LDEL/ELVariable.s
+	@echo ... Core/LDEL/ELVariableParser.obj
+	@echo ... Core/LDEL/ELVariableParser.i
+	@echo ... Core/LDEL/ELVariableParser.s
 	@echo ... Core/MemMan.obj
 	@echo ... Core/MemMan.i
 	@echo ... Core/MemMan.s
@@ -1196,9 +2129,6 @@ help:
 	@echo ... FlexibleComputerLanguage/MysqlConnector.obj
 	@echo ... FlexibleComputerLanguage/MysqlConnector.i
 	@echo ... FlexibleComputerLanguage/MysqlConnector.s
-	@echo ... FlexibleComputerLanguage/OTPParser.obj
-	@echo ... FlexibleComputerLanguage/OTPParser.i
-	@echo ... FlexibleComputerLanguage/OTPParser.s
 	@echo ... FlexibleComputerLanguage/QueryExecuter.obj
 	@echo ... FlexibleComputerLanguage/QueryExecuter.i
 	@echo ... FlexibleComputerLanguage/QueryExecuter.s

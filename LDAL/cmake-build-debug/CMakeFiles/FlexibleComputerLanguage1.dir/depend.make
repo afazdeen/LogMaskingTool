@@ -114,6 +114,332 @@ CMakeFiles/FlexibleComputerLanguage1.dir/Core/ExecutionTemplateList.cpp.obj: ../
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/ExecutionTemplateList.cpp.obj: ../Core/Utils.h
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/ExecutionTemplateList.cpp.obj: ../Core/Value.h
 
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.obj: ../Core/MemMan.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.obj: ../Core/MetaData.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.obj: ../Core/LDEL/ELBasicVariableParser.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.obj: ../Core/LDEL/ELBasicVariableParser.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.obj: ../Core/LDEL/ELFillerString.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.obj: ../Core/LDEL/ELFloat.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.obj: ../Core/LDEL/ELJSON.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.obj: ../Core/LDEL/ELNumber.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.obj: ../Core/LDEL/ELSpacesString.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.obj: ../Core/LDEL/ELString.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.obj: ../Core/LDEL/ELText.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBasicVariableParser.cpp.obj: ../Core/LDEL/ELVariable.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockElement.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockElement.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockElement.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockElement.cpp.obj: ../Core/LDEL/ELBlockElement.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockElement.cpp.obj: ../Core/LDEL/ELBlockElement.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplate.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplate.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplate.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplate.cpp.obj: ../Core/LDEL/ELBlockElement.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplate.cpp.obj: ../Core/LDEL/ELBlockTemplate.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplate.cpp.obj: ../Core/LDEL/ELBlockTemplate.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplateParser.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplateParser.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplateParser.cpp.obj: ../Core/MemMan.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplateParser.cpp.obj: ../Core/MetaData.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplateParser.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplateParser.cpp.obj: ../Core/Utils.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplateParser.cpp.obj: ../Core/LDEL/ELBlockElement.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplateParser.cpp.obj: ../Core/LDEL/ELBlockTemplate.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplateParser.cpp.obj: ../Core/LDEL/ELBlockTemplateParser.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplateParser.cpp.obj: ../Core/LDEL/ELBlockTemplateParser.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplateParser.cpp.obj: ../Core/LDEL/ELLineTemplate.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplateParser.cpp.obj: ../Core/LDEL/ELSequenceBlockElement.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELBlockTemplateParser.cpp.obj: ../Core/LDEL/ELSingularBlockElement.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELCompositeVariableParser.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELCompositeVariableParser.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELCompositeVariableParser.cpp.obj: ../Core/MemMan.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELCompositeVariableParser.cpp.obj: ../Core/MetaData.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELCompositeVariableParser.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELCompositeVariableParser.cpp.obj: ../Core/LDEL/ELBasicVariableParser.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELCompositeVariableParser.cpp.obj: ../Core/LDEL/ELCompositeVariableParser.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELCompositeVariableParser.cpp.obj: ../Core/LDEL/ELCompositeVariableParser.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELCompositeVariableParser.cpp.obj: ../Core/LDEL/ELConstantString.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELCompositeVariableParser.cpp.obj: ../Core/LDEL/ELListParser.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELCompositeVariableParser.cpp.obj: ../Core/LDEL/ELSequenceVar.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELCompositeVariableParser.cpp.obj: ../Core/LDEL/ELVariable.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELConstantString.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELConstantString.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELConstantString.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELConstantString.cpp.obj: ../Core/LDEL/ELConstantString.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELConstantString.cpp.obj: ../Core/LDEL/ELConstantString.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELConstantString.cpp.obj: ../Core/LDEL/ELVariable.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFillerString.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFillerString.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFillerString.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFillerString.cpp.obj: ../Core/LDEL/ELFillerString.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFillerString.cpp.obj: ../Core/LDEL/ELFillerString.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFillerString.cpp.obj: ../Core/LDEL/ELVariable.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFloat.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFloat.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFloat.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFloat.cpp.obj: ../Core/LDEL/ELFloat.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFloat.cpp.obj: ../Core/LDEL/ELFloat.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELFloat.cpp.obj: ../Core/LDEL/ELVariable.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretedElement.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretedElement.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretedElement.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretedElement.cpp.obj: ../Core/LDEL/ELInterpretedElement.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretedElement.cpp.obj: ../Core/LDEL/ELInterpretedElement.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.obj: ../Core/DefFileReader.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.obj: ../Core/Entity.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.obj: ../Core/MemMan.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.obj: ../Core/MetaData.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.obj: ../Core/Node.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.obj: ../Core/Utils.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.obj: ../Core/LDEL/ELBlockElement.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.obj: ../Core/LDEL/ELBlockTemplate.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.obj: ../Core/LDEL/ELInterpretter.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.obj: ../Core/LDEL/ELInterpretter.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.obj: ../Core/LDEL/ELLineTemplate.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.obj: ../Core/LDEL/ELNodeWrapper.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.obj: ../Core/LDEL/ELParser.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.obj: ../Core/LDEL/ELParserResult.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretter.cpp.obj: ../Core/LDEL/ELVariable.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.obj: ../Core/DefFileReader.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.obj: ../Core/Entity.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.obj: ../Core/LDEL/nlohmann/json.hpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.obj: ../Core/MemMan.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.obj: ../Core/MetaData.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.obj: ../Core/Node.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.obj: ../Core/Utils.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.obj: ../Core/LDEL/ELBlockElement.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.obj: ../Core/LDEL/ELBlockTemplate.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.obj: ../Core/LDEL/ELInterpretterJSON.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.obj: ../Core/LDEL/ELInterpretterJSON.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.obj: ../Core/LDEL/ELLineTemplate.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.obj: ../Core/LDEL/ELNodeWrapperJSON.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.obj: ../Core/LDEL/ELParser.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.obj: ../Core/LDEL/ELParserResult.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELInterpretterJSON.cpp.obj: ../Core/LDEL/ELVariable.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELJSON.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELJSON.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELJSON.cpp.obj: ../Core/LDEL/nlohmann/json.hpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELJSON.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELJSON.cpp.obj: ../Core/LDEL/ELJSON.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELJSON.cpp.obj: ../Core/LDEL/ELJSON.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELJSON.cpp.obj: ../Core/LDEL/ELVariable.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParser.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParser.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParser.cpp.obj: ../Core/MemMan.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParser.cpp.obj: ../Core/MetaData.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParser.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParser.cpp.obj: ../Core/Utils.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParser.cpp.obj: ../Core/LDEL/ELBlockTemplate.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParser.cpp.obj: ../Core/LDEL/ELLineParser.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParser.cpp.obj: ../Core/LDEL/ELLineParser.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParser.cpp.obj: ../Core/LDEL/ELLineParserResult.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParser.cpp.obj: ../Core/LDEL/ELLineTemplate.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParser.cpp.obj: ../Core/LDEL/ELVariable.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParserResult.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParserResult.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParserResult.cpp.obj: ../Core/MetaData.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParserResult.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParserResult.cpp.obj: ../Core/LDEL/ELBlockTemplate.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParserResult.cpp.obj: ../Core/LDEL/ELLineParser.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParserResult.cpp.obj: ../Core/LDEL/ELLineParserResult.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParserResult.cpp.obj: ../Core/LDEL/ELLineParserResult.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParserResult.cpp.obj: ../Core/LDEL/ELLineTemplate.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineParserResult.cpp.obj: ../Core/LDEL/ELVariable.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplate.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplate.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplate.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplate.cpp.obj: ../Core/LDEL/ELLineTemplate.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplate.cpp.obj: ../Core/LDEL/ELLineTemplate.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplate.cpp.obj: ../Core/LDEL/ELSequenceVar.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplate.cpp.obj: ../Core/LDEL/ELVariable.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplateParser.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplateParser.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplateParser.cpp.obj: ../Core/MemMan.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplateParser.cpp.obj: ../Core/MetaData.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplateParser.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplateParser.cpp.obj: ../Core/LDEL/ELCompositeVariableParser.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplateParser.cpp.obj: ../Core/LDEL/ELLineTemplate.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplateParser.cpp.obj: ../Core/LDEL/ELLineTemplateParser.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplateParser.cpp.obj: ../Core/LDEL/ELLineTemplateParser.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplateParser.cpp.obj: ../Core/LDEL/ELSequenceVar.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLineTemplateParser.cpp.obj: ../Core/LDEL/ELVariable.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELListParser.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELListParser.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELListParser.cpp.obj: ../Core/MemMan.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELListParser.cpp.obj: ../Core/MetaData.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELListParser.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELListParser.cpp.obj: ../Core/Utils.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELListParser.cpp.obj: ../Core/LDEL/ELListParser.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELListParser.cpp.obj: ../Core/LDEL/ELListParser.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELListParser.cpp.obj: ../Core/LDEL/ELStringLiteralParser.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLogFileFilter.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLogFileFilter.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLogFileFilter.cpp.obj: ../Core/MetaData.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLogFileFilter.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLogFileFilter.cpp.obj: ../Core/LDEL/ELLogFileFilter.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELLogFileFilter.cpp.obj: ../Core/LDEL/ELLogFileFilter.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapper.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapper.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapper.cpp.obj: ../Core/Entity.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapper.cpp.obj: ../Core/MemMan.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapper.cpp.obj: ../Core/Node.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapper.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapper.cpp.obj: ../Core/LDEL/ELNodeWrapper.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapper.cpp.obj: ../Core/LDEL/ELNodeWrapper.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapper.cpp.obj: ../Core/LDEL/ELVariable.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapperJSON.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapperJSON.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapperJSON.cpp.obj: ../Core/Entity.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapperJSON.cpp.obj: ../Core/LDEL/nlohmann/json.hpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapperJSON.cpp.obj: ../Core/MemMan.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapperJSON.cpp.obj: ../Core/Node.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapperJSON.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapperJSON.cpp.obj: ../Core/LDEL/ELNodeWrapperJSON.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapperJSON.cpp.obj: ../Core/LDEL/ELNodeWrapperJSON.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNodeWrapperJSON.cpp.obj: ../Core/LDEL/ELVariable.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNumber.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNumber.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNumber.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNumber.cpp.obj: ../Core/LDEL/ELFillerString.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNumber.cpp.obj: ../Core/LDEL/ELNumber.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNumber.cpp.obj: ../Core/LDEL/ELNumber.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELNumber.cpp.obj: ../Core/LDEL/ELVariable.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.obj: ../Core/MetaData.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.obj: ../Core/Utils.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.obj: ../Core/LDEL/ELBlockTemplate.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.obj: ../Core/LDEL/ELBlockTemplateParser.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.obj: ../Core/LDEL/ELLineParser.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.obj: ../Core/LDEL/ELLineParserResult.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.obj: ../Core/LDEL/ELLineTemplate.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.obj: ../Core/LDEL/ELLineTemplateParser.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.obj: ../Core/LDEL/ELLogFileFilter.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.obj: ../Core/LDEL/ELParser.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.obj: ../Core/LDEL/ELParser.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.obj: ../Core/LDEL/ELParserResult.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.obj: ../Core/LDEL/ELVariable.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParser.cpp.obj: ../Core/LDEL/ELVariableParser.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParserResult.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParserResult.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParserResult.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParserResult.cpp.obj: ../Core/LDEL/ELBlockTemplate.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParserResult.cpp.obj: ../Core/LDEL/ELLineTemplate.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParserResult.cpp.obj: ../Core/LDEL/ELParserResult.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParserResult.cpp.obj: ../Core/LDEL/ELParserResult.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELParserResult.cpp.obj: ../Core/LDEL/ELVariable.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceBlockElement.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceBlockElement.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceBlockElement.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceBlockElement.cpp.obj: ../Core/LDEL/ELBlockElement.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceBlockElement.cpp.obj: ../Core/LDEL/ELSequenceBlockElement.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceBlockElement.cpp.obj: ../Core/LDEL/ELSequenceBlockElement.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceVar.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceVar.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceVar.cpp.obj: ../Core/Entity.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceVar.cpp.obj: ../Core/MemMan.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceVar.cpp.obj: ../Core/Node.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceVar.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceVar.cpp.obj: ../Core/LDEL/ELNodeWrapper.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceVar.cpp.obj: ../Core/LDEL/ELSequenceVar.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceVar.cpp.obj: ../Core/LDEL/ELSequenceVar.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSequenceVar.cpp.obj: ../Core/LDEL/ELVariable.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSingularBlockElement.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSingularBlockElement.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSingularBlockElement.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSingularBlockElement.cpp.obj: ../Core/LDEL/ELBlockElement.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSingularBlockElement.cpp.obj: ../Core/LDEL/ELSingularBlockElement.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSingularBlockElement.cpp.obj: ../Core/LDEL/ELSingularBlockElement.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSpacesString.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSpacesString.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSpacesString.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSpacesString.cpp.obj: ../Core/LDEL/ELFillerString.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSpacesString.cpp.obj: ../Core/LDEL/ELSpacesString.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSpacesString.cpp.obj: ../Core/LDEL/ELSpacesString.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELSpacesString.cpp.obj: ../Core/LDEL/ELVariable.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELString.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELString.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELString.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELString.cpp.obj: ../Core/LDEL/ELFillerString.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELString.cpp.obj: ../Core/LDEL/ELString.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELString.cpp.obj: ../Core/LDEL/ELString.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELString.cpp.obj: ../Core/LDEL/ELVariable.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELStringLiteralParser.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELStringLiteralParser.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELStringLiteralParser.cpp.obj: ../Core/MetaData.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELStringLiteralParser.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELStringLiteralParser.cpp.obj: ../Core/Utils.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELStringLiteralParser.cpp.obj: ../Core/LDEL/ELStringLiteralParser.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELStringLiteralParser.cpp.obj: ../Core/LDEL/ELStringLiteralParser.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELText.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELText.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELText.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELText.cpp.obj: ../Core/LDEL/ELFillerString.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELText.cpp.obj: ../Core/LDEL/ELString.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELText.cpp.obj: ../Core/LDEL/ELText.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELText.cpp.obj: ../Core/LDEL/ELText.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELText.cpp.obj: ../Core/LDEL/ELVariable.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariable.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariable.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariable.cpp.obj: ../Core/Entity.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariable.cpp.obj: ../Core/MemMan.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariable.cpp.obj: ../Core/Node.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariable.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariable.cpp.obj: ../Core/LDEL/ELNodeWrapper.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariable.cpp.obj: ../Core/LDEL/ELVariable.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariable.cpp.obj: ../Core/LDEL/ELVariable.h
+
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariableParser.cpp.obj: ../Core/CommonIncludes.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariableParser.cpp.obj: ../Core/Defs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariableParser.cpp.obj: ../Core/MemMan.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariableParser.cpp.obj: ../Core/MetaData.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariableParser.cpp.obj: ../Core/TypeDefs.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariableParser.cpp.obj: ../Core/LDEL/ELBasicVariableParser.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariableParser.cpp.obj: ../Core/LDEL/ELCompositeVariableParser.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariableParser.cpp.obj: ../Core/LDEL/ELVariable.h
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariableParser.cpp.obj: ../Core/LDEL/ELVariableParser.cpp
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/LDEL/ELVariableParser.cpp.obj: ../Core/LDEL/ELVariableParser.h
+
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/MemMan.cpp.obj: ../Core/CommonIncludes.h
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/MemMan.cpp.obj: ../Core/Defs.h
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/MemMan.cpp.obj: ../Core/Entity.h
@@ -428,6 +754,7 @@ CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestTestCase.cpp.obj: ..
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestTestCase.cpp.obj: ../Core/TestCases/TestTestCase.cpp
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/TestCases/TestTestCase.cpp.obj: ../Core/TestCases/TestTestCase.h
 
+CMakeFiles/FlexibleComputerLanguage1.dir/Core/Tests.cpp.obj: ../Core/LDEL/ELInterpretterJSON.h
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Tests.cpp.obj: ../Core/CommonIncludes.h
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Tests.cpp.obj: ../Core/DefFileReader.h
 CMakeFiles/FlexibleComputerLanguage1.dir/Core/Tests.cpp.obj: ../Core/Defs.h
@@ -503,46 +830,6 @@ CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/MysqlConnector
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/MysqlConnector.cpp.obj: ../FlexibleComputerLanguage/MysqlConnector.cpp
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/MysqlConnector.cpp.obj: ../FlexibleComputerLanguage/MysqlConnector.h
 
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../Core/CommonIncludes.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../Core/Defs.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../Core/Entity.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../Core/MemMan.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../Core/MetaData.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../Core/Node.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../Core/Strings.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../Core/TypeDefs.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../Core/Value.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/rapidjson/error/error.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/rapidjson/reader.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/OTPParser.cpp
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/OTPParser.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/easylogging++.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/json.hpp
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/rapidjson/allocators.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/rapidjson/document.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/rapidjson/encodedstream.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/rapidjson/encodings.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/rapidjson/error/error.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/rapidjson/internal/biginteger.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/rapidjson/internal/diyfp.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/rapidjson/internal/dtoa.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/rapidjson/internal/ieee754.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/rapidjson/internal/itoa.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/rapidjson/internal/meta.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/rapidjson/internal/pow10.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/rapidjson/internal/stack.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/rapidjson/internal/strfunc.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/rapidjson/internal/strtod.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/rapidjson/internal/swap.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/rapidjson/memorystream.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/rapidjson/msinttypes/inttypes.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/rapidjson/msinttypes/stdint.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/rapidjson/rapidjson.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/rapidjson/reader.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/rapidjson/stream.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/rapidjson/stringbuffer.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/OTPParser.cpp.obj: ../FlexibleComputerLanguage/rapidjson/writer.h
-
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/QueryExecuter.cpp.obj: ../Core/CommonIncludes.h
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/QueryExecuter.cpp.obj: ../Core/DefFileReader.h
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/QueryExecuter.cpp.obj: ../Core/Defs.h
@@ -570,6 +857,7 @@ CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/ResultGenerato
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/easylogging++.cc.obj: ../FlexibleComputerLanguage/easylogging++.cc
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/easylogging++.cc.obj: ../FlexibleComputerLanguage/easylogging++.h
 
+CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../Core/CPlusPlusEntry.h
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../Core/CommonIncludes.h
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../Core/Defs.h
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../Core/Entity.h
@@ -586,7 +874,6 @@ CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: 
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../FlexibleComputerLanguage/rapidjson/error/error.h
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../FlexibleComputerLanguage/rapidjson/reader.h
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../FlexibleComputerLanguage/LogJsonParser.h
-CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../FlexibleComputerLanguage/OTPParser.h
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../FlexibleComputerLanguage/QueryExecuter.h
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../FlexibleComputerLanguage/easylogging++.h
 CMakeFiles/FlexibleComputerLanguage1.dir/FlexibleComputerLanguage/main.cpp.obj: ../FlexibleComputerLanguage/json.hpp

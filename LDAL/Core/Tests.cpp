@@ -6,6 +6,7 @@
 #include "ExecutionContext.h"
 #include "Node.h"
 #include "MemMan.h"
+#include "ELInterpretterJSON.h"
 
 
 void Tests::RunTest1()
@@ -159,5 +160,12 @@ void Tests::RunTest6()
     pX->DestroyWithSubTree();
     pY->DestroyWithSubTree();
     pZ->DestroyWithSubTree();
+}
+
+void Tests::RunLDELtest1() {
+
+    ELInterpretterJSON intp;
+    intp.EvaluateCase("../../Files/Defs.txt");
+
 }
 

@@ -12,6 +12,7 @@ public:
 	void RunTest4();
     void RunTest5();
     void RunTest6();
+    void RunLDELtest1();
 };
 
 

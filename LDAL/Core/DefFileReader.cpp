@@ -22,18 +22,37 @@ MetaData* DefFileReader::Read(MSTRING sFile)
 	return pMD;
 }
 
+MetaData* DefFileReader::ReadNew(MSTRING sFile)
+{
+    MetaData* pMD = 0;
+    MIFSTREAM file(sFile.c_str());
+    MSTRING sLine;
+    if(file.is_open())
+    {
+
+        MemoryManager::Inst.CreateObject(&pMD);
+        while(!file.eof())
+        {
+            getline(file, sLine);
+            ProcessLineNew(sLine, pMD);
+        }
+        file.close();
+    }
+    return pMD;
+}
+
 void DefFileReader::ModifyFilePathsIfNeeded(MetaData *md, MSTRING sDefFilePath)
 {
     // This methid checks whether a path is specified for Rule file, script file, log file & result file
     // If a path is not given, this method prepends the def file folder name so that all other files are considered to be in the same folder as the def file
-    
+
     // Extract the folder compoment from def file path
     MSTRING::size_type pos = sDefFilePath.find_last_of(_MSTR(/\\));
     if (pos == MSTRING::npos) {
         return;
     }
     MSTRING folder = sDefFilePath.substr(0, pos + 1);
-    
+
     PrependFolderIfNeeded(folder, md->s_RuleFileName);
     PrependFolderIfNeeded(folder, md->s_ScriptFile);
     PrependFolderIfNeeded(folder, md->s_ResultFile);
@@ -75,10 +94,10 @@ void DefFileReader::ProcessLine(MSTRING& sLine, MetaData* pMD)
     // Example for Line format
 	// DEF PARENT Parent	#This is a comment
 	// Any line that does not start with DEF is a comment line
-    
+
 	Utils::TrimLeft(sLine, _MSTR( \t));
 	Utils::TrimRight(sLine, _MSTR( \t));
-    
+
     MSTRING::size_type len = sLine.length();
     if (len <= 3) {
         return;
@@ -97,7 +116,7 @@ void DefFileReader::ProcessLine(MSTRING& sLine, MetaData* pMD)
     MSTRING sKey = keyval.substr(0, pos);
     MSTRING sVal = keyval.substr(pos, keyval.length() - pos);
     Utils::TrimLeft(sVal, _MSTR(\t \t));
-    
+
     //	LST_STR lstTokens;
     //	lstTokens.push_back(SPACE);
     //	lstTokens.push_back(_MSTR(\t));
@@ -122,6 +141,40 @@ void DefFileReader::ProcessLine(MSTRING& sLine, MetaData* pMD)
     //	MSTRING sVal = *ite;
 	AddKeyAndValue(pMD, sKey, sVal);
 }
+
+void DefFileReader::ProcessLineNew(MSTRING& sLine, MetaData* pMD)
+{
+    Utils::TrimLeft(sLine, _MSTR( \t));
+    Utils::TrimRight(sLine, _MSTR( \t));
+    LST_STR lstTokens;
+    lstTokens.push_back(SPACE);
+    lstTokens.push_back(_MSTR(\t));
+    LST_STR lstSep;
+    LST_STR lstVal;
+    Utils::TokenizeString(sLine, lstTokens, lstSep, lstVal);
+    if(lstVal.size() < 3)
+    {
+        return;
+    }
+    // Example for Line format
+    // DEF PARENT Parent	#This is a comment
+    // Any string after the third string is regarded as a comment
+    // Any line that does not start with DEF is a comment line
+    LST_STR::const_iterator ite = lstVal.begin();
+    MSTRING sStr = *ite;
+    Utils::MakeUpper(sStr);
+    if(sStr != _MSTR(DEF))
+    {
+        return;
+    }
+    ++ite;
+    MSTRING sKey = *ite;
+    ++ite;
+    MSTRING sVal = *ite;
+    AddKeyAndValue(pMD, sKey, sVal);
+}
+
+
 
 // We use the following macro to ease typing of else if blocks for function names inside the function AddKeyAndValue
 #define ADD_FUNC_NAME_FIRST(X) if(_MSTR(X) == sKey){pMD->map_FuncNames[COMMAND_TYPE_##X] = sVal;pMD->map_FuncNamesReverse[sVal] = COMMAND_TYPE_##X;}
@@ -245,185 +298,100 @@ void DefFileReader::AddKeyAndValue(MetaData* pMD, MSTRING sKey, MSTRING sVal)
     {
         pMD->s_LoadFromCodeLibrary = sVal;
     }
-    
-    // LDEL
+
+        // LDEL
     else if(_MSTR(LDEL_SCRIPT_FILE) == sKey) {
         pMD->s_ScriptFile = sVal;
     }
     else if(_MSTR(LDEL_LOG_FILE) == sKey) {
         pMD->s_LogFile = sVal;
     }
-    else if(_MSTR(LDEL_RESULT_FILE) == sKey) {
-        pMD->s_ResultFile = sVal;
-    }
     else if(_MSTR(LDEL_ASSIGNMENT) == sKey)
-	{
-		pMD->s_ELAssignment = sVal;
-	}
-    else if(_MSTR(LDEL_VARIABLE_PREFIX) == sKey)
-	{
-		pMD->s_ELVarPrefix = sVal;
-	}
-    else if(_MSTR(LDEL_LINE_TEMPLATE_PREFIX) == sKey)
-	{
-		pMD->s_ELLineTemplatePrefix = sVal;
-	}
-    else if(_MSTR(LDEL_BLOCK_TEMPLATE_PREFIX) == sKey)
-	{
-		pMD->s_ELBlockTemplatePrefix = sVal;
-	}
-    else if(_MSTR(LDEL_NUMBER) == sKey)
-	{
-		pMD->s_ELNumber = sVal;
-	}
-    else if(_MSTR(LDEL_FORMATTED_NUMBER) == sKey)
-	{
-		pMD->S_ELFormattedNumber = sVal;
-	}
-    else if(_MSTR(LDEL_STRING) == sKey)
-	{
-		pMD->s_ELString = sVal;
-	}
-    else if(_MSTR(LDEL_TEXT) == sKey)
-	{
-		pMD->s_ELText = sVal;
-	}
-    else if(_MSTR(LDEL_TRIMMEDTEXT) == sKey)
     {
-        pMD->s_ELTrimmedText = sVal;
+        pMD->s_ELAssignment = sVal;
     }
-    else if(_MSTR(LDEL_FILEPATH) == sKey)
+    else if(_MSTR(LDEL_VARIABLE_PREFIX) == sKey)
     {
-        pMD->s_ELFilePath = sVal;
+        pMD->s_ELVarPrefix = sVal;
+    }
+    else if(_MSTR(LDEL_LINE_TEMPLATE_PREFIX) == sKey)
+    {
+        pMD->s_ELLineTemplatePrefix = sVal;
+    }
+    else if(_MSTR(LDEL_BLOCK_TEMPLATE_PREFIX) == sKey)
+    {
+        pMD->s_ELBlockTemplatePrefix = sVal;
+    }
+    else if(_MSTR(LDEL_NUMBER) == sKey)
+    {
+        pMD->s_ELNumber = sVal;
+    }
+    else if(_MSTR(LDEL_STRING) == sKey)
+    {
+        pMD->s_ELString = sVal;
+    }
+    else if(_MSTR(LDEL_TEXT) == sKey)
+    {
+        pMD->s_ELText = sVal;
     }
     else if(_MSTR(LDEL_SPACE_STRING) == sKey)
-	{
-		pMD->s_ELSpacesString = sVal;
-	}
+    {
+        pMD->s_ELSpacesString = sVal;
+    }
     else if(_MSTR(LDEL_FLOAT) == sKey)
-	{
-		pMD->s_ELFloat = sVal;
-	}
-    else if(_MSTR(LDEL_FORMATTED_FLOAT) == sKey)
-	{
-		pMD->s_ELFormattedFloat = sVal;
-	}
-    else if(_MSTR(LDEL_TIMESTAMP) == sKey)
-	{
-		pMD->s_ELTimestamp = sVal;
-	}
+    {
+        pMD->s_ELFloat = sVal;
+    }
+    else if(_MSTR(LDEL_JSON) == sKey)
+    {
+        pMD->s_ELJson = sVal;
+    }
     else if(_MSTR(LDEL_VAR_SEQUENCE_START) == sKey)
-	{
-		pMD->s_ELVarSequenceStart = sVal;
-	}
+    {
+        pMD->s_ELVarSequenceStart = sVal;
+    }
     else if(_MSTR(LDEL_VAR_SEQUENCE_END) == sKey)
-	{
-		pMD->s_ELVarSequenceEnd = sVal;
-	}
-    else if(_MSTR(LDEL_VAR_FLEXISEQUENCE_START) == sKey)
-	{
-		pMD->s_ELVarFlexiSequenceStart = sVal;
-	}
-    else if(_MSTR(LDEL_VAR_FLEXISEQUENCE_END) == sKey)
-	{
-		pMD->s_ELVarFlexiSequenceEnd = sVal;
-	}
-    else if(_MSTR(LDEL_VAR_SUPERFLEXISEQUENCE_START) == sKey)
-	{
-		pMD->s_ELVarSuperFlexiSequenceStart = sVal;
-	}
-    else if(_MSTR(LDEL_VAR_SUPERFLEXISEQUENCE_END) == sKey)
-	{
-		pMD->s_ELVarSuperFlexiSequenceEnd = sVal;
-	}
+    {
+        pMD->s_ELVarSequenceEnd = sVal;
+    }
     else if(_MSTR(LDEL_VAR_SEQUENCE_SEPARATOR) == sKey)
-	{
-		pMD->s_ELVarSequenceSeperator = sVal;
-	}
+    {
+        pMD->s_ELVarSequenceSeperator = sVal;
+    }
     else if(_MSTR(LDEL_STRING_LITERAL_START) == sKey)
-	{
-		pMD->s_ELStringLiteralStart = sVal;
-	}
+    {
+        pMD->s_ELStringLiteralStart = sVal;
+    }
     else if(_MSTR(LDEL_STRING_LITERAL_END) == sKey)
-	{
-		pMD->s_ELStringLiteralEnd = sVal;
-	}
+    {
+        pMD->s_ELStringLiteralEnd = sVal;
+    }
     else if(_MSTR(LDEL_STRING_LITERAL_ESCAPE) == sKey)
-	{
-		pMD->s_ELStringLiteralEscape = sVal;
-	}
+    {
+        pMD->s_ELStringLiteralEscape = sVal;
+    }
     else if(_MSTR(LDEL_SET_START) == sKey)
-	{
-		pMD->s_ELSetStart = sVal;
-	}
+    {
+        pMD->s_ELSetStart = sVal;
+    }
     else if(_MSTR(LDEL_SET_END) == sKey)
-	{
-		pMD->s_ELSetEnd = sVal;
-	}
+    {
+        pMD->s_ELSetEnd = sVal;
+    }
     else if(_MSTR(LDEL_SET_SEPARATOR) == sKey)
-	{
-		pMD->s_ELSetSeperator = sVal;
-	}
+    {
+        pMD->s_ELSetSeperator = sVal;
+    }
     else if(_MSTR(LDEL_SEQUENCE_VAR_START_INDICATOR) == sKey)
-	{
-		pMD->s_ELSequenceVarStartIndicator = sVal;
-	}
+    {
+        pMD->s_ELSequenceVarStartIndicator = sVal;
+    }
     else if(_MSTR(LDEL_SEQUENCE_VAR_SUFFIX) == sKey)
-	{
-		pMD->s_ELSequenceVarSuffix = sVal;
-	}
-    else if(_MSTR(LDEL_IMPORT_LINE_START) == sKey)
     {
-        pMD->s_ELImportLineStart = sVal;
+        pMD->s_ELSequenceVarSuffix = sVal;
     }
-    else if(_MSTR(LDEL_IMPORT_FILE_START) == sKey)
-    {
-        pMD->s_ELImportFileStart = sVal;
-    }
-    else if(_MSTR(LDEL_IMPORT_FILE_END) == sKey)
-    {
-        pMD->s_ELImportFileEnd = sVal;
-    }
-    else if(_MSTR(LDEL_IGNORE_EMPTY_LINES) == sKey)
-    {
-        Utils::MakeLower(sVal);
-        pMD->s_ELIgnoreEmptyLines = sVal;
-    }
-    else if(_MSTR(LDEL_NUMBER_FORMAT_EUROPEAN) == sKey)
-    {
-        Utils::MakeLower(sVal);
-        pMD->s_ELIsNumberFormatEuropean = sVal;
-    }
-    else if(_MSTR(LDEL_IGNORE_TEXT) == sKey)
-    {
-        pMD->s_ELIgnoreText = sVal;
-    }
-    else if(_MSTR(LDEL_ANY_TEXT) == sKey)
-    {
-        pMD->s_ELAnyText = sVal;
-    }
-    else if(_MSTR(LDEL_DESCRIPTIVE_VAR_ENCLOSER_START) == sKey)
-    {
-        pMD->s_ELDescriptiveVarEncloserStart = sVal;
-    }
-    else if(_MSTR(LDEL_DESCRIPTIVE_VAR_ENCLOSER_END) == sKey)
-    {
-        pMD->s_ELDescriptiveVarEncloderEnd = sVal;
-    }
-    else if(_MSTR(LDEL_DESCRIPTIVE_VAR_PROPERTY_SEPARATOR) == sKey)
-    {
-        pMD->s_ELDescriptiveVarPropertySeparator = sVal;
-    }
-    else if(_MSTR(LDEL_DESCRIPTIVE_VAR_PROPERTY_ASSIGNMENT) == sKey)
-    {
-        pMD->s_ELDescriptiveVarPropertyAssignment = sVal;
-    }
-    else if(_MSTR(LDEL_DESCRIPTIVE_VAR_PROPERTY_FORMAT) == sKey)
-    {
-        pMD->s_ELDescriptiveVarPropertyFormat = sVal;
-    }
-    // LDEL
-    
+        // LDEL
+
     else
     {
         AddFuncNames(pMD, sKey, sVal);
