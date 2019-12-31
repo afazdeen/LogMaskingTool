@@ -8,6 +8,7 @@
 	  iii)You can input one or all 16 available variable names into the above statement.
 	   iv)The fields available are  FIRST_NAME, LAST_NAME, FULL_NAME, DATE, MONTH, YEAR, HOUR, MINUTE, SECONDS, TELEPHONE_NUMBER, ADDRESS, POSTAL_CODE, INTEGER, PRICE, NIC, EMAIL.
 	    v)The variable names of the variables that you require to be masked in the script file should be same as the variable names provided in iv) above.
+	   vi)Add range of replacement values for integer and price maskinbg as follows if required ($INTEGER.SetLValue(10000),$INTEGER.SetRValue(20000),$PRICE.SetLValue(10000),$PRICE.SetRValue(20000)).
 	   
 6) Execute the LogMaskingTool.exe found in LogMaskingTool/LDAL/cmake-build-debug
 7) The masked log file will be created in LogMaskingTool/Files/maskedLog.txt

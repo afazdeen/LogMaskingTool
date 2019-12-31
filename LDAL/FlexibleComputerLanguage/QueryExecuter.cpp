@@ -49,6 +49,7 @@ MSTRING QueryExecuter::run(Node *root, MSTRING querycode)
     Node *email = MemoryManager::Inst.CreateNode(++id);
     Node *pRESULT = MemoryManager::Inst.CreateNode(++id);
 
+
     std::string s = "52";
     std::string fname = "FIRST_NAME";
     std::string lname = "LAST_NAME";
